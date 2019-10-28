@@ -1466,7 +1466,7 @@ The content of the system_info.j2 template
 
 ```
 # {{ ansible_managed }}
-I'm {{ ansible_hostname }} and my operating system is {{ ansible_distribution }
+I'm {{ ansible_hostname }} and my operating system is {{ ansible_distribution }}
 ```
 </b></details>
 
