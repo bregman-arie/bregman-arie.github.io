@@ -22,7 +22,7 @@ github_username:  bregman-arie
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
