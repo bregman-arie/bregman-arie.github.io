@@ -86,9 +86,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-101036610-2
     anonymize_ip         : # true, false (default)
 
 
@@ -97,26 +97,8 @@ author:
   name             : "Arie Bregman"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "An open source enthusiastic"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+  github           : bregman-arie
+  twitter          : abregman2
 
 # Site Footer
 footer:
