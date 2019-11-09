@@ -965,21 +965,45 @@ Stop the instance, the type of the instance to match the desired RAM and start t
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is RDS?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are some features or benefits of using RDS?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 1. Multi AZ - great for Disaster Recovery
 2. Read Replicas - for better performances
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is EBS?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is VPC?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ## Network
@@ -989,31 +1013,69 @@ Stop the instance, the type of the instance to match the desired RAM and start t
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Ethernet?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a MAC address? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">When is this MAC address used?: ff:ff:ff:ff:ff:ff</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an IP address?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain subnet mask and given an example</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a private IP address? What do we need it for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain the OSI model. What layers there are? What each layer is responsible for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Application: user end (HTTP is here)
 Presentation: establishes context between application-layer entities (Encryption is here)
 Session: establishes, manages and terminates the connections
@@ -1021,6 +1083,10 @@ Transport: transfers variable-length data sequences from a source to a destinati
 Network: transfers datagrams from one network to another (IP is here)
 Data link: provides a link between two directly connected nodes (MAC is here)
 Physical: the electrical and physical spec the data connection (Bits are here)
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
@@ -1033,21 +1099,36 @@ Physical: the electrical and physical spec the data connection (Bits are here)
   * IP address
   * Sessions between applications
   * 3 way handshake</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What delivery schemes are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Unitcast: One to one communication where there is one sender and one receiver.
 
 Broadcast: Sending a message to everyone in the network. The address ff:ff:ff:ff:ff:ff is used for broadcasting.
            Two common protocols which use broadcast are ARP and DHCP.
 
 Multicast: Sending a message to a group of subscribers. It can be one-to-many or many-to-many.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is CSMA/CD? Is it used in modern ethernet networks?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 CSMA/CD stands for Carrier Sense Multiple Access / Collision Detection.
 Its primarily focus it to manage access to shared medium/bus where only one host can transmit at a given point of time.
@@ -1060,6 +1141,9 @@ CSMA/CD algorithm:
 4. Both hosts stop sending the frame and they send to everyone a 'jam signal' notifying everyone that a collision occurred
 5. They are waiting for a random time before sending again
 6. Once each host waited for a random time, they try to send the frame again and so the
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -1068,76 +1152,182 @@ CSMA/CD algorithm:
   * router
   * switch
   * hub</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is NAT?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a proxy? How it works? What do we need it for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between TCP and UDP?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-	
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 TCP establishes a connection between the client and the server to guarantee the order of the packages, on the other hand, UDP does not establish a connection between client and server and doesn't handle package order. This makes UDP more lightweight than TCP and a perfect candidate for streaming services.
-
-
+                    </pre>
+                    </code>
+                    </div>
+	
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain "default gateway"</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How TCP works? What is the 3 way handshake?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is ARP? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is TTL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is DHCP? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is SSL tunneling? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a socket? Where can you see the list of sockets in your system?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is IPv6? Why should we consider using it if we have IPv4?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is VLAN?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is MTU?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">True or False?. Ping is using UDP because it doesn't care about reliable connection</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is SDN?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is ICMP? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is NAT? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="network-advanced"></a>
@@ -1145,44 +1335,104 @@ TCP establishes a connection between the client and the server to guarantee the 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Spanning Tree Protocol (STP)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is link aggregation? Why is it used?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Asymmetric Routing? How do deal with it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What overlay (tunnel) protocols are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is GRE? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is VXLAN? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is SNAT?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain OSPF</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Spine & Leaf</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Using Hamming code, what would be the code word for the following data word 100111010001101?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
 
 00110011110100011101
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ## Linux
@@ -1192,6 +1442,12 @@ TCP establishes a connection between the client and the server to guarantee the 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is your experience with Linux? When you can set up an application on multiple operating systems, on which one would you prefer to set it up and why?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -1207,40 +1463,71 @@ TCP establishes a connection between the client and the server to guarantee the 
   * man
   * nslookup or dig
   * df</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Running the command <code>df</code> you get "command not found". What could be wrong and how to fix it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to make sure a service will start on a OS of your choice?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you schedule tasks periodically?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 You can use the commands <code>cron</code> and <code>at</code>.
 With cron, tasks are scheduled using the following format:
 
 <minute> <hour> <day of month> <month> <day of week> <command to execute>
 
 The tasks are stored in a cron file.
-
+                    </pre>
+                    </code>
+                    </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Have you scheduled tasks in the past? What kind of tasks?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Normally you will schedule batch jobs.
-
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Permissions
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to change the permissions of a file?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Using the `chmod` command.
+                    </pre>
+                    </code>
+                    </div>
 
 
 
@@ -1250,34 +1537,65 @@ Using the `chmod` command.
   * 777
   * 644
   * 750</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 777 - means you are lazy
 644 - owner has read+write permissions and everyone else can only read
 750 - owner can do anything, group can read and execute and others can do nothing
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is setgid, setuid and sticky bit</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You try to delete a file but it fails. Name at least three different reason as to why it could happen</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is systemd?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">On a system which uses systemd, how would display the logs?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 <code>journalctl</code>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Debugging
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>network</b> issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 <code>dstat -t</code> is great for identifying network and disk issues.
 <code>netstat -tnlaup</code> can be used to see which processes are running on which ports.
@@ -1285,63 +1603,132 @@ Using the `chmod` command.
 <code>ngrep -d any metafilter</code> for matching regex against payloads of packets.
 <code>tcpdump</code> for capturing packets
 <code>wireshark</code> same concept as tcpdump but with GUI (optional).
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>disk & file system</b> issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 <code>dstat -t</code> is great for identifying network and disk issues.
 <code>opensnoop</code> can be used to see which files are being opened on the system (in real time).
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>process</b> issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 <code>strace</code> is great for understanding what your program does. It prints every system call your program executed.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for debugging CPU related issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 <code>top</code> will show you how much CPU percentage each process consumes
 <code>perf</code> is a great choice for sampling profiler and in general, figuring out what your CPU cycles are "wasted" on
 <code>flamegraphs</code> is great for CPU consumption visualization (http://www.brendangregg.com/flamegraphs.html)
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You get a call saying "my system is slow" - how would you deal with it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 1. Check with <code>top</code> if anything consumes your CPU or RAM.
 2. Run <code>dstat -t</code> to check if it's related to disk or network.
 3. Check I/O stats with <code>iostat</code>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to debug binaries?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a Linux kernel module and how do you load a new module?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is KVM?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between SSH and SSL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is SSH port forwarding?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain redirection</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are wildcards? Can you give an example of how to use them?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -1351,19 +1738,32 @@ Using the `chmod` command.
   * <code>grep -E "error|failure" some_file</code>
   * <code>grep '[0-9]$' some_file</code>
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 1. An IP address
 2. The word "error" or "failure"
 3. Lines which end with a number
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Tell me everything you know about Linux boot process</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an exit code? What exit codes are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 An exit code (or return code) represents the code returned by a child process to its
 parent process.
 
@@ -1371,32 +1771,66 @@ parent process.
 Each number has different meaning, based on how the application was developed.
 
 I consider this as a good blog post to read more about it: https://shapeshed.com/unix-exit-codes
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between a soft link and hard link?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Hard link is the same file, using the same inode.
 Soft link is a shortcut to another file, using a different inode.
 
 Soft links can be created between different file systems while.
 Hard link can be created only within the same file system.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What happens when you delete the original file in case of soft link and hard link?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a swap partition? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You are trying to create a new file but you get "File system is full". You check with df for free space and you see you used only 20% of the space. What could be the problem?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What do you know about LVM?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -1405,25 +1839,54 @@ Hard link can be created only within the same file system.
   * PV
   * VG
   * LV</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is NFS? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What RAID is used for? Can you explain the differences between RAID 0, 1, 5 and 10?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is lazy umount?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Fix the following commands:
-
   * sed "s/1/2/g' /tmp/myFile
   * find . -iname \*.yaml -exec sed -i "s/1/2/g" {} ;</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -1434,41 +1897,76 @@ Hard link can be created only within the same file system.
   * /proc
   * /usr/local
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is chroot?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <h5>Processes</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to run a process in the background and why to do that in the first place?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 You can achieve that by specifying & at end of the command.
 As to why, since some commands/processes can take a lot of time to finish
 execution or run forever
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How can you find how much memory a specific process consumes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What signal is used when you run 'kill <process id>'?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 The default signal is SIGTERM (15). This signal kills
 process gracefully which means it allows it to save current
 state configuration.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What signals are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 SIGTERM - default signal for terminating a process
 SIGHUP - common usage is for reloading configuration
 SIGKILL - a signal which cannot caught or ignored
 
 To view all available signals run `kill -l`
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2674,10 +3172,22 @@ Using the re module
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to substitute the string "green" with "blue"?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to find all the IP addresses in a variable? How to find them in a file?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2720,6 +3230,12 @@ set([food for bro in x for food in bro['food']])
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is List Comprehension? Is it better than a typical loop? Why? Can you demonstrate how to use it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2734,30 +3250,72 @@ def reverse_string(string):
         temp =  char + temp
     return temp
 ```
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to sort a dictionary by values?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to sort a dictionary by keys?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain data serialization and how do you perform it with Python</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you handle argument parsing in Python?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is GIL</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a generator? Why using generators?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2766,18 +3324,42 @@ def reverse_string(string):
   * Static method
   * Class method
   * instance method</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to reverse a list?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to combine list of strings into one string with spaces between the strings</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What empty <code>return</code> returns?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Time Complexity
@@ -2789,6 +3371,12 @@ def reverse_string(string):
   * Queue
   * Linked List
   * Binary Search Tree
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2798,6 +3386,12 @@ def reverse_string(string):
   * Merge sort
   * Bucket Sort
   * Radix Sort
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="python-advanced"></a>
@@ -2805,42 +3399,102 @@ def reverse_string(string):
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is a decorator</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you show how to write and use decorators?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a script which will determine if a given host is accessible on a given port</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Are you familiar with Dataclasses? Can you explain what are they used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Context Manager</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain the Buffer Protocol</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Descriptors</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Do you have experience with web scraping? Can you describe what have you used and for what?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you implement Linked List in Python?
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You have created a web page where a user can upload a document. But the function which reads the uploaded files, runs for a long time, based on the document size and user has to wait for the read operation to complete before he/she can continue using the web site. How can you overcome this?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ## Monitoring
@@ -2850,25 +3504,50 @@ def reverse_string(string):
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain monitoring. What is it? What its goal?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is wrong with the old approach of watching for a specific value and trigger an email/phone alert while value is exceeded?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 This approach require from a human to always check why the value exceeded and how to handle it while today, it is more effective to notify people only when they need to take an actual action.
 If the issue doesn't require any human intervention, then the problem can be fixed by some processes running in the relevant environment.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What types of monitoring outputs are you familiar with and/or used in the past?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Alerts
 Tickets
 Logging
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the different between infrastructure monitoring and application monitoring? (methods, tools, ...)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ## Prometheus
@@ -2878,18 +3557,42 @@ Logging
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Prometheus? What are some of Prometheus's main features?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Describe Prometheus architecture and components</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you compare Prometheus to other solutions like InfluxDB for example?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an Alert?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2898,30 +3601,66 @@ Logging
   * Prometheus server
   * Push Gateway
   * Alert Manager</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Prometheus server responsible for scraping the storing the data<br>
 Push gateway is used for short-lived jobs<br>
 Alert manager is responsible for alerts ;)
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an Instance? What is a Job?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What core metrics types Prometheus supports?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an exporter? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Which Prometheus best practices are you familiar with?. Name at least three</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to get total requests in a given period of time?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="prometheus-advanced"></a>
@@ -2929,14 +3668,32 @@ Alert manager is responsible for alerts ;)
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you join two metrics?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to write a query that returns the value of a label?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you convert cpu_user_seconds to cpu usage in percentage?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ## Git
@@ -2946,7 +3703,9 @@ Alert manager is responsible for alerts ;)
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between <code>git pull</code> and <code>git fetch</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Shortly, git pull = git fetch + git merge
 
 When you run git pull, it gets all the changes from the remote or central
@@ -2954,10 +3713,16 @@ repository and attaches it to your corresponding branch in your local repository
 
 git fetch gets all the changes from the remote repository, stores the changes in
 a separate branch in your local repository
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain the following: <code>git directory</code>, <code>working directory</code> and <code>staging area</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The Git directory is where Git stores the meta data and object database for your project. This is the most important part of Git, and it is what is copied when you clone a repository from another computer.
 
@@ -2966,6 +3731,9 @@ The working directory is a single checkout of one version of the project. These 
 The staging area is a simple file, generally contained in your Git directory, that stores information about what will go into your next commit. It’s sometimes referred to as the index, but it’s becoming standard to refer to it as the staging area.
 
 This answer taken from [git-scm.com](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics#_the_three_states)
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -3384,6 +4152,9 @@ Using the keyword <code>read</code> so for example <code>read x</code> will wait
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the ternary operator? How do you use it in bash?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 A short way of using if/else. An example:
 
@@ -3414,6 +4185,9 @@ Structured Query Language
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How is SQL Different from NoSQL</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The main difference is that SQL databases are structured (data is stored in the form of
 tables with rows and columns - like an excel spreadsheet table) while NoSQL is 
@@ -3456,6 +4230,9 @@ how they operate, but as a general rule of thumb, NoSQL DB's are not considered 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">When is it best to use SQL? NoSQL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 SQL - Best used when data integrity is crucial. SQL is typically implemented with many
 businesses and areas within the finance field due to it's ACID compliance.
@@ -3470,6 +4247,9 @@ that Relational Databases require, you can store different data types together.
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a Cartesian Product?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button><br>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 A Cartesian product is when all rows from the first table are joined to all rows in the second
 table. This can be done implicitly by not defining a key to join, or explicitly by 
