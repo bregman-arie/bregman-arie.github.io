@@ -67,8 +67,7 @@
                     <h3 id="devops">DevOps</h3>
 
                     
-                    <br>
-                    <h5>Question 1</h5>
+                    <br><h5>Question</h5>
 
                     <div class="bs-example dob-question">
                         What is DevOps?
@@ -90,7 +89,7 @@ You can find more details here: https://aws.amazon.com/devops/what-is-devops
                     
 
                     <br>
-                    <h5>Question 2</h5>
+                    <h5>Question</h5>
 
                     <div class="bs-example dob-question">
                         What are the benefits of DevOps? What it can help us to achieve?
@@ -115,7 +114,7 @@ Detailed answer can be found here: https://aws.amazon.com/devops/what-is-devops
                     </div>
 
                     <br>
-                    <h5>Question 3</h5>
+                    <h5>Question</h5>
 
                     <div class="bs-example dob-question">
                         What are anti-patterns of DevOps?
@@ -130,6 +129,197 @@ No Answer :(
                     </pre>
                     </code>
                     </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What is Continuous Integration?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+
+A development practice where developers integrate code into a shared repository frequently. It can range from a couple of changes every day or a week to a couple of changes in one hour in larger scales.
+
+Each piece of code (change/patch) is verified, to make the change is safe to merge. Today, it's a common practice to test the change using an automated build that makes sure the code can integrated. It can be one build which runs several tests in different levels (unit, functional, etc.) or several separate builds that all or some has to pass in order for the change to be merged into the repository.
+                    </pre>
+                    </code>
+                    </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What is Continuous Deployment?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What is Continuous Delivery?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What CI/CD best practices are you familiar with? Or what do you consider as CI/CD best practice?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What systems and/or tools are you using for the following?:
+
+  * CI/CD
+  * Provisioning infrastructure
+  * Configuration Management
+  * Monitoring & alerting - Prometheus, DataDog, Sensu, Grafana
+  * Logging - ELK (Elastic Search, Logstash, Kibana), EFK (Elastic Search, Fluentd, Kibana)
+  * Code review
+  * Code coverage
+  * Tests</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+  * CI/CD - Jenkins, Circle CI, Travis
+  * Provisioning infrastructure - Terraform, CloudFormation
+  * Configuration Management - Ansible, Puppet, Chef
+  * Monitoring & alerting - Prometheus, Nagios
+  * Logging - Logstash, Graylog, Fluentd
+  * Code review - Gerrit, Review Board
+  * Code coverage - Cobertura, Clover, JaCoCo
+  * Tests - Robot, Serenity, Gauge
+                    </pre>
+                    </code>
+                    </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What are you taking into consideration when choosing a tool/technology?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+In your answer you can mention one or more of the following:
+  * mature vs. cutting edge
+  * community size
+  * architecture aspects - agent vs. agentless, master vs. masterless, etc.
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">Explain mutable vs. immutable infrastructure</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+
+In mutable infrastructure paradigm, changes are applied on top of the existing infrastructure and over time
+the infrastructure builds up a history of changes. Ansible, Puppet and Chef are examples to tools which
+follow mutable infrastructure paradigm.
+
+In immutable infrastructure paradigm, every change is actually new infrastructure. So a change
+to a server will result in a new server instead of updating it. Terraform is an example of technology
+which follows the immutable infrastructure paradigm.
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What ways are you familiar with to deliver a software? What are the advantages and disadvantages of each method?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+  * Archive - collect all your app files into one archive (e.g. tar) and deliver it to the user.
+  * Package - depends on the OS, you can use your OS package format (e.g. in RHEL/Fefodra it's RPM) to deliver your software with a way to install, uninstall and update it using the standard packager commands
+  * Images - Either VM or container images where your package is included with everything it needs in order to run successfully.
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What is caching? How it works? Why is it important?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">Explain stateless vs. stateful</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+Stateless applications don't store any data in the host which makes it ideal for horizontal scaling and microservices.
+Stateful applications depend on the storage to save state and data, typically databases are stateful applications.
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What is HTTP and how it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">Describe the workflow of setting up some type of web server (Apache, IIS, Tomact, ...)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+
+                    </pre>
+                    </code>
+                    </div>
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">Explain "Open Source"</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+
+<h4>SRE</h4>
+
+<h5>Question</h5>
+<div class="bs-example dob-question">Compare SRE to DevOps</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     
             </div>
 
