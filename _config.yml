@@ -99,6 +99,8 @@ author:
   bio              : "An open source enthusiastic"
   github           : bregman-arie
   twitter          : abregman2
+twitter:
+  username: abregman2
 
 # Site Footer
 footer:

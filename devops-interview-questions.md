@@ -113,12 +113,24 @@ Detailed answer can be found here: https://aws.amazon.com/devops/what-is-devops
                     </pre>
                     </code>
                     </div>
+
+                    <br>
+                    <h5>Question 3</h5>
+
+                    <div class="bs-example dob-question">
+                        What are anti-patterns of DevOps?
+                    </div>
                     
+                    <button type="button" class="btn btn-info dob-answer-btn">Answer</button>
 
-
-
-
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+No Answer :(
+                    </pre>
+                    </code>
+                    </div>
+                    
             </div>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12643045-7"></script>
