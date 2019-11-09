@@ -55,7 +55,6 @@
   <tr>
     <td align="center"><a href="#monitoring"><img src="/assets/images/monitoring.png" width="75px;" height="75px;" alt="Monitoring"/><br /><b>Monitoring</b></a><br /><sub><a href="#monitoring-beginner">Beginner :baby:</a></sub></td>
     <td align="center"><a href="#general"><img src="/assets/images/general.png" width="110px;" height="75px;" alt="General"/><br /><b>General</b></a></td>
-    <td align="center"><a href="#scenarios"><img src="/assets/images/scenarios.png" width="110px;" height="75px;" alt="Scenarios"/><br /><b>Scenarios</b></a></td>
   </tr>
 </table>
 </div>
@@ -113,35 +112,37 @@ Detailed answer can be found here: https://aws.amazon.com/devops/what-is-devops
                     </code>
                     </div>
 
-                    <br>
-                    <h5>Question</h5>
+<br>
+<h5>Question</h5>
 
-                    <div class="bs-example dob-question">
-                        What are anti-patterns of DevOps?
-                    </div>
-                    
-                    <button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">What are anti-patterns of DevOps?</div>
+  <button type="button" class="btn btn-info dob-answer-btn">Answer</button>
 
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 No Answer :(
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What is Continuous Integration?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
-                    <code class="language-html" data-lang="html">
-                    <pre>
+<div class="bs-example dob-question">What is Continuous Integration?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+  <code class="language-html" data-lang="html">
+  <pre>
 
-A development practice where developers integrate code into a shared repository frequently. It can range from a couple of changes every day or a week to a couple of changes in one hour in larger scales.
+A development practice where developers integrate code into a shared repository frequently.
+It can range from a couple of changes every day or a week to a couple of changes in one hour in larger scales.
 
-Each piece of code (change/patch) is verified, to make the change is safe to merge. Today, it's a common practice to test the change using an automated build that makes sure the code can integrated. It can be one build which runs several tests in different levels (unit, functional, etc.) or several separate builds that all or some has to pass in order for the change to be merged into the repository.
-                    </pre>
-                    </code>
-                    </div>
+Each piece of code (change/patch) is verified, to make the change is safe to merge.
+Today, it's a common practice to test the change using an automated build that makes sure the code can integrated.
+It can be one build which runs several tests in different levels (unit, functional, etc.) or several separate builds
+that all or some has to pass in order for the change to be merged into the repository.
+  </pre>
+  </code>
+  </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Continuous Deployment?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -180,9 +181,10 @@ Each piece of code (change/patch) is verified, to make the change is safe to mer
   * Logging - ELK (Elastic Search, Logstash, Kibana), EFK (Elastic Search, Fluentd, Kibana)
   * Code review
   * Code coverage
-  * Tests</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * Tests
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
 
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
   * CI/CD - Jenkins, Circle CI, Travis
@@ -195,7 +197,7 @@ Each piece of code (change/patch) is verified, to make the change is safe to mer
   * Tests - Robot, Serenity, Gauge
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you taking into consideration when choosing a tool/technology?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -213,9 +215,9 @@ In your answer you can mention one or more of the following:
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain mutable vs. immutable infrastructure</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
-                    <pre>
+  <pre>
 
 In mutable infrastructure paradigm, changes are applied on top of the existing infrastructure and over time
 the infrastructure builds up a history of changes. Ansible, Puppet and Chef are examples to tools which
@@ -224,9 +226,9 @@ follow mutable infrastructure paradigm.
 In immutable infrastructure paradigm, every change is actually new infrastructure. So a change
 to a server will result in a new server instead of updating it. Terraform is an example of technology
 which follows the immutable infrastructure paradigm.
-                    </pre>
+  </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -276,13 +278,13 @@ Stateful applications depend on the storage to save state and data, typically da
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Describe the workflow of setting up some type of web server (Apache, IIS, Tomact, ...)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
-                    <pre>
+   <pre>
 
-                    </pre>
+   </pre>
                     </code>
-                    </div>
+   </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain "Open Source"</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -308,15 +310,15 @@ Stateful applications depend on the storage to save state and data, typically da
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What SRE team is responsible for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
-                    <pre>
+   <pre>
 
 One can argue whether it's per company definition or a global one but at least according to a large companies, like Google for example, the SRE team is responsible for availability, latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning of their services
 
-                    </pre>
+   </pre>
                     </code>
-                    </div>
+   </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an error budget?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -394,7 +396,7 @@ One can argue whether it's per company definition or a global one but at least a
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a configuration drift? What problems is it causing?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Configuration drift happens when in an environment of servers with the exact same configuration and software, a certain server
@@ -404,7 +406,7 @@ slightly different than all others.
 This situation might lead to bugs which hard to identify and reproduce.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -469,13 +471,14 @@ Note: cross-dependency is when you have two or more changes to separate projects
   * Travis
   * Bamboo
   * Teamcity
-  * CircleCI</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * CircleCI
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -485,13 +488,14 @@ Note: cross-dependency is when you have two or more changes to separate projects
   * Build
   * Plugin
   * Slave
-  * Executor</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * Executor
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -651,7 +655,7 @@ You can describe the UI way to add new slaves but better to explain how to do in
                     </div>
 
 
-<h3 id=cloud>Cloud</h3>
+<h3 id="cloud">Cloud</h3>
 
 <a name="cloud-beginner"></a>
 <h5>Beginner</h5>
@@ -685,17 +689,16 @@ SAAS
 
   * Public
   * Hybrid
-  * Private</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * Private
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+  </div>
 
-
-
-<h3 id=aws>AWS</h3>
+<h3 id="aws">AWS</h3>
 
 <a name="aws-beginner"></a>
 <h5>Beginner</h5>
@@ -707,8 +710,9 @@ SAAS
 
   * Availability zone
   * Region
-  * Edge location</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * Edge location
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 AWS regions are data centers hosted across different geographical locations worldwide, each region is completely independent of one another. 
@@ -717,7 +721,7 @@ Within each region,There are multiple isolated locations known as Availability Z
 Edge locations are basically content delivery network which caches data and insures lower latency and faster delivery to the users in any location. They are located in major cities in the world.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is IAM?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -832,14 +836,14 @@ True
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to increase RAM for a given EC2 instance?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 Stop the instance, the type of the instance to match the desired RAM and start the instance.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an AMI?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -1006,10 +1010,10 @@ Stop the instance, the type of the instance to match the desired RAM and start t
                     </div>
 
 
-## Network
+<h3 id="network">Network</h3>
 
 <a name="network-beginner"></a>
-#### :baby: Beginner
+<h5>Network Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Ethernet?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -1098,18 +1102,19 @@ Physical: the electrical and physical spec the data connection (Bits are here)
   * MAC address
   * IP address
   * Sessions between applications
-  * 3 way handshake</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * 3 way handshake
+ </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What delivery schemes are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Unitcast: One to one communication where there is one sender and one receiver.
@@ -1120,13 +1125,13 @@ Broadcast: Sending a message to everyone in the network. The address ff:ff:ff:ff
 Multicast: Sending a message to a group of subscribers. It can be one-to-many or many-to-many.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is CSMA/CD? Is it used in modern ethernet networks?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -1143,7 +1148,7 @@ CSMA/CD algorithm:
 6. Once each host waited for a random time, they try to send the frame again and so the
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -1151,13 +1156,14 @@ CSMA/CD algorithm:
 
   * router
   * switch
-  * hub</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * hub
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -1331,7 +1337,7 @@ TCP establishes a connection between the client and the server to guarantee the 
 
 
 <a name="network-advanced"></a>
-#### :star: Advanced
+<h5>Advanced Network</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Spanning Tree Protocol (STP)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -1425,20 +1431,19 @@ TCP establishes a connection between the client and the server to guarantee the 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Using Hamming code, what would be the code word for the following data word 100111010001101?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-00110011110100011101
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
+00110011110100011101
                     </pre>
                     </code>
                     </div>
 
 
-## Linux
+<h3 id="linux">Linux</h3>
 
 <a name="linux-beginner"></a>
-#### :baby: Beginner
+<h5>Network Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is your experience with Linux? When you can set up an application on multiple operating systems, on which one would you prefer to set it up and why?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -1462,13 +1467,14 @@ TCP establishes a connection between the client and the server to guarantee the 
   * touch
   * man
   * nslookup or dig
-  * df</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * df
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -1492,7 +1498,7 @@ TCP establishes a connection between the client and the server to guarantee the 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you schedule tasks periodically?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 You can use the commands <code>cron</code> and <code>at</code>.
@@ -1503,7 +1509,7 @@ minute hour day of month month day of week command to execute
 The tasks are stored in a cron file.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Have you scheduled tasks in the past? What kind of tasks?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -1516,18 +1522,19 @@ Normally you will schedule batch jobs.
                     </div>
 
 
-##### Permissions
+<h5>Permissions</h5>
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">How to change the permissions of a file?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">How to change the permissions of a file?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 Using the `chmod` command.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 
@@ -1536,8 +1543,9 @@ Using the `chmod` command.
 
   * 777
   * 644
-  * 750</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * 750
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 777 - means you are lazy
@@ -1545,7 +1553,7 @@ Using the `chmod` command.
 750 - owner can do anything, group can read and execute and others can do nothing
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -1589,11 +1597,12 @@ Using the `chmod` command.
                     </div>
 
 
-##### Debugging
+<h5>Debugging</h5>
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>network</b> issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>network</b> issues?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -1605,12 +1614,12 @@ Using the `chmod` command.
 <code>wireshark</code> same concept as tcpdump but with GUI (optional).
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>disk & file system</b> issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -1618,24 +1627,24 @@ Using the `chmod` command.
 <code>opensnoop</code> can be used to see which files are being opened on the system (in real time).
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for troubleshooting and debugging <b>process</b> issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 <code>strace</code> is great for understanding what your program does. It prints every system call your program executed.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are you using for debugging CPU related issues?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -1644,12 +1653,12 @@ Using the `chmod` command.
 <code>flamegraphs</code> is great for CPU consumption visualization (http://www.brendangregg.com/flamegraphs.html)
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You get a call saying "my system is slow" - how would you deal with it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -1658,7 +1667,7 @@ Using the `chmod` command.
 3. Check I/O stats with <code>iostat</code>
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -1761,7 +1770,7 @@ Using the `chmod` command.
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an exit code? What exit codes are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 An exit code (or return code) represents the code returned by a child process to its
@@ -1773,13 +1782,13 @@ Each number has different meaning, based on how the application was developed.
 I consider this as a good blog post to read more about it: https://shapeshed.com/unix-exit-codes
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between a soft link and hard link?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Hard link is the same file, using the same inode.
@@ -1789,7 +1798,7 @@ Soft links can be created between different file systems while.
 Hard link can be created only within the same file system.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 
@@ -1838,7 +1847,8 @@ Hard link can be created only within the same file system.
 
   * PV
   * VG
-  * LV</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * LV
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -1941,7 +1951,7 @@ execution or run forever
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What signal is used when you run 'kill \<process id\>'?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">What signal is used when you run 'kill process_id'?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -1953,10 +1963,9 @@ state configuration.
                     </div>
 
 
-
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What signals are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 SIGTERM - default signal for terminating a process
@@ -1966,7 +1975,7 @@ SIGKILL - a signal which cannot caught or ignored
 To view all available signals run `kill -l`
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -2077,7 +2086,7 @@ Zombie
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Find all the files which end with '.yml' and replace the number 1 in 2 in each file</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -2090,24 +2099,25 @@ ind /some_dir -iname \*.yml -print0 | xargs -0 -r sed -i "s/1/2/g"
 You can use the commands <code>top</code> and <code>free</code>
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How would you split a 50 lines file into 2 files of 25 lines each?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 You can use the <code>split</code> command this way: <code>split -l 25 some_file</code>
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What is a file descriptor? What file descriptors are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">What is a file descriptor? What file descriptors are you familiar with?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Kerberos
@@ -2121,7 +2131,7 @@ In Linux (and Unix) the first three file descriptors are:
 This is a great article on the topic: https://www.computerhope.com/jargon/f/file-descriptor.htm
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -2205,7 +2215,7 @@ related to the file like its size, owner, permissions, etc.
                     </div>
 
 
-<h3 id=network>Network</h3>
+<h3 id="network">Network</h3>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a network namespace? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -2243,7 +2253,8 @@ related to the file like its size, owner, permissions, etc.
   * SSH
   * HTTP
   * DNS
-  * HTTPS</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * HTTPS
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -2272,7 +2283,7 @@ related to the file like its size, owner, permissions, etc.
                     </div>
 
 
-##### DNS
+<h5>DNS</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is DNS? Why do we need it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -2336,7 +2347,7 @@ While an A record points a domain name to an IP address, a PTR record does the o
                     </div>
 
 
-##### Packaging
+<h5>Packaging</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Do you have experience with packaging? Can you explain how it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -2368,7 +2379,7 @@ While an A record points a domain name to an IP address, a PTR record does the o
                     </div>
 
 
-##### Applications and Services
+<h5>Applications and Services</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a load balancer?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button> 
@@ -2443,7 +2454,7 @@ While an A record points a domain name to an IP address, a PTR record does the o
 
 
 <a name="linux-advanced"></a>
-#### :star: Advanced
+<h5>Advanced Linux</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What happens when you execute <code>ls</code>?. Provide a detailed answer</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -2493,7 +2504,7 @@ These system calls are reading the file <code>/my/file</code> and 5 is the file 
                     </div>
 
 
-##### Network
+<h5>Linux Networking</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">When you run <code>ip a</code> you see there is a device called 'lo'. What is it and why do we need it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -2547,7 +2558,7 @@ These system calls are reading the file <code>/my/file</code> and 5 is the file 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to create a file of a certain size?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 There are a couple of ways to do that:
@@ -2557,7 +2568,7 @@ There are a couple of ways to do that:
   * fallocate -l 2097152 new_file.txt
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 
@@ -2624,7 +2635,7 @@ This is a good article about the topic: https://ops.tips/blog/how-linux-creates-
 
 
 
-<h3 id=ansible>Ansible</h3>
+<h3 id="ansible">Ansible</h3>
 
 <a name="ansible-beginner"></a>
 <h5>Beginner</h5>
@@ -2636,8 +2647,9 @@ This is a good article about the topic: https://ops.tips/blog/how-linux-creates-
   * Module
   * Play
   * Playbook
-  * Role</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * Role
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Task – a call to a specific Ansible module
@@ -2650,7 +2662,7 @@ Playbook – One or more plays. Each play can be executed on the same or differe
 Role – Ansible roles allows you to group resources based on certain functionality/service such that they can be easily reused. In a role, you have directories for variables, defaults, files, templates, handlers, tasks, and metadata. You can then use the role by simply specifying it in your playbook.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -2665,7 +2677,7 @@ Role – Ansible roles allows you to group resources based on certain functional
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an inventory file and how you define one?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 An inventory file defines hosts and/or groups of hosts on which Ansible tasks executed upon.
@@ -2682,11 +2694,11 @@ An example of inventory file:
 190.40.2.22
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a dynamic inventory file? When you would use one?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button><br><br>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -2696,7 +2708,7 @@ You should use one when using external sources and especially when the hosts in 
 spun up and shut down, without you tracking every change in these sources.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -2711,52 +2723,48 @@ spun up and shut down, without you tracking every change in these sources.
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a task to create the directory ‘/tmp/new_directory’</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
-```
 - name: Create a new directory
   file:
       path: "/tmp/new_directory"
       state: directory
-```
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What would be the result of the following play?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">What would be the result of the following play?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
-```
----
 - name: Print information about my host
   hosts: localhost
   gather_facts: 'no'                                                                                                                                                                           
   tasks:
       - name: Print hostname
         debug:
-            msg: "It's me, {{ ansible_hostname }}"
-```
+            msg: "It's me, \{\{ ansible_hostname \}\}"
 
-When given a written code, always inspect it thoroughly. If your answer is “this will fail” then you are right. We are using a fact (ansible_hostname), which is a gathered piece of information from the host we are running on. But in this case, we disabled facts gathering (gather_facts: no) so the variable would be undefined which will result in failure.
+When given a written code, always inspect it thoroughly. If your answer is “this will fail” then you are 
+right. We are using a fact (ansible_hostname), which is a gathered piece of information from the host we are running on. But in this
+case, we disabled facts gathering (gather_facts: no) so the variable would be undefined which will result in failure.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a playbook to install ‘zlib’ and ‘vim’ on all hosts if the file ‘/tmp/mario’ exists on the system.</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+    <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
-```
----
 - hosts: all
   vars:
       mario_file: /tmp/mario
@@ -2776,28 +2784,24 @@ When given a written code, always inspect it thoroughly. If your answer is “th
             state: present
         with_items: "{{ package_list }}"
         when: mario_f.stat.exists
-```
+
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Write a playbook to deploy the file ‘/tmp/system_info’ on all hosts except for controllers group, with the following content</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">Write a playbook to deploy the file ‘/tmp/system_info’ on all hosts except for controllers group, with the following content
+
+  I'm [HOSTNAME] and my operating system is [OS]
+
+  Replace [HOSTNAME] and  [OS] with the actual data for the specific host you are running on
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-
-  ```
-  I'm <HOSTNAME> and my operating system is <OS>
-  ```
-
-  Replace <HOSTNAME> and  <OS> with the actual data for the specific host you are running on
-
 The playbook to deploy the system_info file
 
-```
---- 
 - name: Deploy /tmp/system_info file
   hosts: all:!controllers
   tasks: 
@@ -2805,17 +2809,14 @@ The playbook to deploy the system_info file
         template:
             src: system_info.j2 
             dest: /tmp/system_info
-```
 
 The content of the system_info.j2 template
 
-```
 # \{\{ ansible_managed \}\}
 I'm \{\{ ansible_hostname \}\} and my operating system is \{\{ ansible_distribution \}\}
-```
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -2826,8 +2827,9 @@ I'm \{\{ ansible_hostname \}\} and my operating system is \{\{ ansible_distribut
   * host facts -> whoami: luigi
   * inventory variables (doesn’t matter which type) -> whoami: browser
 
-According to variable precedence, which one will be used?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+According to variable precedence, which one will be used?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -2840,12 +2842,11 @@ In the context of our question, the order will be extra vars (always override an
 A full list can be found at the link above. Also, note there is a significant difference between Ansible 1.x and 2.x.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">For each of the following statements determine if it's true or false:
-
   * A module is a collection of tasks
   * It’s better to use shell or command instead of a specific module
   * Host facts override play variables
@@ -2854,60 +2855,108 @@ A full list can be found at the link above. Also, note there is a significant di
   * It’s a best practice to use indention of 2 spaces instead of 4
   * ‘notify’ used to trigger handlers
   * This “hosts: all:!controllers” means ‘run only on controllers group hosts</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is ansible-pull?  How it’s different compared to ansible-playbook?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 
 <a name="ansible-advanced"></a>
-#### :star: Advanced
+<h5>Advanced</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are filters? Do you have experience with writing filters?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a filter to capitalize a string</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 <code>
 def cap(self, string):
     return string.capitalize()
 </code>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you test your Ansible based projects?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are callback plugins? What can you achieve by using callback plugins?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-
-## Terraform
+<h3 id="terraform">Terraform</h3>
 
 <a name="terraform-beginner"></a>
-#### :baby: Beginner
+<h5>Terraform Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you explain what is Terraform? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Read [here](https://www.terraform.io/intro/index.html#what-is-terraform-)
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What benefits infrastructure-as-code has?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 - fully automated process of provisioning, modifying and deleting your infrastructure
 - version control for your infrastructure which allows you to quickly rollback to previous versions
 - validate infrastructure quality and stability with automated tests and code reviews
 - makes infrastructure tasks less repetitive
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Why Terraform and not other technologies? (e.g. Ansible, Puppet, CloufFormation)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 A common *wrong* answer is to say that Ansible and Puppet are configuration management tools
 and Terraform is a provisioning tool. While technically true, it doesn't mean Ansible and Puppet can't
@@ -2918,10 +2967,19 @@ The benefits of Terraform over the other tools:
 
   * It follows the immutable infrastructure approach which has benefits like avoiding a configuration drift over time
   * Ansible and Puppet are more procedural (you mention what to execute in each step) and Terraform is declarative since you describe the overall desired state and not per resource or task. You can give the example of going from 1 to 2 servers in each tool. In Terraform you specify 2, in Ansible and puppet you have to only provision 1 additional server so you need to explicitly make sure you provision only another one server.
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is "Terraform configuration"</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2930,12 +2988,24 @@ The benefits of Terraform over the other tools:
   * Provider
   * Resource
   * Provisioner
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What <code>terraform.tfstate</code> file is used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button> 
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 It keeps track of the IDs of created resources so that Terraform knows what it is managing.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2946,102 +3016,205 @@ It keeps track of the IDs of created resources so that Terraform knows what it i
   * <code>terraform validate</code>
   * <code>terraform apply</code>
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 <code>terraform init</code> scans your code to figure which providers are you using and download them.
 <code>terraform plan</code> will let you see what terraform is about to do before actually doing it.
 <code>terraform apply</code> will provision the resources specified in the .tf files.
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to write down a variable which changes by an external source or during <code>terraform apply</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 You use it this way: <code>variable “my_var” {}</code>
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Give an example of several Terraform best practices</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain how implicit and explicit dependencies work in Terraform</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is <code>local-exec</code> and <code>remote-exec</code> in the context of provisioners?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a "tainted resource"?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 It's a resource which was successfully created but failed during provisioning. Terraform will fail and mark this resource as "tainted".
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What <code>terraform taint</code> does?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What types of variables are supported in Terraform?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 String
 Integer
 Map
 List
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a data source? In what scenarios for example would need to use it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are output variables and what <code>terraform output</code> does?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Modules</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the Terraform Registry?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain <code>remote-exec</code> and <code>local-exec</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 <a name="terraform-advanced"></a>
-#### :star: Advanced
+<h5>Advanced</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain "Remote State". When would you use it and how?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain "State Locking"</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## Docker
+<h3 id="docker">Docker</h3>
 
 <a name="docker-beginner"></a>
 
-#### :baby: beginner
+<h5>Docker Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Docker? What are you using it for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How containers are different from VMs?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The primary difference between containers and VMs is that containers allow you to virtualize
 multiple workloads on the operating system while in the case of VMs the hardware is being virtualized to
 run multiple machines each with its own OS.
+                    </pre>
+                    </code>
+  </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">In which scenarios would you use containers and in which you would prefer to use VMs?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 You should choose VMs when:
   * you need run an application which requires all the resources and functionalities of an OS
   * you need full isolation and security
@@ -3049,39 +3222,83 @@ You should choose VMs when:
 You should choose containers when:
   * you need a lightweight solution that quickly starts
   * Running multiple versions or instances of a single application
+                    </pre>
+                    </code>
+  </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Docker architecture</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Describe in detail what happens when you run `docker run hello-world`?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Docker CLI passes your request to Docker daemon.
 Docker daemon downloads the image from Docker Hub
 Docker daemon creates a new container by using the image it downloaded
 Docker daemon redirects output from container to Docker CLI which redirects it to the standard output
-
+                    </pre>
+                    </code>
+                    </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you run a container?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What best practices are you familiar related to working with containers?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What `docker commit` does?. When will you use it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How would you transfer data from one container into another?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What happens to data of the container when a container exists?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -3091,56 +3308,123 @@ Docker daemon redirects output from container to Docker CLI which redirects it t
   * docker rm
   * docker ps
   * docker build
-  * docker commit</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * docker commit
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you remove old, non running, containers?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-##### Dockerfile
+<h5>Dockerfile</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Dockerfile</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between ADD and COPY in Dockerfile?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between CMD and RUN in Dockerfile?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is Docker compose and what is it used for</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are the differences between Docker compose, Docker swarm and Kubernetes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Docker interlock</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between Docker Hub and Docker cloud?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Docker Hub is a native Docker registry service which allows you to run pull
 and push commands to install and deploy Docker images from the Docker Hub.
 
 Docker Cloud is built on top of the Docker Hub so Docker Cloud provides
 you with more options/features compared to Docker Hub. One example is
 Swarm management which means you can create new swarms in Docker Cloud.
+                    </pre>
+                    </code>
+  </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Where Docker images are stored?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain image layers</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="docker-advanced"></a>
@@ -3148,127 +3432,277 @@ Swarm management which means you can create new swarms in Docker Cloud.
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you manage persistent storage in Docker?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How can you connect from the inside of your container to the localhost of your host, where the container runs?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you copy files from Docker container to the host and vice versa?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## Kubernetes
+<h3 id="kubernetes">Kubernetes</h3>
 
 <a name="kubernetes-beginner"></a>
 #### :baby: Beginner
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Kubernetes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Why Docker isn't enough? Why do we need Kubernetes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Kubernetes is especially good for scenarios when you no longer running small number of containers. When you have to scale from 3 containers for eaxmple to hundreds or thousands of containers.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Describe the architecture of Kubernetes</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a worker?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is a Pod</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you monitor your Kubernetes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is kubectl? How do you use it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is kubconfig? What do you use it for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Users
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you create users? Where user information is stored?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Do you know how to create a new user without using adduser/useradd command?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to add a new user to the system without providing him the ability to log-in into the system?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
   * adduser user_name --shell=/bin/false --no-create-home
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What can you do if you lost/forogt the root password?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Re-install the OS IS NOT the right answer :)
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is sudo? How do you set it up?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## Coding
+<h3 id="coding">Coding</h3>
 
 <a name="coding-beginner"></a>
 #### :baby: Beginner
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What programming language do you prefer to use for DevOps related tasks? Why specifically this one?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Object Oriented Programming? Why is it important?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Explain recursion</summary
+<div class="bs-example dob-question">Explain recursion</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what are design patterns and describe three of them in detail</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain big O notation</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-##### Code Review
+<h5>Code Review</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are your code-review best practices?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Do you agree/disagree with each of the following statements and why?:
 
-  * The commit message is not important. When reviewing a change/patch one should focus on the actual change</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
   * You shouldn't test your code before submitting it. This is what CI/CD exists for.
+  * The commit message is not important. When reviewing a change/patch one should focus on the actual change
+  </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+   </div>
 
-
-##### Strings
+<h5>Strings</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">In any language you want, write a function to determine if a given string is a palindrome</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">In any language you want, write a function to determine if two strings are Anagrams </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="coding-advanced"></a>
@@ -3276,17 +3710,25 @@ Re-install the OS IS NOT the right answer :)
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Name 3 design patterns. Do you know how to implement (= provide an example) these design pattern in any language you'll choose?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## Python
+<h3 id="python">Python</h3>
 
 <a name="python-beginner"></a>
 #### :baby: Beginner
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are some characteristics of the Python programming language?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
-```
 1. It is a high level general purpose programming language created in 1991 by Guido Van Rosum.
 2. The language is interpreted, being the CPython (Written in C) the most used/maintained implementation.
 3. It is strongly typed. The typing discipline is duck typing and gradual.
@@ -3297,11 +3739,16 @@ Re-install the OS IS NOT the right answer :)
 
 There are many other characteristics but these are the main ones that every python programmer should know.
 
-```
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What data types supported in Python and which of them are mutable? How can you show that a certain data type is mutable?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The mutable data types are:
 
@@ -3318,10 +3765,16 @@ The immutable data types are:
     Frozenset
 
 You can usually use the function hash() to check an object mutability, if it is hashable it is immutable, although this does not always work as intended as user defined objects might be mutable and hashable
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is PEP8? Give an example of 3 style guidelines</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 PEP8 is a list of coding conventions and style guidelines for Python
 
@@ -3332,12 +3785,18 @@ PEP8 is a list of coding conventions and style guidelines for Python
     3. Use commas when making a tuple of one element
     4. Use spaces (and not tabs) for indentation
     5. Use 4 spaces per indentation level
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain inheritance and how to use it in Python</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
-```
+
 By definition inheritance is the mechanism where an object acts as a base of another object, retaining all its
 properties.
 
@@ -3399,14 +3858,18 @@ Calling super() calls the Base method, thus, calling super().__init__() we calle
 
 There is a more advanced python feature called MetaClasses that aid the programmer to directly control class creation.
 
-```
+
+                    </pre>
+                    </code>
+  </div>
 
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question"> What is an error? What is an exception? What types of exceptions are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-```
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 #  Note that you generally don't need to know the compiling process but knowing where everything comes from
 #  and giving complete answers shows that you truly know what you are talking about.
@@ -3464,20 +3927,29 @@ Generally, every compiling process have a two steps.
     division(100, 2)
     
     >>> __main__.DividedBy2Error: I dont want you to divide by 2!
-
-```
+                    </pre>
+                    </code>
+  </div>
 
 
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Exception Handling and how to use it in Python</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
+                    </pre>
+                    </code>
+  </div>
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Write a program which will revert a string (e.g. pizza -> azzip)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-```
+<div class="bs-example dob-question">Write a program which will revert a string (e.g. pizza: azzip)
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Shortest way is str[::-1] but not the most efficient.
 
 "Classic" way:
@@ -3487,26 +3959,34 @@ foo = ''
 for char in 'pizza':
     foo = char + foo
 
->> 'azzip'   
-
-```
+'azzip'   
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to extract the unique characters from a string? for example given the input "itssssssameeeemarioooooo" the output will be "mrtisaoe"</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 ```
 x = "itssssssameeeemarioooooo"
 y = ''.join(set(x))
 ```
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a function to return the sum of one or more numbers. The user will decide how many numbers to use</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 First you ask the user for the amount of numbers that will be use. Use a while loop that runs until amount_of_numbers becomes 0 through subtracting amount_of_numbers by one each loop. In the while loop you want ask the user for a number which will be added a variable each time the loop runs.
 
-```
 def return_sum():
 	amount_of_numbers = int(input("How many numbers? "))
 	total_sum = 0
@@ -3515,67 +3995,129 @@ def return_sum():
 		total_sum += num
 		amount_of_numbers -= 1
 	return total_sum
+                    </pre>
+                    </code>
+   </div>
 
-```
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to merge two sorted lists into one sorted list?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to merge two dictionaries?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you swap values between two variables?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 x, y = y, x
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to check if all the elements in a given lists are unique? so [1, 2, 3] is unique but [1, 1, 2, 3] is not unique but we 1 twice</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What _ is used for in Python?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 1. Translation lookup in i18n
 2. Hold the result of the last executed expression or statement in the interactive interpreter.
 3. As a general purpose "throwaway" variable name. For example: x, y, _ = get_data() (x and y are used but since we don't care about third variable, we "threw it away").
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to check how much time it took to execute a certain script or block of code?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Algorithms Implementation
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you implement "binary search" in Python?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Files
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">How to write to a file?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">How to write to a file?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
-```
+
 with open('file.txt', 'w') as file:
     file.write("My insightful comment")
-```
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to reverse a file?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 #### Regex
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you perform regular expressions related operations in Python? (match patterns, substitute strings, etc.)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Using the re module
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
@@ -3599,24 +4141,37 @@ Using the re module
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Sort a list of lists by the second item of each nested list</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-```
+<div class="bs-example dob-question">Sort a list of lists by the second item of each nested list
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+     <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 li = [[1, 4], [2, 1], [3, 9], [4, 2], [4, 5]]
-
 sorted(x, key=lambda l: l[1])
-```
+                    </pre>
+                    </code>
+     </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you write a function which will print all the file in a given directory? including sub-directories</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You have the following list: <code>[{'name': 'Mario', 'food': ['mushrooms', 'goombas']}, {'name': 'Luigi', 'food': ['mushrooms', 'turtles']}]</code>
-  Extract all type of foods. Final output should be: {'mushrooms', 'goombas', 'turtles'}</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  Extract all type of foods. Final output should be: {'mushrooms', 'goombas', 'turtles'}
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
-```
 brothers_menu =  \
 [{'name': 'Mario', 'food': ['mushrooms', 'goombas']}, {'name': 'Luigi', 'food': ['mushrooms', 'turtles']}]
 
@@ -3632,7 +4187,10 @@ def get_food(brothers_menu) -> set:
 
 # One liner way (Using list comprehension)
 set([food for bro in x for food in bro['food']])
-```
+                    </pre>
+                    </code>
+  </div>
+
 
 
 
@@ -3731,7 +4289,8 @@ def reverse_string(string):
 
   * Static method
   * Class method
-  * instance method</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * instance method
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -3770,21 +4329,22 @@ def reverse_string(string):
                     </div>
 
 
-##### Time Complexity
+<h5>Time Complexity</h5>
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Describe what would be the time complexity of the operations <code>access</code>, <code>search</code> <code>insert</code> and <code>remove</code> for the following data structures:</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">Describe what would be the time complexity of the operations <code>access</code>, <code>search</code> <code>insert</code> and <code>remove</code> for the following data structures:
 
   * Stack
   * Queue
   * Linked List
   * Binary Search Tree
-                    <div class="container bg-light dob-answer">
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -3794,16 +4354,17 @@ def reverse_string(string):
   * Merge sort
   * Bucket Sort
   * Radix Sort
-                    <div class="container bg-light dob-answer">
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <a name="python-advanced"></a>
-#### :star: Advanced
+<h5>Advanced Python</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is a decorator</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -3886,7 +4447,7 @@ def reverse_string(string):
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Can you implement Linked List in Python?
+<div class="bs-example dob-question">Can you implement Linked List in Python?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -3905,10 +4466,10 @@ def reverse_string(string):
                     </div>
 
 
-## Monitoring
+<h3 id="monitoring">Monitoring</h3>
 
 <a name="monitoring-beginner"></a>
-#### :baby: Beginner
+<h5>Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain monitoring. What is it? What its goal?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -3935,7 +4496,7 @@ If the issue doesn't require any human intervention, then the problem can be fix
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What types of monitoring outputs are you familiar with and/or used in the past?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -3944,7 +4505,7 @@ Tickets
 Logging
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 
@@ -3958,10 +4519,10 @@ Logging
                     </div>
 
 
-## Prometheus
+<h3 id="prometheus">Prometheus</h3>
 
 <a name="prometheus-beginner"></a>
-#### :baby: Beginner
+<h5>Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Prometheus? What are some of Prometheus's main features?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -4008,8 +4569,9 @@ Logging
 
   * Prometheus server
   * Push Gateway
-  * Alert Manager</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  * Alert Manager
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Prometheus server responsible for scraping the storing the data<br>
@@ -4017,7 +4579,7 @@ Push gateway is used for short-lived jobs<br>
 Alert manager is responsible for alerts ;)
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 
@@ -4104,14 +4666,14 @@ Alert manager is responsible for alerts ;)
                     </div>
 
 
-## Git
+<h3 id="git">Git</h3>
 
 <a name="git-beginner"></a>
-#### :baby: Beginner
+<h5>Git Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between <code>git pull</code> and <code>git fetch</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+ <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 Shortly, git pull = git fetch + git merge
@@ -4123,12 +4685,12 @@ git fetch gets all the changes from the remote repository, stores the changes in
 a separate branch in your local repository
                     </pre>
                     </code>
-                    </div>
+ </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain the following: <code>git directory</code>, <code>working directory</code> and <code>staging area</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+ <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -4141,7 +4703,7 @@ The staging area is a simple file, generally contained in your Git directory, th
 This answer taken from [git-scm.com](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics#_the_three_states)
                     </pre>
                     </code>
-                    </div>
+ </div>
 
 
 <br><h5>Question</h5>
@@ -4152,38 +4714,35 @@ This answer taken from [git-scm.com](https://git-scm.com/book/en/v1/Getting-Star
 First, you open the files which are in conflict and identify what are the conflicts.
 Next, based on what is accepted in your company or team, you either discuss with your
 colleagues on the conflicts or resolve them by yourself
-After resolving the conflicts, you add the files with `git add <file_name>`
+After resolving the conflicts, you add the files with `git add [file_name]`
 Finally, you run `git rebase --continue`
                     </pre>
                     </code>
                     </div>
 
-
-
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What is the difference between <code>git reset</code> and <code>git revert</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">What is the difference between <code>git reset</code> and <code>git revert</code>?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+    <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-`git revert` creates a new commit which undoes the changes from last commit.
-
-`git reset` depends on the usage, can modify the index or change the commit which the branch head
+git revert creates a new commit which undoes the changes from last commit.
+git reset depends on the usage, can modify the index or change the commit which the branch head
 is currently pointing at.
                     </pre>
                     </code>
-                    </div>
+    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You would like to move forth commit to the top. How would you achieve that?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+    <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-
 Using <code>git rebase></code> command
                     </pre>
                     </code>
-                    </div>
+    </div>
 
 
 <br><h5>Question</h5>
@@ -4198,7 +4757,7 @@ Using <code>git rebase></code> command
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What merge strategies are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -4212,33 +4771,30 @@ theirs
 This page explains it the best: https://git-scm.com/docs/merge-strategies
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How can you see which changes have done before committing them?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 <code>git diff</code>
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you revert a specific file to previous commit?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-
-```
 git checkout HEAD~1 -- /path/of/the/file
-```
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -4253,7 +4809,7 @@ git checkout HEAD~1 -- /path/of/the/file
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are some Git anti-patterns? Things that you shouldn't do</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+    <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -4261,15 +4817,15 @@ git checkout HEAD~1 -- /path/of/the/file
   * Not removing the .git directory :)
                     </pre>
                     </code>
-                    </div>
+    </div>
 
 
 <a name="git-advanced"></a>
-#### :star: Advanced
+<h5>Advanced Git</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Git octopus merge</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -4281,17 +4837,17 @@ Probably good to mention that it's:
 This is a great article about Octopus merge: http://www.freblogg.com/2016/12/git-octopus-merge.html
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
-## Go
+<h3 id="go">Go</h3>
 
 <a name="go-beginner"></a>
 #### :baby: Beginner
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are some characteristics of the Go programming language?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
@@ -4306,41 +4862,46 @@ This is a great article about Octopus merge: http://www.freblogg.com/2016/12/git
 Go also has good community.
                     </pre>
                     </code>
-                    </div>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between <code>var x int = 2</code> and <code>x := 2</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 The result is the same, a variable with the value 2.
-
 With <code>var x int = 2</code> we are setting the variable type to integer while with <code>x := 2</code> we are letting Go figure out by itself the type.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">True or False? In Go we can redeclare variables and once declared we must use it.</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
 
 False. We can't redeclare variables but yes, we must used declared variables.
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What libraries of Go have you used?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 This should be answered based on your usage but some examples are:
 
   * fmt - formatted I/O
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -4354,6 +4915,12 @@ func main() {
 }
 ```
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -4372,9 +4939,15 @@ func main() {
 }
 ```
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 It looks what unicode value is set at 101 and uses it for converting the integer to a string.
 If you want to get "101" you should use the package "strconv" and replace <code>y = string(x)</code> with <code>y = strconv.Itoa(x)</code>
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
@@ -4390,6 +4963,12 @@ func main() {
 }
 ```
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -4413,10 +4992,22 @@ func main() {
 }
 ```
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What _ is used for in Go?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -4437,104 +5028,215 @@ func main() {
 }
 ```
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## Mongo
+<h3 id="mongo">Mongo</h3>
 
 <a name="mongo-beginner"></a>
-#### :baby: Beginner
+<h5>Mongo Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are the advantages of MongoDB? Or in other words, why choosing MongoDB and not other implementation of NoSQL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between SQL and NoSQL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The main difference is that SQL databases are structured (data is stored in the form of
 tables with rows and columns - like an excel spreadsheet table) while NoSQL is 
 unstructured, and the data storage can vary depending on how the NoSQL DB is set up, such
 as key-value pair, document-oriented, etc.
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">In what scenarios would you prefer to use NoSQL/Mongo over SQL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
   * Heterogeneous data which changes often
   * Data consistency and integrity is not top priority
   * Best if the database needs to scale rapidly
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a document? What is a collection?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an aggregator?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is better?. Embedded documents or referenced?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 ##### Queries
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Explain this query: <code>db.books.find({"name": /abc/})</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">Explain this query: <code>db.books.find({"name": /abc/})</code>
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain this query: <code>db.books.find().sort({x:1})</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## OpenShift
+<h3 id="openshift">OpenShift</h3>
 
 <a name="openshift-beginner"></a>
 #### :baby: Beginner
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is OpenShift? Did you use it? If yes, how?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you explain the difference between OpenShift and Kubernetes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Define Pods and explain what are stateful pods</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What types of build strategies are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what are labels and what they are used for</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what are annotations and how they are different from labels</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain what is Downward API</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-## Shell Scripting
+<h3 id="shell-scripting">Shell Scripting</h3>
 
 <a name="shell-scripting-beginner"></a>
 #### :baby: Beginner
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Tell me about your experience with shell scripting</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What this line in scripts mean?: <code>#!/bin/bash</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What do you tend to include in every script you write?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Few example:
 
@@ -4542,22 +5244,37 @@ Few example:
   * Adding "set -e" since I want the script to exit if a certain command failed 
 
 You can have an entirely different answer. It's based only on your experience.
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">True or False?: when a certain command/line fails, the script, by default, will exit and will no keep running</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Depends on the language and settings used.
 When a script written in Bash fails to run a certain command it will keep running and will execute all other commands mentioned after the command which failed.
 Most of the time we would actually want the opposite to happen. In order to make Bash exist when a specific command fails, use 'set -e' in your script.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Today we have tools and technologies like Ansible. Why would someone still use shell scripting?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
   * Speed
   * The module we need doesn't exist
   * We are delivering the scripts to customers who don't have access to the public network and don't necessarily have Ansible installed on their systems.
+                    </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
@@ -4567,52 +5284,112 @@ Most of the time we would actually want the opposite to happen. In order to make
   * <code>echo $?</code>
   * <code>echo $$</code>
   * <code>echo $@</code>
-  * <code>echo $#</code></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * <code>echo $#</code>
+  </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you debug shell scripts?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+   <pre>
 Answer depends on the language you are using for writing your scripts. If Bash is used for example then:
 
   * Adding -x to the script I'm running in Bash
   * Old good way of adding echo statements
 
 If Python, then using pdb is very useful.
+   </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you get input from the user in shell scripts?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Using the keyword <code>read</code> so for example <code>read x</code> will wait for user input and will store it in the variable x.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain conditionals and how do you use them</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a loop? What types of loops are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain <code>continue</code> and <code>break</code>. When do you use them if at all?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to store the output of a command in a variable?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you check variable length?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between single and double quotes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a script which will list the differences between two directories</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="shell-scripting-advanced"></a>
@@ -4624,10 +5401,22 @@ Using the keyword <code>read</code> so for example <code>read x</code> will wait
 <code>:(){ :|:& };:</code>
 
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you give an example to some Bash best practices?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -4649,34 +5438,48 @@ A short way of using if/else. An example:
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button><br>
 It is called 'process substitution'. It provides a way to pass the output of a command to another command when using a pipe <code>|</code> is not possible. It can be used when a command does not support <code>STDIN</code> or you need the output of multiple commands. 
 https://superuser.com/a/1060002/167769
+                    </pre>
+                    </code>
+                    </div>
 
 
-## SQL
+<h3 id="sql">SQL</h3>
 
 <a name="sql-beginner"></a>
-#### :baby: Beginner
+<h5>Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What does SQL stand for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+   <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+   <pre>
 
 Structured Query Language
+   </pre>
+                    </code>
+   </div>
 
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How is SQL Different from NoSQL</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-
 The main difference is that SQL databases are structured (data is stored in the form of
 tables with rows and columns - like an excel spreadsheet table) while NoSQL is 
 unstructured, and the data storage can vary depending on how the NoSQL DB is set up, such
 as key-value pair, document-oriented, etc.
+                    </pre>
+                    </code>
+   </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What does it mean when a database is ACID compliant?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button><br>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+  <pre>
 
 ACID stands for Atomicity, Consistency, Isolation, Durability. In order to be ACID compliant, the database much meet each of the four criteria
 
@@ -4707,12 +5510,15 @@ must be recorded in non-volatile memory.
 
 Note that SQL is by nature ACID compliant. Certain NoSQL DB's can be ACID compliant depending on 
 how they operate, but as a general rule of thumb, NoSQL DB's are not considered ACID compliant
+  </pre>
+                    </code>
+  </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">When is it best to use SQL? NoSQL?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
-                    <pre>
+  <pre>
 
 SQL - Best used when data integrity is crucial. SQL is typically implemented with many
 businesses and areas within the finance field due to it's ACID compliance.
@@ -4723,13 +5529,16 @@ multiple servers
 
 Additionally, since NoSQL does not adhere to the strict table with columns and rows structure
 that Relational Databases require, you can store different data types together.
+  </pre>
+                    </code>
+  </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What is a Cartesian Product?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button><br>
-                    <div class="container bg-light dob-answer">
-                    <code class="language-html" data-lang="html">
-                    <pre>
+<div class="bs-example dob-question">What is a Cartesian Product?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+  <code class="language-html" data-lang="html">
+  <pre>
 
 A Cartesian product is when all rows from the first table are joined to all rows in the second
 table. This can be done implicitly by not defining a key to join, or explicitly by 
@@ -4740,6 +5549,10 @@ Select * from customers **CROSS JOIN** orders;
 Note that a Cartesian product can also be a bad thing - when performing a join
 on two tables in which both do not have unique keys, this could cause the returned information
 to be incorrect. 
+  </pre>
+  </code>
+  </div>
+
 
 <h5>SQL Specific Questions</h5>
 
@@ -4818,27 +5631,26 @@ where Items_in_cart > 0;
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How would you join the customer table to the order table?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-
 You would join them on the unique key. In this case, the unique key is Customer_ID in
 both the Customers table and Orders table
                     </pre>
                     </code>
-                    </div>
+  </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">How would you show which customer ordered which items?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">How would you show which customer ordered which items?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-
-Select c.Customer_Name, o.Item <br>
-From Customers c <br>
-Left Join Orders o <br>
-  On c.Customer_ID = o.Customer_ID;
+Select c.Customer_Name, o.Item
+From Customers c
+Left Join Orders o
+On c.Customer_ID = o.Customer_ID;
                     </pre>
                     </code>
                     </div>
@@ -4848,21 +5660,21 @@ Left Join Orders o <br>
 <h5>Advanced</h5>
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Using a with statement, how would you show who ordered cat food, and the total amount of money spent?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-                    <div class="container bg-light dob-answer">
+<div class="bs-example dob-question">Using a with statement, how would you show who ordered cat food, and the total amount of money spent?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
-                    <pre>
-with cat_food as ( <br>
-Select Customer_ID, SUM(Price) as TOTAL_PRICE <br>
-From Orders <br>
-Where Item like "%Cat Food%" <br>
-Group by Customer_ID <br>
-) <br>
-Select Customer_name, TOTAL_PRICE <br>
-From Customers c <br>
-Inner JOIN cat_food f <br>
-  ON c.Customer_ID = f.Customer_ID <br>
-where c.Customer_ID in (Select Customer_ID from cat_food);
+  <pre>
+with cat_food as (
+Select Customer_ID, SUM(Price) as TOTAL_PRICE
+From Orders
+Where Item like "%Cat Food%"
+Group by Customer_ID)
+Select Customer_name, TOTAL_PRICE
+From Customers c
+Inner JOIN cat_food f
+  ON c.Customer_ID = f.Customer_ID
+where c.Customer_ID in (Select Customer_ID from cat_food)
 
 Although this was a simple statement, the "with" clause really shines when 
 a complex query needs to be run on a table before joining to another. With statements are nice, 
@@ -4870,11 +5682,11 @@ because you create a pseudo temp when running your query, instead of creating a 
 
 The Sum of all the purchases of cat food weren't readily available, so we used a with statement to create
 the pseudo table to retrieve the sum of the prices spent by each customer, then join the table normally.
-                    </pre>
+  </pre>
                     </code>
-                    </div>
+  </div>
 
-<h3 id=azure>Azure</h3>
+<h3 id="azure">Azure</h3>
 
 <a name="azure-beginner"></a>
 <h5>Beginner</h5>
@@ -4919,7 +5731,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
                     </div>
 
 
-<h3 id=gcp>GCP</h3>
+<h3 id="gcp">GCP</h3>
 
 <a name="gcp-beginner"></a>
 <h5>Beginner</h5>
@@ -4964,7 +5776,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
                     </div>
 
 
-<h3 id=openstack>OpenStack</h3>
+<h3 id="openstack">OpenStack</h3>
 
 <a name="openstack-beginner"></a>
 <h5>Beginner</h5>
@@ -4996,7 +5808,8 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
   * Neutron
   * Cinder
   * Glance
-  * Keystone</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * Keystone
+ </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -5006,7 +5819,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 
 
 <br><h5>Question</h5>
-<summmary>Describe in detail how you bring up an instance with an IP you can reach from outside the cloud</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">Describe in detail how you bring up an instance with an IP you can reach from outside the cloud</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -5140,8 +5953,6 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 <a name="openstack-advanced"></a>
 <h5>Advanced</h5>
 
-<h3 id=networking>Networking</h3>
-
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain BGP dynamic routing</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
@@ -5152,7 +5963,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
                     </div>
 
 
-<h3 id=security>Security</h3>
+<h3 id="security">Security</h3>
 
 <a name="security-beginner"></a>
 <h5>Beginner</h5>
@@ -5203,7 +6014,8 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
   * Vulnerability
   * Exploits
   * Risk
-  * Threat</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * Threat
+ </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -5534,7 +6346,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 
 
 
-<h3 id=puppet>Puppet</h3>
+<h3 id="puppet">Puppet</h3>
 
 <a name="puppet-beginner"></a>
 <h5>Beginner</h5>
@@ -5577,7 +6389,8 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 
   * Module
   * Manifest
-  * Node</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  * Node
+ </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -5661,7 +6474,8 @@ Although the following questions are not DevOps related, they are still quite co
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Why do you want to work here?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">Why do you want to work here?
+</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -5669,22 +6483,7 @@ Although the following questions are not DevOps related, they are still quite co
                     </code>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
-            </div>
+          </div>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12643045-7"></script>
     <script>
