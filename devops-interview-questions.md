@@ -1498,7 +1498,7 @@ TCP establishes a connection between the client and the server to guarantee the 
 You can use the commands <code>cron</code> and <code>at</code>.
 With cron, tasks are scheduled using the following format:
 
-<minute> <hour> <day of month> <month> <day of week> <command to execute>
+minute hour day of month month day of week command to execute
 
 The tasks are stored in a cron file.
                     </pre>
@@ -1941,7 +1941,7 @@ execution or run forever
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">What signal is used when you run 'kill <process id>'?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+<div class="bs-example dob-question">What signal is used when you run 'kill \<process id\>'?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
@@ -1971,14 +1971,32 @@ To view all available signals run `kill -l`
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a trap?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What happens when you press ctrl + c?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are daemons?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -1989,34 +2007,79 @@ Waiting
 Stopped
 Terminated
 Zombie
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a zombie process? How do you get rid of it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the init process?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to change the priority of a process? Why would you want to do that?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
-<div class="bs-example dob-question">Can you explain how network process/connection is established and how it's terminated?><br></b>
+<div class="bs-example dob-question">Can you explain how network process/connection is established and how it's terminated?></div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are system calls? What system calls are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What <code>strace</code> does?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Find all the files which end with '.yml' and replace the number 1 in 2 in each file</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 ind /some_dir -iname \*.yml -print0 | xargs -0 -r sed -i "s/1/2/g"
 
@@ -2025,16 +2088,28 @@ ind /some_dir -iname \*.yml -print0 | xargs -0 -r sed -i "s/1/2/g"
 <div class="bs-example dob-question">How to check how much free memory a system has? How to check memory consumption by each process?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
 
 You can use the commands <code>top</code> and <code>free</code>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How would you split a 50 lines file into 2 files of 25 lines each?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 You can use the <code>split</code> command this way: <code>split -l 25 some_file</code>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a file descriptor? What file descriptors are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Kerberos
 File descriptor, also known as file handler, is a unique number which identifies an open file in the operating system.
 
@@ -2044,55 +2119,122 @@ In Linux (and Unix) the first three file descriptors are:
   * 2 - the default data stream for output related to errors
 
 This is a great article on the topic: https://www.computerhope.com/jargon/f/file-descriptor.htm
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What's an inode?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 For each file (and directory) in Linux there is an inode, a data structure which stores meta data
 related to the file like its size, owner, permissions, etc.
-
+                    </pre>
+                    </code>
+                    </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to list active connections?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is NTP? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Kernel OOM</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is SELiunx?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Kerberos?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is nftables?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What firewalld daemon is responsible for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
-##### Network
+<h3 id=network>Network</h3>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a network namespace? What is it used for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How can you turn your Linux server into a router?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a virtual IP? In what situation would you use it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2102,89 +2244,202 @@ related to the file like its size, owner, permissions, etc.
   * HTTP
   * DNS
   * HTTPS</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the routing table? How do you view it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are packet sniffers? Have you used one in the past? If yes, which packet sniffers have you used and for what purpose?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### DNS
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is DNS? Why do we need it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What the file <code>/etc/resolv.conf</code> is used for? What does it include?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a "A record"?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a PTR record?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 While an A record points a domain name to an IP address, a PTR record does the opposite and resolves the IP address to a domain name.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a MX record?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Is DNS using TCP or UDP?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Packaging
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Do you have experience with packaging? Can you explain how it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">RPM: explain the spec format(what it should and can include)</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you list the content of a package without actually installing it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Applications and Services
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a load balancer?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button> 
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What load balancer algorithms are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a proxy?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button> 
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a reverse proxy?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button> 
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What can you find in /etc/services</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You run <code>ssh 127.0.0.1</code> but it fails with "connection refused". What could be the problem?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 1. SSH server is not installed
 2. SSH server is not running
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to print the shared libraries required by a certain program? What is it useful for?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="linux-advanced"></a>
@@ -2192,10 +2447,22 @@ While an A record points a domain name to an IP address, a PTR record does the o
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What happens when you execute <code>ls</code>?. Provide a detailed answer</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Can you describe how processes are being created?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2206,77 +2473,161 @@ open("/my/file") = 5
 read(5, "file content")
 ```
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 These system calls are reading the file <code>/my/file</code> and 5 is the file descriptor number.
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between a process and a thread?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 ##### Network
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">When you run <code>ip a</code> you see there is a device called 'lo'. What is it and why do we need it?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What <code>traceroute</code> command does? How it works?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is network bonding? What types are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to link two separate network namespaces so you can ping an interface on one namespace from the second one?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are cgroups? In what scenario would you use them?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to create a file of a certain size?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 There are a couple of ways to do that:
   
   * dd if=/dev/urandom of=new_file.txt bs=2MB count=1
   * truncate -s 2M new_file.txt
   * fallocate -l 2097152 new_file.txt
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are the differences between the following system calls?: exec(), fork(), vfork() and clone()?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Process Descriptor and Task Structure</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are the differences between threads and processes?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Kernel Threads</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What happens when socket system call is used?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 This is a good article about the topic: https://ops.tips/blog/how-linux-creates-sockets
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You executed a script and while still running, it got accidentally removed. Is it possible to restore the script while it's still running?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 
-## Ansible
+<h3 id=ansible>Ansible</h3>
 
 <a name="ansible-beginner"></a>
-#### :baby: Beginner
+<h5>Beginner</h5>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Describe each of the following components in Ansible, including the relationship between them:
@@ -2286,7 +2637,9 @@ This is a good article about the topic: https://ops.tips/blog/how-linux-creates-
   * Play
   * Playbook
   * Role</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 Task – a call to a specific Ansible module
 Module – the actual unit of code executed by Ansible on your own host or a remote host. Modules are indexed by category (database, file, network, …) and also referred as task plugins.
 
@@ -2295,15 +2648,26 @@ Play – One or more tasks executed on a given host(s)
 Playbook – One or more plays. Each play can be executed on the same or different hosts
 
 Role – Ansible roles allows you to group resources based on certain functionality/service such that they can be easily reused. In a role, you have directories for variables, defaults, files, templates, handlers, tasks, and metadata. You can then use the role by simply specifying it in your playbook.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Which Ansible best practices are you familiar with?. Name at least three</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is an inventory file and how you define one?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 An inventory file defines hosts and/or groups of hosts on which Ansible tasks executed upon.
 
 An example of inventory file:
@@ -2316,23 +2680,40 @@ An example of inventory file:
 190.40.2.20
 190.40.2.21
 190.40.2.22
-
+                    </pre>
+                    </code>
+                    </div>
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is a dynamic inventory file? When you would use one?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button><br><br>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 A dynamic inventory file tracks hosts from one or more sources like cloud providers and CMDB systems.
 
 You should use one when using external sources and especially when the hosts in your environment are being automatically<br>
 spun up and shut down, without you tracking every change in these sources.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You want to run Ansible playbook only on specific minor version of your OS, how would you achieve that?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a task to create the directory ‘/tmp/new_directory’</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 ```
 - name: Create a new directory
@@ -2340,10 +2721,16 @@ spun up and shut down, without you tracking every change in these sources.
       path: "/tmp/new_directory"
       state: directory
 ```
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What would be the result of the following play?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 ```
 ---
@@ -2357,10 +2744,16 @@ spun up and shut down, without you tracking every change in these sources.
 ```
 
 When given a written code, always inspect it thoroughly. If your answer is “this will fail” then you are right. We are using a fact (ansible_hostname), which is a gathered piece of information from the host we are running on. But in this case, we disabled facts gathering (gather_facts: no) so the variable would be undefined which will result in failure.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a playbook to install ‘zlib’ and ‘vim’ on all hosts if the file ‘/tmp/mario’ exists on the system.</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 ```
 ---
@@ -2384,10 +2777,16 @@ When given a written code, always inspect it thoroughly. If your answer is “th
         with_items: "{{ package_list }}"
         when: mario_f.stat.exists
 ```
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Write a playbook to deploy the file ‘/tmp/system_info’ on all hosts except for controllers group, with the following content</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
   ```
   I'm <HOSTNAME> and my operating system is <OS>
@@ -2414,6 +2813,9 @@ The content of the system_info.j2 template
 # \{\{ ansible_managed \}\}
 I'm \{\{ ansible_hostname \}\} and my operating system is \{\{ ansible_distribution \}\}
 ```
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -2425,6 +2827,9 @@ I'm \{\{ ansible_hostname \}\} and my operating system is \{\{ ansible_distribut
   * inventory variables (doesn’t matter which type) -> whoami: browser
 
 According to variable precedence, which one will be used?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The right answer is ‘toad’.
 
@@ -2433,6 +2838,9 @@ Variable precedence is about how variables override each other when they set in 
 In the context of our question, the order will be extra vars (always override any other variable) -> host facts -> inventory variables -> role defaults (the weakest).
 
 A full list can be found at the link above. Also, note there is a significant difference between Ansible 1.x and 2.x.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
@@ -3738,40 +4146,61 @@ This answer taken from [git-scm.com](https://git-scm.com/book/en/v1/Getting-Star
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How to resolve git merge conflicts?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-<p>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 First, you open the files which are in conflict and identify what are the conflicts.
 Next, based on what is accepted in your company or team, you either discuss with your
 colleagues on the conflicts or resolve them by yourself
 After resolving the conflicts, you add the files with `git add <file_name>`
 Finally, you run `git rebase --continue`
-</p>
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between <code>git reset</code> and <code>git revert</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
-
-<p>
-
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 `git revert` creates a new commit which undoes the changes from last commit.
 
 `git reset` depends on the usage, can modify the index or change the commit which the branch head
 is currently pointing at.
-</p>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">You would like to move forth commit to the top. How would you achieve that?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Using <code>git rebase></code> command
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">In what situations are you using <code>git rebase</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What merge strategies are you familiar with?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Mentioning two or three should be enough and it's probably good to mention that 'recursive' is the default one.
 
@@ -3781,31 +4210,58 @@ ours
 theirs
 
 This page explains it the best: https://git-scm.com/docs/merge-strategies
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How can you see which changes have done before committing them?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 <code>git diff</code>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">How do you revert a specific file to previous commit?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 ```
 git checkout HEAD~1 -- /path/of/the/file
 ```
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the <code>.git</code> directory? What can you find there?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are some Git anti-patterns? Things that you shouldn't do</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
   * Not waiting to long between commits
   * Not removing the .git directory :)
+                    </pre>
+                    </code>
+                    </div>
 
 
 <a name="git-advanced"></a>
@@ -3813,6 +4269,9 @@ git checkout HEAD~1 -- /path/of/the/file
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">Explain Git octopus merge</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 Probably good to mention that it's:
 
@@ -3820,6 +4279,9 @@ Probably good to mention that it's:
   * It's primarily meant for bundling topic branches together 
 
 This is a great article about Octopus merge: http://www.freblogg.com/2016/12/git-octopus-merge.html
+                    </pre>
+                    </code>
+                    </div>
 
 
 ## Go
@@ -3829,6 +4291,9 @@ This is a great article about Octopus merge: http://www.freblogg.com/2016/12/git
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What are some characteristics of the Go programming language?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
   * Strong and static typing - the type of the variables can't be changed over time and they have to be defined at compile time
   * Simplicity 
@@ -3839,20 +4304,35 @@ This is a great article about Octopus merge: http://www.freblogg.com/2016/12/git
   * Compile to standalone binary - anything you need to run your app will be compiled into one binary. Very useful for version management in run-time. 
 
 Go also has good community.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is the difference between <code>var x int = 2</code> and <code>x := 2</code>?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 The result is the same, a variable with the value 2.
 
 With <code>var x int = 2</code> we are setting the variable type to integer while with <code>x := 2</code> we are letting Go figure out by itself the type.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
 <div class="bs-example dob-question">True or False? In Go we can redeclare variables and once declared we must use it.</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
 
 False. We can't redeclare variables but yes, we must used declared variables.
+                    </pre>
+                    </code>
+                    </div>
 
 
 <br><h5>Question</h5>
