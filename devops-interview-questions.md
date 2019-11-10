@@ -15,53 +15,457 @@
 
 <body>
 
+
         <div class="container">
           <h2>DevOps Interview Questions</h2>
         </div>
-
-<center>
-        <div class="container">
-<table>
-  <tr>
-    <td align="center"><a href="#devops"><img src="/assets/images/devops.png" width="75px;" height="75px;" alt="DevOps" /><br /><b>DevOps</b></a><br /><sub><a href="#devops-beginner">Beginner :baby:</a></sub><br><sub><a href="#devops-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#jenkins"><img src="/assets/images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a><br /><sub><a href="#jenkins-beginner">Beginner :baby:</a></sub><br><sub><a href="#jenkins-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#git"><img src="/assets/images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br /><sub><a href="#git-beginner">Beginner :baby:</a></sub><br><sub><a href="#git-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#ansible"><img src="/assets/images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="#ansible-beginner">Beginner :baby:</a></sub><br><sub><a href="#ansible-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#Network"><img src="/assets/images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a><br /><sub><a href="#network-beginner">Beginner :baby:</a></sub><br><sub><a href="#network-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#linux"><img src="/assets/images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a><br /><sub><a href="#linux-beginner">Beginner :baby:</a></sub><br><sub><a href="#linux-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#terraform"><img src="/assets/images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a><br /><sub><a href="#terraform-beginner">Beginner :baby:</a></sub><br><sub><a href="#terraform-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#docker"><img src="/assets/images/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a><br /><sub><a href="#docker-beginner">Beginner :baby:</a></sub><br><sub><a href="#docker-advanced">Advanced :star:</a></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#coding"><img src="/assets/images/coding.png" width="75px;" height="75px;" alt="coding"/><br /><b>Coding</b></a><br /><sub><a href="#coding-beginner">Beginner :baby:</a></sub><br><sub><a href="#coding-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#python"><img src="/assets/images/python.png" width="80px;" height="75px;" alt="Python"/><br /><b>Python</b></a><br /><sub><a href="#python-beginner">Beginner :baby:</a></sub><br><sub><a href="#python-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#go"><img src="/assets/images/go.png" width="80px;" height="75px;" alt="Go"/><br /><b>Go</b></a><br /><sub><a href="#go-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#shell-scripting"><img src="/assets/images/bash.png" width="70px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a><br /><sub><a href="#shell-scripting-beginner">Beginner :baby:</a></sub><br><sub><a href="#shell-scripting-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#kubernetes"><img src="/assets/images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="#kubernetes-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#prometheus"><img src="/assets/images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="#prometheus-beginner">Beginner :baby:</a></sub><br><sub><a href="#prometheus-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#mongo"><img src="/assets/images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a><br /><sub><a href="#mongo-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#sql"><img src="/assets/images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a><br /><sub><a href="#sql-beginner">Beginner :baby:</a></sub><br><sub><a href="#sql-advanced">Advanced :star:</a></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#cloud"><img src="/assets/images/cloud.png" width="110px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a><br /><sub><a href="#cloud-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#aws"><img src="/assets/images/aws.png" width="110px;" height="75px;" alt="AWS"/><br /><b>AWS</b></a><br /><sub><a href="#aws-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#azure"><img src="/assets/images/azure.png" width="80px;" height="75px;" alt="azure"/><br /><b>Azure</b></a><br /><sub><a href="#azure-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#gcp"><img src="/assets/images/gcp.png" width="75px;" height="75px;" alt="gcp"/><br /><b>Google Cloud Platform</b></a><br /><sub><a href="#gcp-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#openstack"><img src="/assets/images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a><br /><sub><a href="#openstack-beginner">Beginner :baby:</a></sub><br><sub><a href="#openstack-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#security"><img src="/assets/images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a><br /><sub><a href="#security-beginner">Beginner :baby:</a></sub><br><sub><a href="#security-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#puppet"><img src="/assets/images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a><br /><sub><a href="#puppet-beginner">Beginner :baby:</a></sub><br><sub><a href="#puppet-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#openshift"><img src="/assets/images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a><br /><sub><a href="#openshift-beginner">Beginner :baby:</a></sub></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#monitoring"><img src="/assets/images/monitoring.png" width="75px;" height="75px;" alt="Monitoring"/><br /><b>Monitoring</b></a><br /><sub><a href="#monitoring-beginner">Beginner :baby:</a></sub></td>
-    <td align="center"><a href="#general"><img src="/assets/images/general.png" width="110px;" height="75px;" alt="General"/><br /><b>General</b></a></td>
-  </tr>
-</table>
-</div>
-</center>
+        <br>
 
     <div class="container bs-docs-container">
+
                     
+<div class="row">
+
+<a href="#devops">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#devops" style="text-decoration: none">
+      <h6>
+        <div class="card-header">DevOps</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/devops.png" width="75px;" height="75px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#jenkins">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#jenkins" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Jenkins</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/jenkins.png" width="55px;" height="55px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#git">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Git</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/git.png" width="75px;" height="75px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#ansible">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#ansible" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Ansible</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/ansible.png" width="75px;" height="75px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#network">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#network" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Network</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/network.png" width="75px;" height="75px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#linux">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#linux" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Linux</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/linux.png" width="75px;" height="75px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+</div>
+
+<br>
+<div class="row">
+
+<a href="#terraform">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#terraform" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Terraform</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/terraform.png" width="75px;" height="75px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#docker">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#docker" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Docker</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/docker.png" width="95px;" height="95px;" alt="DevOps" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#coding">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#coding" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Coding</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/coding.png" width="75px;" height="75px;" alt="coding" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#python">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#python" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Python</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/python.png" width="75px;" height="75px;" alt="python" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#go">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#go" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Go</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/go.png" width="85px;" height="85px;" alt="go" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#mongo">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#mongo" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Mongo</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/mongo.png" width="75px;" height="75px;" alt="mongo" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+</div>
+<br>
+<div class="row">
+
+<a href="#kubernetes">
+<div class="col-md-3">
+  <div class="card text-center">
+    <a href="#kubernetes" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Kubernetes</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+
+<a href="#prometheus">
+<div class="col-md-3">
+  <div class="card text-center">
+    <a href="#prometheus" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Prometheus</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/prometheus.png" width="75px;" height="75px;" alt="Prometheus" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#shell-scripting">
+<div class="col-md-3">
+  <div class="card text-center">
+    <a href="#shell-scripting" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Shell Scripting</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/bash.png" width="75px;" height="75px;" alt="shell-scripting" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#monitoring">
+<div class="col-md-3">
+  <div class="card text-center">
+    <a href="#monitoring" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Monitoring</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/monitoring.png" width="75px;" height="75px;" alt="monitoring" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+</div>
+<br>
+<div class="row">
+
+
+<a href="#sql">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#sql" style="text-decoration: none">
+      <h6>
+        <div class="card-header">SQL</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/sql.png" width="85px;" height="85px;" alt="sql" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#cloud">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#cloud" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Cloud</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/cloud.png" width="85px;" height="85px;" alt="cloud" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#aws">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#aws" style="text-decoration: none">
+      <h6>
+        <div class="card-header">AWS</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/aws.png" width="100px;" height="100px;" alt="aws" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#azure">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#azure" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Azure</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/azure.png" width="100px;" height="100px;" alt="azure" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#gcp">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#gcp" style="text-decoration: none">
+      <h6>
+        <div class="card-header">GCP</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/gcp.png" width="85px;" height="85px;" alt="gcp" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#openstack">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#gcp" style="text-decoration: none">
+      <h6>
+        <div class="card-header">openstack</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/openstack.png" width="85px;" height="85px;" alt="openstack" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+</div>
+<br>
+<div class="row">
+
+
+<a href="#security">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#security" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Security</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/security.png" width="85px;" height="85px;" alt="security" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#openshift">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#openshift" style="text-decoration: none">
+      <h6>
+        <div class="card-header">OpenShift</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/openshift.png" width="85px;" height="85px;" alt="openshift" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+<a href="#puppet">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#puppet" style="text-decoration: none">
+      <h6>
+        <div class="card-header">Puppet</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/puppet.png" width="85px;" height="85px;" alt="puppet" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+<a href="#general">
+<div class="col-md-2">
+  <div class="card text-center">
+    <a href="#general" style="text-decoration: none">
+      <h6>
+        <div class="card-header">General</div>
+      </h6>
+      <div class="card-pf-top-element text-center">
+        <img src="/assets/images/general.png" width="85px;" height="85px;" alt="general" />
+      </div>
+    </a>
+  </div>
+</div>
+</a>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
                     <br>
                     <h3 id="devops">DevOps</h3>
 
