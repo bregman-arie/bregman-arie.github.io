@@ -19,7 +19,7 @@
         {% if f.image_path %}
           <div class="archive__item-teaser">
              <a href="{{ f.url }}">
-            <img src=
+            <img height="265" width="398" src=
               {% if f.image_path contains "://" %}
                 "{{ f.image_path }}"
               {% else %}

@@ -28,93 +28,63 @@
 
 <a href="#devops">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#devops" style="text-decoration: none">
       <h6>
         <div class="card-header">DevOps</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/devops.png" width="75px;" height="75px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#jenkins">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#jenkins" style="text-decoration: none">
       <h6>
         <div class="card-header">Jenkins</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/jenkins.png" width="55px;" height="55px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#git">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="git" style="text-decoration: none">
       <h6>
         <div class="card-header">Git</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/git.png" width="75px;" height="75px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#ansible">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#ansible" style="text-decoration: none">
       <h6>
         <div class="card-header">Ansible</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/ansible.png" width="75px;" height="75px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#network">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#network" style="text-decoration: none">
       <h6>
         <div class="card-header">Network</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/network.png" width="75px;" height="75px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#linux">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#linux" style="text-decoration: none">
       <h6>
         <div class="card-header">Linux</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/linux.png" width="75px;" height="75px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -125,62 +95,42 @@
 
 <a href="#terraform">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#terraform" style="text-decoration: none">
       <h6>
         <div class="card-header">Terraform</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/terraform.png" width="75px;" height="75px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#docker">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#docker" style="text-decoration: none">
       <h6>
         <div class="card-header">Docker</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/docker.png" width="95px;" height="95px;" alt="DevOps" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#coding">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#coding" style="text-decoration: none">
       <h6>
         <div class="card-header">Coding</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/coding.png" width="75px;" height="75px;" alt="coding" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#python">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#python" style="text-decoration: none">
       <h6>
         <div class="card-header">Python</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/python.png" width="75px;" height="75px;" alt="python" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -198,16 +148,11 @@
 
 <a href="#mongo">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#mongo" style="text-decoration: none">
       <h6>
         <div class="card-header">Mongo</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/mongo.png" width="75px;" height="75px;" alt="mongo" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -217,16 +162,11 @@
 
 <a href="#kubernetes">
 <div class="col-md-3">
-  <div class="card text-center">
     <a href="#kubernetes" style="text-decoration: none">
       <h6>
         <div class="card-header">Kubernetes</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -234,48 +174,33 @@
 
 <a href="#prometheus">
 <div class="col-md-3">
-  <div class="card text-center">
     <a href="#prometheus" style="text-decoration: none">
       <h6>
         <div class="card-header">Prometheus</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/prometheus.png" width="75px;" height="75px;" alt="Prometheus" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#shell-scripting">
 <div class="col-md-3">
-  <div class="card text-center">
     <a href="#shell-scripting" style="text-decoration: none">
       <h6>
         <div class="card-header">Shell Scripting</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/bash.png" width="75px;" height="75px;" alt="shell-scripting" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#monitoring">
 <div class="col-md-3">
-  <div class="card text-center">
     <a href="#monitoring" style="text-decoration: none">
       <h6>
         <div class="card-header">Monitoring</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/monitoring.png" width="75px;" height="75px;" alt="monitoring" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -287,32 +212,22 @@
 
 <a href="#sql">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#sql" style="text-decoration: none">
       <h6>
         <div class="card-header">SQL</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/sql.png" width="85px;" height="85px;" alt="sql" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#cloud">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#cloud" style="text-decoration: none">
       <h6>
         <div class="card-header">Cloud</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/cloud.png" width="85px;" height="85px;" alt="cloud" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -351,16 +266,11 @@
 
 <a href="#openstack">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#gcp" style="text-decoration: none">
       <h6>
         <div class="card-header">openstack</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/openstack.png" width="85px;" height="85px;" alt="openstack" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -372,62 +282,42 @@
 
 <a href="#security">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#security" style="text-decoration: none">
       <h6>
         <div class="card-header">Security</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/security.png" width="85px;" height="85px;" alt="security" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#openshift">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#openshift" style="text-decoration: none">
       <h6>
         <div class="card-header">OpenShift</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/openshift.png" width="85px;" height="85px;" alt="openshift" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 <a href="#puppet">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#puppet" style="text-decoration: none">
       <h6>
         <div class="card-header">Puppet</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/puppet.png" width="85px;" height="85px;" alt="puppet" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#general">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#general" style="text-decoration: none">
       <h6>
         <div class="card-header">General</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/general.png" width="85px;" height="85px;" alt="general" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -6866,20 +6756,6 @@ Although the following questions are not DevOps related, they are still quite co
                     </pre>
                     </code>
                     </div>
-
-<br><br><br>
-<h5>Logo Credits</h5>
-<br>
-Jenkins logo created by <a href='https://twitter.com/ks_nenasheva'>Ksenia Nenasheva</a> and published through <a href="https://jenkins.io">jenkins.io</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">cc by-sa 3.0</a><br>
-Git Logo by <a href="https://twitter.com/jasonlong">Jason Long</a> is licensed under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a><br>
-Terraform logo created by <a href="https://www.hashicorp.com">Hashicorp®</a><br>
-Docker logo created by <a href="https://www.docker.com">Docker®</a><br>
-The Python logo is a trademark of the Python Software Foundation®<br>
-Puppet logo created by <a href="https://puppet.com">Puppet®</a><br>
-Bash logo created by Prospect One<br>
-OpenStack logo created by and a trademark of The <a href="https://www.openstack.org">OpenStack Foundation®</a><br>
-Linux, Kubernetes and Prometheus logos are trademarks of The Linux Foundation®<br>
-Mongo logo is a trademark of <a href="www.mongodb.com">Mongo®</a><br>
 
           </div>
 
