@@ -187,16 +187,11 @@
 
 <a href="#go">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#go" style="text-decoration: none">
       <h6>
         <div class="card-header">Go</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/go.png" width="85px;" height="85px;" alt="go" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -324,48 +319,33 @@
 
 <a href="#aws">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#aws" style="text-decoration: none">
       <h6>
         <div class="card-header">AWS</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/aws.png" width="100px;" height="100px;" alt="aws" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#azure">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#azure" style="text-decoration: none">
       <h6>
         <div class="card-header">Azure</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/azure.png" width="100px;" height="100px;" alt="azure" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
 
 <a href="#gcp">
 <div class="col-md-2">
-  <div class="card text-center">
     <a href="#gcp" style="text-decoration: none">
       <h6>
         <div class="card-header">GCP</div>
       </h6>
-      <div class="card-pf-top-element text-center">
-        <img src="/assets/images/gcp.png" width="85px;" height="85px;" alt="gcp" />
-      </div>
     </a>
-  </div>
 </div>
 </a>
 
@@ -6887,6 +6867,20 @@ Although the following questions are not DevOps related, they are still quite co
                     </code>
                     </div>
 
+<br><br><br>
+<h5>Logo Credits</h5>
+<br>
+Jenkins logo created by <a href='https://twitter.com/ks_nenasheva'>Ksenia Nenasheva</a> and published through <a href="https://jenkins.io">jenkins.io</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">cc by-sa 3.0</a><br>
+Git Logo by <a href="https://twitter.com/jasonlong">Jason Long</a> is licensed under the <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a><br>
+Terraform logo created by <a href="https://www.hashicorp.com">Hashicorp®</a><br>
+Docker logo created by <a href="https://www.docker.com">Docker®</a><br>
+The Python logo is a trademark of the Python Software Foundation®<br>
+Puppet logo created by <a href="https://puppet.com">Puppet®</a><br>
+Bash logo created by Prospect One<br>
+OpenStack logo created by and a trademark of The <a href="https://www.openstack.org">OpenStack Foundation®</a><br>
+Linux, Kubernetes and Prometheus logos are trademarks of The Linux Foundation®<br>
+Mongo logo is a trademark of <a href="www.mongodb.com">Mongo®</a><br>
+
           </div>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12643045-7"></script>
@@ -6898,4 +6892,5 @@ Although the following questions are not DevOps related, they are still quite co
     gtag('config', 'UA-12643045-7');
     </script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
 </body>
