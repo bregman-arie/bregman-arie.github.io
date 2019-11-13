@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Python: remvoe duplicates from a sorted list"
+title:  "Python: remove duplicates from a sorted list"
 date:   2019-11-12 
 categories: python
 toc: true
@@ -54,8 +54,8 @@ In the previous solution we used a new list. Let's see how to achieve the same r
 {% highlight python %}
 
 i = 0
-while i < len() - 1:
-    if list1[i]  == list1[i+1]:
+while i < len(list1) - 1:
+    if list1[i] == list1[i+1]:
         del list1[i]
     else:
         i = i + 1
