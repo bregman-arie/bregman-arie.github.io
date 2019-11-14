@@ -20,7 +20,7 @@ Describe each of the following components in Ansible, including the relationship
 ### Answer
 
 Task – a call to a specific Ansible module
-Module – the actual unit of code executed by Ansible on your own host or a remote host. Modules are indexed by category (database, file, network, …) and also referred as task plugins.
+Module – the actual unit of code executed by Ansible on your own host or a remote host. Modules are indexed by category (database, file, network, …) and also referred to as task plugins.
 
 Play – One or more tasks executed on a given host(s)
 
@@ -37,7 +37,7 @@ Write a task to create the directory ‘/tmp/new_directory’
 
 ### Answer
 
-Very basic question, but indicates how you work with Ansible. Many will answer this question by using the shell or command modules. It doesn’t necessarily bad, but the best practice is always to use an explicit Ansible module (in our case, the ‘file’ module).
+A very basic question, but indicates how you work with Ansible. Many will answer this question by using the shell or command modules. It doesn’t necessarily bad, but the best practice is always to use an explicit Ansible module (in our case, the ‘file’ module).
 
 Why? Mainly due to readability. Some actions execute differently on different operating systems, but the module use is always the same and any Ansible user will know what you meant when reading the task (especially if it’s a long shell command).
 
@@ -76,7 +76,7 @@ When given a written code, always inspect it thoroughly. If your answer is “th
 
 The purpose of this question is to check if you know what is a fact but also whether you are paying attention to the small details.
 
-A similar/follow-up questions can be:
+Similar/follow-up questions can be:
 
 * How to list all facts available?
 * How to set a fact of your own?
