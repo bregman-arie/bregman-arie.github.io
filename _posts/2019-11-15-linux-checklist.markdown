@@ -7,7 +7,7 @@ toc: true
 toc_label: "topics"
 ---
 
-## File System Hierarchy
+### File System Hierarchy
 
 - [ ] `/` (aka root)
 - [ ] `/bin` and `/sbin`
@@ -26,7 +26,7 @@ toc_label: "topics"
   - [ ] What type of files can you find in '/var'?
   - [ ] What is unique about `/tmp`?
 
-## Navigation
+### Navigation
 
 - [ ] Commands
   - [ ] `pwd` - where am I?
@@ -39,7 +39,7 @@ toc_label: "topics"
   - [ ] What would be the effect of running `cd .`?
   - [ ] What will happen when running 'cd -'?
 
-## Files
+### Files
 
 - [ ] Types of files
   - [ ] Regular
@@ -75,13 +75,13 @@ toc_label: "topics"
   - [ ] How to rename a file?
   - [ ] How to copy an entire directory with all its files?
 
-## Commands
+### Commands
 
 - [ ] `man` - manual for commands
 - [ ] `which` - get full path for given command
 - [ ] `whatis` - one-line manual page descriptions
 
-## I/O redirection
+### I/O redirection
   - [ ] File Descriptor
     - [ ] stdin 0 (input) <
     - [ ] stdout 1 (output) >
@@ -92,7 +92,7 @@ toc_label: "topics"
   - [ ] How to redirect output?
   - [ ] What would be the result of the following command `blop 2> file`?
 
-## Text Editor
+### Text Editor
 
 Learning how to use one of them is more than enough
 
@@ -111,33 +111,113 @@ Learning how to use one of them is more than enough
   - [ ] How to remove one word
   - [ ] How to jump to the end of the file
 
-## Users
+### Users
+
+- [ ] Types of users
+  - [ ] regular
+  - [ ] root
 
 - [ ] Commands
   - [ ] `useradd` - add users
   - [ ] `usermod` - modify users
   - [ ] `userdel` - delete users
   - [ ] `who` - show who is logged on
-  - [ ] `lastlog`
+  - [ ] `lastlog` - recent login of users
+
+- [ ] Files
+  - [ ] `/etc/passwd` - stores users information
+  - [ ] `/etc/shadow` - passwords
 
 - [ ] Test
   - [ ] how to add a new user?
   - [ ] should you be using your user or root?
 
-## Network
+### Network
 
-- [ ] netstat
+- [ ] Commands
+  - [ ] `ping` - test the reachability of a host
+    - [ ] `-c` for number of packets
+  - [ ] `ip` - manage routing, network devices, interfaces and tunnels
+    - [ ] `ip a` for interfaces 
+    - [ ] `ip r` for routing
+    - [ ] `ip neigh` for any ARP related operation
+  - [ ] `ethtool` - query and manipulate driver and hardware settings
+    - [ ] `-p` for interface led blinking
+    - [ ] `-t` for running tests to check your network interface
+    - [ ] `-S` for getting statistics
+  - [ ] `arp`- manipulate the system ARP cache
+  - [ ] `dhclient`- DHCP client
+  - [ ] `netstat` - display network connections
+    - [ ] `-n` for IP addresses instead of hostnames
+    - [ ] `-t` to show only TCP connections
+    - [ ] `-p` to show the PID of the program
+    - [ ] `-l` to show only listening sockets
+  - [ ] `lsof` - list open files
+    - [ ] `-i` for sockets
+  - [ ] `traceroute` - print the route packets trace to network host
+  - [ ] `mtr` - network diagnostic tool (traceroute + ping)
 
-## Monitoring and performence commands
+- [ ] Files
+  - [ ] `/proc/net/dev` - network interfaces list
+  - [ ] `/pro/net/arp` - ARP table
+  - [ ] `/etc/sysconfig/network-scripts/*` - network configuration files in RHEL based OSs 
+  - [ ] `/etc/network/interfaces` - network configuration files in Ubuntu
 
-- [ ] top
-- [ ] stat
+- [ ] Types of interfaces
+  - [ ] Regular
+  - [ ] Dummy
+  - [ ] Virtual IP
+  - [ ] Veth
 
-## Processes
+- [ ] Bonding
+  - [ ] Modes
+  - [ ] How to activate
 
-- [ ] Running in ackground (&)
+- [ ] Network Namespaces
+  - [ ] `ip netns`
+    - [ ] `ip netns add` for adding namespaces
+    - [ ] `ip netns list` for listing namespaces
+    - [ ] `ip netns del` for removing namespaces
+    - [ ] `ip netns exec` for executing commands inside a network namespace
 
-## Archives
+- [ ] Network Kernel Parameters
+  - [ ] `sysctl net.*`
+  - [ ] `/proc/sys/net/*`
+
+- [ ] Packet Sniffers (one is enough)
+  - [ ] `tcpdump`
+  - [ ] `wireshark`
+  - [ ] `dhcpdump`
+  - [ ] `httpry`
+
+- [ ] Test
+  - [ ] How to list the interfaces in your system?
+  - [ ] How to display the routing table?
+  - [ ] How to change the MTU of an interface?
+
+### Debugging & Troubleshooting
+
+- [ ] CPU and Memory
+  - [ ] `top`
+  - [ ] `free`
+
+- [ ] Network Commands
+  - [ ] `netstat` - network connections
+  - [ ] `traceroute` - network connections
+
+- [ ] Filesystem
+  - [ ] `stat`
+
+### Processes
+
+- [ ] Process states
+- [ ] Running in background (&)
+
+### Archives
+
+- [ ] Commands
+  - [ ] tar
+  - [ ] zip
 
 - [ ] tar
 - [ ] zip
@@ -146,5 +226,12 @@ Learning how to use one of them is more than enough
 - [ ] list archive's content
 - [ ] remove an archive
 
-## Storage & Filesystem
+### Storage & Filesystem
 - [ ] inode
+
+### Hardware
+
+- [ ] Commands
+  - [ ] `lshw` - list hardware
+  - [ ] `lspci` - list all PCI devices
+  - [ ] `dmidecode` - DMI table decoder
