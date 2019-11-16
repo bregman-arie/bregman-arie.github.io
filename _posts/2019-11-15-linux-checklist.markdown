@@ -198,19 +198,29 @@ Learning how to use one of them is more than enough
 ### Debugging & Troubleshooting
 
 - [ ] CPU and Memory
-  - [ ] `top`
-  - [ ] `free`
+  - [ ] `top` - processes memory and cpu consumption
+  - [ ] `free` - amount of free and used memory
+    - [ ] `-g` for the amount of memory in gigabytes
+  - [ ] `vmstat` - virtual memory statistics
+  - [ ] `htop` - interactive process viewer
+  - [ ] `atop` - system and process monitor
+  - [ ] `/proc/meminfo`
 
 - [ ] Network Commands
   - [ ] `netstat` - network connections
   - [ ] `traceroute` - network connections
+  - [ ] `IPTraf` - IP LAN monitoring
+  - [ ] `iftop` - network bandwidth monitoring
 
-- [ ] Filesystem
-  - [ ] `stat`
+- [ ] Disk and Filesystem
+  - [ ] `stat` - file or file system status
+  - [ ] `iotop` - I/O monitor
+  - [ ] `iostat` - I/O statistics for devices and partitions
 
 ### Processes
 
-- [ ] Process states
+- [ ] States
+  - [ ] Running
 - [ ] Running in background (&)
 
 ### Archives
@@ -227,7 +237,16 @@ Learning how to use one of them is more than enough
 - [ ] remove an archive
 
 ### Storage & Filesystem
+
 - [ ] inode
+
+- [ ] Links
+  - [ ] soft link
+  - [ ] hard link
+
+- [ ] Test
+  - [ ] Can you create soft links between different file systems? what about hard links?
+  - [ ] What information inode stores?
 
 ### Hardware
 
