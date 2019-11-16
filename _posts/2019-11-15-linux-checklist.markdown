@@ -285,7 +285,11 @@ Learning how to use one of them is more than enough
 - [ ] Commands
   - [ ] `find` - search for files
   - [ ] `sort` - sort, merge, or sequence check text files
-  - [ ] `sort` - sort, merge, or sequence check text files
+  - [ ] `grep` - search files for characters that match a certain pattern
+    - [ ] `-R` for recursive search in all files under a certain directory
+    - [ ] `-i` for ignoring case sensitive
+  - [ ] `nl` - line numbering
+  - [ ] `uniq` - remove duplicates
 
 ### Storage & Filesystem
 
