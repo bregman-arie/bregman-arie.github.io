@@ -45,8 +45,10 @@ toc_label: "topics"
   - [ ] Regular
   - [ ] Directory
   - [ ] Socket
-  - [ ] Block
+  - [ ] Character Device
+  - [ ] Block Device
   - [ ] Link
+  - [ ] Named Pipe
 
 - [ ] Commands
   - [ ] `ls` - list files and directories
@@ -62,11 +64,11 @@ toc_label: "topics"
   - [ ] `mkdir` - create directories
     - [ ] `-p` - for creating multiple nested directories
   - [ ] `rmdir` - remove directories
-  - [ ] `echo` - display a line of text
   - [ ] `cat` - concatenate files (common usage: read a file)
   - [ ] `mv` - move files directories (also rename files and directories)
   - [ ] `cp` - copy a file
     - [ ] `-r` for recursive (copy a directory)
+  - [ ] `less` - display files on a page-by-page basis
 
 - [ ] Test
   - [ ] How to list hidden files?
@@ -75,18 +77,54 @@ toc_label: "topics"
   - [ ] How to rename a file?
   - [ ] How to copy an entire directory with all its files?
 
+### Pattern Matching
+
+This also known as File Globbing
+
+- [ ] Patterns
+  - [ ] `*` - matches zero or more of any character
+  - [ ] `?` - matches one of any character
+
 ### Commands
 
 - [ ] `man` - manual for commands
 - [ ] `which` - get full path for given command
 - [ ] `whatis` - one-line manual page descriptions
+- [ ] `history` - command history list
+  - [ ] use ![number line] to execute a command from the list
+
+### Random
+
+- [ ] Terminal
+  - [ ] `clear` - clear the terminal screen (ctrl+l can be also used)
+  - [ ] `ctrl+r`- history search of commands
+  - [ ] `exit` (or `logout`) - terminate a process, quit the shell
+
+- [ ] Commands
+  - [ ] `echo` - display a line of text
+  - [ ] `alias` - define or display command shortcuts/aliases
+  - [ ] `wc` - count lines, words, ...
+
+- [ ] Distributions
+  - [ ] Fedora
+  - [ ] Ubuntu
+  - [ ] RHEL, CentOS
+  - [ ] Mint
+  - [ ] Debian
+  - [ ] Arch Linux
+  - [ ] openSUSE
 
 ### I/O redirection
   - [ ] File Descriptor
-    - [ ] stdin 0 (input) <
-    - [ ] stdout 1 (output) >
-    - [ ] stderr 2 (error) 2>
+    - [ ] stdin 0 (standard input) <
+    - [ ] stdout 1 (standard output) >
+    - [ ] stderr 2 (standard error) 2>
   - [ ] Append >>
+
+  - [ ] Pipe
+    - [ ] For example: `cat file | wc -l` to count number of lines
+  - [ ] `tee`
+    - [ ] Writing output to two different streams
 
 - [ ] Test
   - [ ] How to redirect output?
@@ -213,7 +251,6 @@ Learning how to use one of them is more than enough
   - [ ] `iftop` - network bandwidth monitoring
 
 - [ ] Disk and Filesystem
-  - [ ] `stat` - file or file system status
   - [ ] `iotop` - I/O monitor
   - [ ] `iostat` - I/O statistics for devices and partitions
 
@@ -221,20 +258,34 @@ Learning how to use one of them is more than enough
 
 - [ ] States
   - [ ] Running
-- [ ] Running in background (&)
+  - [ ] Waiting
+  - [ ] Stopped
+  - [ ] Zombie
+
+- [ ] Files
+  - [ ] `/proc/[PID]`
+
+- [ ] Running in the background
+  - [ ] For example: `my_program &`
 
 ### Archives
 
 - [ ] Commands
   - [ ] tar
+  - [ ] gzip
   - [ ] zip
+  - [ ] unzip
 
-- [ ] tar
-- [ ] zip
-- [ ] commands
-- [ ] create an archive
-- [ ] list archive's content
-- [ ] remove an archive
+- [ ] Test
+  - [ ] How to create an archive?
+  - [ ] How to extract the content of an archive?
+
+### Files - Part 2
+
+- [ ] Commands
+  - [ ] `find` - search for files
+  - [ ] `sort` - sort, merge, or sequence check text files
+  - [ ] `sort` - sort, merge, or sequence check text files
 
 ### Storage & Filesystem
 
@@ -243,6 +294,15 @@ Learning how to use one of them is more than enough
 - [ ] Links
   - [ ] soft link
   - [ ] hard link
+
+- [ ] Commands
+  - [ ] `file` - determine file type
+  - [ ] `stat` - file or file system status
+
+- [ ] LVM
+  - [ ] pv
+  - [ ] vg
+  - [ ] lv
 
 - [ ] Test
   - [ ] Can you create soft links between different file systems? what about hard links?
