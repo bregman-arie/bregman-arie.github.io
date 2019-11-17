@@ -7,7 +7,7 @@ title                    : "DevOpsBit"
 title_separator          : "-"
 subtitle                 : ""
 name                     : "Arie Bregman"
-description              : "Flying DevOps Bits."
+description              : "Where DevOps Bits are made"
 url                      : "https://devopsbit.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bregman-arie/bregman-arie.github.io"
@@ -204,6 +204,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:

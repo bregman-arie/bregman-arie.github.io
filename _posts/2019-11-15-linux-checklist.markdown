@@ -7,6 +7,8 @@ toc: true
 toc_label: "topics"
 ---
 
+## Beginner
+
 ### File System Hierarchy
 
 - [ ] `/` (aka root)
@@ -93,19 +95,24 @@ This also known as File Globbing
 - [ ] `history` - command history list
   - [ ] use ![number line] to execute a command from the list
 
-### Random
+### Shell & Terminal
 
 - [ ] Terminal
   - [ ] `clear` - clear the terminal screen (ctrl+l can be also used)
   - [ ] `ctrl+r`- history search of commands
   - [ ] `exit` (or `logout`) - terminate a process, quit the shell
 
-- [ ] Commands
+- [ ] Shell
+  - [ ] `env` -  see your environment variables
+    - [ ] `$HOMR` - your home directory
+    - [ ] `$USER` - your username
+    - [ ] `$PATH` - list of paths where your OS searches for commands you run
   - [ ] `echo` - display a line of text
   - [ ] `alias` - define or display command shortcuts/aliases
-  - [ ] `wc` - count lines, words, ...
 
-- [ ] Distributions
+### Distributions 
+
+- [ ] Popular distributions
   - [ ] Fedora
   - [ ] Ubuntu
   - [ ] RHEL, CentOS
@@ -114,17 +121,23 @@ This also known as File Globbing
   - [ ] Arch Linux
   - [ ] openSUSE
 
-### I/O redirection
-  - [ ] File Descriptor
-    - [ ] stdin 0 (standard input) <
-    - [ ] stdout 1 (standard output) >
-    - [ ] stderr 2 (standard error) 2>
-  - [ ] Append >>
+- [ ] Test
+  - [ ] What is a distribution?
 
-  - [ ] Pipe
-    - [ ] For example: `cat file | wc -l` to count number of lines
-  - [ ] `tee`
-    - [ ] Writing output to two different streams
+### I/O redirection and manipulation
+- [ ] File Descriptor
+  - [ ] stdin 0 (standard input) <
+  - [ ] stdout 1 (standard output) >
+  - [ ] stderr 2 (standard error) 2>
+- [ ] Append >>
+
+- [ ] Pipe
+  - [ ] For example: `cat file | wc -l` to count number of lines
+
+- [ ] Commands
+  - [ ] 'tr' - translating characters
+    - [ ] `echo "hello" | tr h H` for example
+  - [ ] `tee` - writing output to two different streams
 
 - [ ] Test
   - [ ] How to redirect output?
@@ -169,6 +182,20 @@ Learning how to use one of them is more than enough
 - [ ] Test
   - [ ] how to add a new user?
   - [ ] should you be using your user or root?
+
+### Permissions
+
+- [ ] Concepts
+  - [ ] Understand `rwx`
+
+- [ ] Commands
+  - [ ]  
+
+- [ ] Sudo
+  - [ ] `sudo` command
+  - [ ] `/etc/sudoers` file
+
+## Intermediate
 
 ### Network
 
@@ -280,16 +307,19 @@ Learning how to use one of them is more than enough
   - [ ] How to create an archive?
   - [ ] How to extract the content of an archive?
 
-### Files - Part 2
+### Files & Output - Intermediate level
 
 - [ ] Commands
   - [ ] `find` - search for files
   - [ ] `sort` - sort, merge, or sequence check text files
+  - [ ] `wc` - count lines, words, ...
   - [ ] `grep` - search files for characters that match a certain pattern
     - [ ] `-R` for recursive search in all files under a certain directory
     - [ ] `-i` for ignoring case sensitive
   - [ ] `nl` - line numbering
   - [ ] `uniq` - remove duplicates
+  - [ ] `join` - join multiple files together
+  - [ ] `split` - split one file into multiple different files
 
 ### Storage & Filesystem
 
@@ -312,9 +342,29 @@ Learning how to use one of them is more than enough
   - [ ] Can you create soft links between different file systems? what about hard links?
   - [ ] What information inode stores?
 
+### Signals
+
+- [ ] Types of signals
+  - [ ] `SIGTERM` - default signal to terminate a process gracefully
+
+- [ ] Commands
+  - [ ] `kill <pid>` - sending SIGTERM by default to a process
+  - [ ] `trap` - "catch" a signal
+
+## Advanced
+
 ### Hardware
 
 - [ ] Commands
   - [ ] `lshw` - list hardware
   - [ ] `lspci` - list all PCI devices
   - [ ] `dmidecode` - DMI table decoder
+
+### System Calls
+
+- [ ] `open`
+- [ ] `read`
+- [ ] `exec`
+- [ ] `clone`
+- [ ] `fork`
+- [ ] `vfork`
