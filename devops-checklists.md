@@ -1,6 +1,26 @@
 ---
 layout: single
 ---
+
+<div class="container bs-docs-container">
+
+                    
+<div class="row">
+
+<a href="#linux">
+<button type="button" class="btn btn-info dob-answer-btn">Linux</button>
+</a>
+
+<button type="button" class="btn btn-info dob-answer-btn">AWS</button>
+</a>
+
+<a href="#network">
+<button type="button" class="btn btn-info dob-answer-btn">Network</button>
+</a>
+
+</div>
+</div>
+
 ## Linux
 
 ### File System Hierarchy
@@ -41,8 +61,10 @@ layout: single
   - [ ] Regular
   - [ ] Directory
   - [ ] Socket
-  - [ ] Block
+  - [ ] Character Device
+  - [ ] Block Device
   - [ ] Link
+  - [ ] Named Pipe
 
 - [ ] Commands
   - [ ] `ls` - list files and directories
@@ -58,11 +80,11 @@ layout: single
   - [ ] `mkdir` - create directories
     - [ ] `-p` - for creating multiple nested directories
   - [ ] `rmdir` - remove directories
-  - [ ] `echo` - display a line of text
   - [ ] `cat` - concatenate files (common usage: read a file)
   - [ ] `mv` - move files directories (also rename files and directories)
   - [ ] `cp` - copy a file
     - [ ] `-r` for recursive (copy a directory)
+  - [ ] `less` - display files on a page-by-page basis
 
 - [ ] Test
   - [ ] How to list hidden files?
@@ -71,18 +93,66 @@ layout: single
   - [ ] How to rename a file?
   - [ ] How to copy an entire directory with all its files?
 
+### Pattern Matching
+
+This also known as File Globbing
+
+- [ ] Patterns
+  - [ ] `*` - matches zero or more of any character
+  - [ ] `?` - matches one of any character
+
 ### Commands
 
 - [ ] `man` - manual for commands
 - [ ] `which` - get full path for given command
 - [ ] `whatis` - one-line manual page descriptions
+- [ ] `whereis` - locate the binary, source, and manual page files for a command
+- [ ] `history` - command history list
+  - [ ] use ![number line] to execute a command from the list
 
-### I/O redirection
-  - [ ] File Descriptor
-    - [ ] stdin 0 (input) <
-    - [ ] stdout 1 (output) >
-    - [ ] stderr 2 (error) 2>
-  - [ ] Append >>
+### Shell & Terminal
+
+- [ ] Terminal
+  - [ ] `clear` - clear the terminal screen (ctrl+l can be also used)
+  - [ ] `ctrl+r`- history search of commands
+  - [ ] `exit` (or `logout`) - terminate a process, quit the shell
+
+- [ ] Shell
+  - [ ] `env` -  see your environment variables
+    - [ ] `$HOMR` - your home directory
+    - [ ] `$USER` - your username
+    - [ ] `$PATH` - list of paths where your OS searches for commands you run
+  - [ ] `echo` - display a line of text
+  - [ ] `alias` - define or display command shortcuts/aliases
+
+### Distributions 
+
+- [ ] Popular distributions
+  - [ ] Fedora
+  - [ ] Ubuntu
+  - [ ] RHEL, CentOS
+  - [ ] Mint
+  - [ ] Debian
+  - [ ] Arch Linux
+  - [ ] openSUSE
+
+- [ ] Test
+  - [ ] What is a distribution?
+
+### I/O redirection and manipulation
+- [ ] File Descriptor
+  - [ ] stdin 0 (standard input) <
+  - [ ] stdout 1 (standard output) >
+  - [ ] stderr 2 (standard error) 2>
+- [ ] Append >>
+
+- [ ] Pipe
+  - [ ] For example: `cat file | wc -l` to count number of lines
+
+- [ ] Commands
+  - [ ] 'tr' - translating characters
+    - [ ] `echo "hello" | tr h H` for example
+  - [ ] `tee` - writing output to two different streams
 
 - [ ] Test
   - [ ] How to redirect output?
@@ -118,15 +188,51 @@ Learning how to use one of them is more than enough
   - [ ] `usermod` - modify users
   - [ ] `userdel` - delete users
   - [ ] `who` - show who is logged on
+  - [ ] `passwd` - changing password
   - [ ] `lastlog` - recent login of users
+  - [ ] `su` - substitute users (in other words, switch to another user)
 
 - [ ] Files
   - [ ] `/etc/passwd` - stores users information
-  - [ ] `/etc/shadow` - passwords
+  - [ ] `/etc/shadow` - hashed passwords
+  - [ ] `/etc/group` - group
 
 - [ ] Test
   - [ ] how to add a new user?
   - [ ] should you be using your user or root?
+
+### Permissions
+
+- [ ] File Permissions
+  - [ ] `r` for readable (2^2=4)
+  - [ ] `w` for writeable (2^1=2)
+  - [ ] `x` for executable (2^0=1)
+
+- [ ] Commands
+  - [ ] `chmod` - modify permissions
+    - [ ] `chmod u+x file` - grant execute permissions to owner of the file
+    - [ ] `chmod +x file` - grant execute permissions to everyone
+    - [ ] `chmod 444 file` - grant read permissions to everyone
+    - [ ] `chmod 600 file` - grant read and write permissions to owner of the file
+  - [ ] `chown` - change user ownership of the file
+  - [ ] `chgrp` - change group ownership of the file
+  - [ ] `umask` - get or set file mode creation mask (default permissions in simpler words)
+
+- [ ] SUID (Set User ID) - allow users running a program as the user owner
+  - [ ] `sudo chmod u+s file`
+  - [ ] `sudo chmod 4755 file`
+- [ ] SGID (Set Group ID) - allow users running a program as the group owner
+  - [ ] `sudo chmod g+s file`
+  - [ ] `sudo chmod 2555 file`
+
+- [ ] sudo
+  - [ ] `sudo` command
+  - [ ] `/etc/sudoers` file
+
+- [ ] Sticky Bit - only root or owner can modify and/or delete files
+  - [ ] It's set on /tmp
+  - [ ] `sudo chmod +t directory`
+  - [ ] `sudo chmod 1755 directory`
 
 ### Network
 
@@ -164,7 +270,6 @@ Learning how to use one of them is more than enough
   - [ ] Dummy
   - [ ] Virtual IP
   - [ ] Veth
-
 - [ ] Bonding
   - [ ] Modes
   - [ ] How to activate
@@ -194,36 +299,100 @@ Learning how to use one of them is more than enough
 ### Debugging & Troubleshooting
 
 - [ ] CPU and Memory
-  - [ ] `top`
-  - [ ] `free`
+  - [ ] `top` - processes memory and cpu consumption
+  - [ ] `free` - amount of free and used memory
+    - [ ] `-g` for the amount of memory in gigabytes
+  - [ ] `vmstat` - virtual memory statistics
+  - [ ] `htop` - interactive process viewer
+  - [ ] `atop` - system and process monitor
+  - [ ] `/proc/meminfo`
 
 - [ ] Network Commands
   - [ ] `netstat` - network connections
   - [ ] `traceroute` - network connections
+  - [ ] `IPTraf` - IP LAN monitoring
+  - [ ] `iftop` - network bandwidth monitoring
 
-- [ ] Filesystem
-  - [ ] `stat`
+- [ ] Disk and Filesystem
+  - [ ] `iotop` - I/O monitor
+  - [ ] `iostat` - I/O statistics for devices and partitions
 
 ### Processes
 
-- [ ] Process states
-- [ ] Running in background (&)
+- [ ] States
+  - [ ] Running
+  - [ ] Waiting
+  - [ ] Stopped
+  - [ ] Zombie
+
+- [ ] Commands
+  - [ ] `ps` - process status
+  - [ ] `kill [pid]` - terminate processes
+  - [ ] `pkill` - terminate processes based on names and other attributions
+
+- [ ] Files
+  - [ ] `/proc/[PID]`
+
+- [ ] Running in the background
+  - [ ] For example: `my_program &`
+
+- [ ] Signals
+  - [ ] Types
+    - [ ] `SIGTERM` - default signal to terminate a process gracefully
+    - [ ] `SIGKILL` - terminate process "brutally" (`kill -9`)
+    - [ ] `SIGHUP` - mostly used for reloading configuration of a process/service
+  - [ ] Commands
+    - [ ] `trap` - "catch" a signal
 
 ### Archives
 
 - [ ] Commands
   - [ ] tar
+  - [ ] gzip
   - [ ] zip
+  - [ ] unzip
 
-- [ ] tar
-- [ ] zip
-- [ ] commands
-- [ ] create an archive
-- [ ] list archive's content
-- [ ] remove an archive
+- [ ] Test
+  - [ ] How to create an archive?
+  - [ ] How to extract the content of an archive?
+
+### Files & Output - Intermediate level
+
+- [ ] Commands
+  - [ ] `find` - search for files
+  - [ ] `sort` - sort, merge, or sequence check text files
+  - [ ] `wc` - count lines, words, ...
+  - [ ] `grep` - search files for characters that match a certain pattern
+    - [ ] `-R` for recursive search in all files under a certain directory
+    - [ ] `-i` for ignoring case sensitive
+  - [ ] `nl` - line numbering
+  - [ ] `uniq` - remove duplicates
+  - [ ] `join` - join multiple files together
+  - [ ] `split` - split one file into multiple different files
 
 ### Storage & Filesystem
+
 - [ ] inode
+
+- [ ] Links
+  - [ ] soft link
+  - [ ] hard link
+
+- [ ] Commands
+  - [ ] `file` - determine file type
+  - [ ] `stat` - file or file system status
+  - [ ] `du` - file space usage
+  - [ ] `df` - disk usage of the file system
+  - [ ] `mount` - mount filesystems
+
+- [ ] LVM
+  - [ ] pv
+  - [ ] vg
+  - [ ] lv
+
+- [ ] Test
+  - [ ] Can you create soft links between different file systems? what about hard links?
+  - [ ] What information inode stores?
 
 ### Hardware
 
@@ -231,6 +400,15 @@ Learning how to use one of them is more than enough
   - [ ] `lshw` - list hardware
   - [ ] `lspci` - list all PCI devices
   - [ ] `dmidecode` - DMI table decoder
+
+### System Calls
+
+- [ ] `open`
+- [ ] `read`
+- [ ] `exec`
+- [ ] `clone`
+- [ ] `fork`
+- [ ] `vfork`
 
 
 ## AWS
