@@ -92,6 +92,7 @@ This also known as File Globbing
 - [ ] `man` - manual for commands
 - [ ] `which` - get full path for given command
 - [ ] `whatis` - one-line manual page descriptions
+- [ ] `whereis` - locate the binary, source, and manual page files for a command
 - [ ] `history` - command history list
   - [ ] use ![number line] to execute a command from the list
 
@@ -173,11 +174,14 @@ Learning how to use one of them is more than enough
   - [ ] `usermod` - modify users
   - [ ] `userdel` - delete users
   - [ ] `who` - show who is logged on
+  - [ ] `passwd` - changing password
   - [ ] `lastlog` - recent login of users
+  - [ ] `su` - substitute users (in other words, switch to another user)
 
 - [ ] Files
   - [ ] `/etc/passwd` - stores users information
-  - [ ] `/etc/shadow` - passwords
+  - [ ] `/etc/shadow` - hashed passwords
+  - [ ] `/etc/group` - group
 
 - [ ] Test
   - [ ] how to add a new user?
@@ -185,15 +189,36 @@ Learning how to use one of them is more than enough
 
 ### Permissions
 
-- [ ] Concepts
-  - [ ] Understand `rwx`
+- [ ] File Permissions
+  - [ ] `r` for readable (2^2=4)
+  - [ ] `w` for writeable (2^1=2)
+  - [ ] `x` for executable (2^0=1)
 
 - [ ] Commands
-  - [ ]  
+  - [ ] `chmod` - modify permissions
+    - [ ] `chmod u+x file` - grant execute permissions to owner of the file
+    - [ ] `chmod +x file` - grant execute permissions to everyone
+    - [ ] `chmod 444 file` - grant read permissions to everyone
+    - [ ] `chmod 600 file` - grant read and write permissions to owner of the file
+  - [ ] `chown` - change user ownership of the file
+  - [ ] `chgrp` - change group ownership of the file
+  - [ ] `umask` - get or set file mode creation mask (default permissions in simpler words)
 
-- [ ] Sudo
+- [ ] SUID (Set User ID) - allow users running a program as the user owner
+  - [ ] `sudo chmod u+s file`
+  - [ ] `sudo chmod 4755 file`
+- [ ] SGID (Set Group ID) - allow users running a program as the group owner
+  - [ ] `sudo chmod g+s file`
+  - [ ] `sudo chmod 2555 file`
+
+- [ ] sudo
   - [ ] `sudo` command
   - [ ] `/etc/sudoers` file
+
+- [ ] Sticky Bit - only root or owner can modify and/or delete files
+  - [ ] It's set on /tmp
+  - [ ] `sudo chmod +t directory`
+  - [ ] `sudo chmod 1755 directory`
 
 ## Intermediate
 
@@ -289,11 +314,24 @@ Learning how to use one of them is more than enough
   - [ ] Stopped
   - [ ] Zombie
 
+- [ ] Commands
+  - [ ] `ps` - process status
+  - [ ] `kill [pid]` - terminate processes
+  - [ ] `pkill` - terminate processes based on names and other attributions
+
 - [ ] Files
   - [ ] `/proc/[PID]`
 
 - [ ] Running in the background
   - [ ] For example: `my_program &`
+
+- [ ] Signals
+  - [ ] Types
+    - [ ] `SIGTERM` - default signal to terminate a process gracefully
+    - [ ] `SIGKILL` - terminate process "brutally" (`kill -9`)
+    - [ ] `SIGHUP` - mostly used for reloading configuration of a process/service
+  - [ ] Commands
+    - [ ] `trap` - "catch" a signal
 
 ### Archives
 
@@ -332,6 +370,9 @@ Learning how to use one of them is more than enough
 - [ ] Commands
   - [ ] `file` - determine file type
   - [ ] `stat` - file or file system status
+  - [ ] `du` - file space usage
+  - [ ] `df` - disk usage of the file system
+  - [ ] `mount` - mount filesystems
 
 - [ ] LVM
   - [ ] pv
@@ -341,15 +382,6 @@ Learning how to use one of them is more than enough
 - [ ] Test
   - [ ] Can you create soft links between different file systems? what about hard links?
   - [ ] What information inode stores?
-
-### Signals
-
-- [ ] Types of signals
-  - [ ] `SIGTERM` - default signal to terminate a process gracefully
-
-- [ ] Commands
-  - [ ] `kill <pid>` - sending SIGTERM by default to a process
-  - [ ] `trap` - "catch" a signal
 
 ## Advanced
 
