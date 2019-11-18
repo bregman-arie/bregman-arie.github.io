@@ -48,7 +48,7 @@
 
 <a href="#git">
 <div class="col-md-2">
-    <a href="git" style="text-decoration: none">
+    <a href="#git" style="text-decoration: none">
       <h6>
         <div class="card-header">Git</div>
       </h6>
