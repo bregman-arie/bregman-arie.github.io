@@ -10,7 +10,7 @@ name                     : "Arie Bregman"
 description              : "Where DevOps Bits are made"
 url                      : "https://devopsbit.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "bregman-arie/bregman-arie.github.io"
+repository               : "bregman-arie/devopsbit"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
