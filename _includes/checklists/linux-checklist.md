@@ -213,7 +213,7 @@ Learning how to use one of them is more than enough
 
 ## Linux Intermediate
 
-### Network
+### Linux Network
 
 - [ ] Commands
   - [ ] `ping` - test the reachability of a host
