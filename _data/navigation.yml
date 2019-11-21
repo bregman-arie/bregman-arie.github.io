@@ -5,3 +5,17 @@ main:
      url: /blog/
    - title: "About"
      url: /aboutme/
+
+interview_questions:
+  - title: Interview Questions
+    children:
+      - title: "DevOps"
+        url: /interview_questions/devops/
+      - title: "Linux"
+        url: /interview_questions/linux/
+      - title: "Git"
+        url: /interview_questions/git/
+      - title: "Jenknis"
+        url: /interview_questions/jenkins/
+      - title: "AWS"
+        url: /interview_questions/aws/
