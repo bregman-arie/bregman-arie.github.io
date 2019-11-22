@@ -88,6 +88,87 @@ On-Premise Solution:
   * Security - using ACL (Access Control Lists) and bucket policies
 * S3 is object-based storage. The data itself is spread across multiple locations.
 * Files can be from 0 Bytes to 5 TB. There is unlimited storage.
+* Files are stored in buckets
+  * Bucket name must be globally unique
+    * For example: https://s3-eu-west-1.amazonaws.com/mybucket
+  * HTTP 200 code is returned when a file is uploaded successfully to S3
+  * Objects consist of:
+    * Key - name of the object
+    * Value - the data itself
+    * Version ID - used for versioning
+    * Metadata - data about the data
+  * Data consistency
+    * New objects - writing a new file, you will be able immediately read it
+    * Overwrite and deletes - updating a file or deleting it, you may get the older version when reading it as changes to objects can take some time to be applied
+  * Transfer Acceleration
+    * when used, users will upload a file to the edge location which will then upload the files from edge locations to the bucket in specific location using optimized network path (Amazon internal network)
+  * Cross Region Replication
+    * For example: you have a bucket in Europe and you upload there a file from USA. This file will be replicated to USA region.
+  * Charges
+    * You are charged for the following: storage, requests, storage management, data transfer, transfer acceleration and cross region replication
+  * Storage Classes
+    * S3 standard - 99.99% availability and 11x9 durability
+    * S3 IA - Infrequently access but rapid access when needed
+    * S3 One Zone IA - lower cost option for IA without multiple AZ data resilience
+    * S3 Intelligent Tiering -  ML based, designed to optimized costs by automatically moving to most cost-effective access tier
+    * S3 Glacier - secure, durable and low-cost storage for data archiving
+    * S3 Glacier Deep Archive - most lost cost storage class where a retrieval time of 12 hours is fine
+  * Hosting a website
+    * You can host static websites on s3
+    * You cannot host dynamic websites on s3
+    * s3 scales automatically to meet your website demands
+
+## EC2
+
+EC2 is Amazon Elastic Compute Cloud. A compute based service. It allows you to create virtual servers in the cloud
+
+### Pricing models
+
+On Demand - pay a fixed rate by the hour/second with no commitment. Good for:
+  * users that want low cost and flexibility
+  * applications with short terms, spiky or unpredictable workloads that cannot be interrupted
+  * application being developed or tested for the first time
+
+Reserved - you get capacity reservation. Contract terms: 1 year or 3 years. The longer, the cheaper. Good for:
+  * Good for:
+  * Predictable usage
+  * Apps that required reserved capacity
+  * Users who able to make upfront payments
+  * Pricing:
+    * Standard reserved instances - The more you pay and longer, the greater is the discount
+    * Convertible Reserved Instances - These offer up to 54% off on demand capability to change the attributes of the RI 
+    * Scheduled Reserved Instances - Available to launch within the time windows you reserve
+        
+Spot - Enables you to bid whatever price you want for instances
+  * when spot price hit your bid, you'll get the instance
+  * when spot price is below your bid price, you'll lose the instance
+  * Spot is Good for:
+    * Apps which have flexible start and end time
+    * Apps that are only feasible at very low compute prices
+    * Users with urgent computing needs for large amount of additional capacity
+
+Dedicated Hosts - physical EC2 server dedicated for your use. Good for:
+  * Regulatory requirements which may not support multi-tenant virtualization
+  * Licenses which don't support multi-tenants or cloud deployments
+  * Pricing
+    * Can be purchased on on-demand (hourly)
+    * Can be purchased as a reservation for up to 70% off the on-demand price
+
+### EBS
+
+* Allows you to create storage volumes and attach them to Amazon EC2 instances
+* Think of it as virtual disk in the cloud
+* Volumes are placed in a specific AZ where they are automatically replicated for HA
+* SSD
+  * General purpose SSD (GP2) - balanced price and performance
+  * Provisioned IOPS SSD (IO1) - highest-performance SSD volume for mission-critical low-latency or high-throughput workloads
+* Magnetic
+  * Throughput Optimized HDD (ST1) - low cost HDD volume designed for frequently accessed, intensive workloads
+  * Cold HDD (SC1) - Lowest cost HDD volume for less frequent access
+  * Magnetic - deprecated
+
+### Security Group
+  * A set of firewall rules that control the traffic to your instance
 
 ### CloudFront
 
