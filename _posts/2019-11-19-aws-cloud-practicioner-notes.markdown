@@ -170,7 +170,7 @@ Dedicated Hosts - physical EC2 server dedicated for your use. Good for:
 ### Security Group
   * A set of firewall rules that control the traffic to your instance
 
-### CloudFront
+## CloudFront
 
 CloudFront is a content delivery network (CDN) is a system of distributed servers that deliver web content to users based on the geographic location of:
 
@@ -178,30 +178,30 @@ CloudFront is a content delivery network (CDN) is a system of distributed server
   * the origin of the web content
   * the content delivery server
 
-##### Terminology
+### Terminology
 
 * Edge location - the location where the content is cached. These location allow both read and write
 * Origin - The origin of the files which CDN will distribute (can be EC2 instance, S3 bucket, Elastic LB, ...)
 * Distribution - This name given the CDN (which consists of Edge locations)
 
-##### How it works
+### How it works
 
 * Users will try to query a file which happens to be on another geographic location.
 * Since it's not available in the edge location, they will get it from the origin location
 * The file which wasn't available in the edge location will now be stored at the edge location
 * Any future users will get it from the edge location in their area instead of going to the origin
 
-##### Delivery Methods
+### Delivery Methods
 
 * Web Distribution - typically used for websites
 * RTMP - used for media streaming
 
-##### Cache
+### Cache
 
 * objects are cached for the life of TTL in seconds
 * it's possible to clear cached objects but it's not free
 
-### CLI
+## CLI
 
 It's possible (and common) to manage AWS resources from the CLI using the `aws` command.
 
@@ -215,17 +215,17 @@ For example:
   * `aws ec2 ls`
   * `aws s3 ls`
 
-### Load Balancer
+## Load Balancer
 
 * In order to create a load balancer go to EC2 -> Load Balancer in the left side panel -> Create load balancer
 
-##### Types of load balancers
+### Types of load balancers
 
 * Application Load Balancer - for layer 7 (HTTP, HTTPS) traffic
 * Network Load Balancer - for ultra-high performances or static IP addresses)
 * Classic Load Balancer - when your app is running in the EC2-Classic network. Good for low costs and test environments
 
-### Databases
+## Databases
 
 * Relational DB - Consists of tables when each table has several rows and each row includes several fields/columns
 * Relational DB on AWS are called **RDS**. There are several DBs of this type:

@@ -37,3 +37,13 @@ interview_questions:
         url: /interview_questions/go
       - title: "Python"
         url: /interview_questions/python
+      - title: "Network"
+        url: /interview_questions/network
+      - title: "Terraform"
+        url: /interview_questions/terraform
+      - title: "Cloud"
+        url: /interview_questions/cloud
+      - title: "Monitoring"
+        url: /interview_questions/monitoring
+      - title: "Promethues"
+        url: /interview_questions/promethues
