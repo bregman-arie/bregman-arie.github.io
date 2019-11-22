@@ -1,4 +1,4 @@
-### Cloud Practicioner
+### Cloud Practitioner
 
 - [ ] **Cloud Computing**
 

@@ -1,14 +1,14 @@
 ---
 layout: single
-permalink: /aws-cloud-practicioner
-title:  "AWS: Cloud Practicioner Notes"
+permalink: /aws-cloud-practitioner
+title:  "AWS: Cloud Practitioner Summary"
 date:   2019-11-19
 categories: aws
 toc: true
 toc_label: "Topics"
 ---
 
-These are my notes from studying to the AWS cloud practicioner exam.
+These are my notes from studying to the AWS cloud practitioner exam.
 
 ## Cloud Computing
 
