@@ -10,12 +10,30 @@ interview_questions:
   - title: Interview Questions
     children:
       - title: "DevOps"
-        url: /interview_questions/devops/
+        url: /interview_questions/devops
       - title: "Linux"
-        url: /interview_questions/linux/
+        url: /interview_questions/linux
       - title: "Git"
-        url: /interview_questions/git/
+        url: /interview_questions/git
       - title: "Jenknis"
-        url: /interview_questions/jenkins/
+        url: /interview_questions/jenkins
       - title: "AWS"
-        url: /interview_questions/aws/
+        url: /interview_questions/aws
+      - title: "Coding"
+        url: /interview_questions/coding
+      - title: "GCP"
+        url: /interview_questions/gcp
+      - title: "OpenStack"
+        url: /interview_questions/openstack
+      - title: "OpenShift"
+        url: /interview_questions/openshift
+      - title: "Chef"
+        url: /interview_questions/chef
+      - title: "Puppet"
+        url: /interview_questions/puppet
+      - title: "Ansible"
+        url: /interview_questions/ansible
+      - title: "Go"
+        url: /interview_questions/go
+      - title: "Python"
+        url: /interview_questions/python

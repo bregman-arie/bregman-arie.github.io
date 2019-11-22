@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: /aws-cloud-practicioner
 title:  "AWS: Cloud Practicioner Notes"
 date:   2019-11-19
 categories: aws
@@ -104,42 +105,51 @@ CloudFront is a content delivery network (CDN) is a system of distributed server
 
 ##### How it works
 
-- [ ] Users will try to query a file which happens to be on another geographic location.
-- [ ] Since it's not available in the edge location, they will get it from the origin location
-- [ ] The file which wasn't available in the edge location will now be stored at the edge location
-- [ ] Any future users will get it from the edge location in their area instead of going to the origin
+* Users will try to query a file which happens to be on another geographic location.
+* Since it's not available in the edge location, they will get it from the origin location
+* The file which wasn't available in the edge location will now be stored at the edge location
+* Any future users will get it from the edge location in their area instead of going to the origin
 
-    - [ ] Delivery Methods
-        - [ ] Web Distribution - typically used for websites
-        - [ ] RTMP - used for media streaming
-    - [ ] Cache
-        - [ ] objects are cached for the life of TTL in seconds
-        - [ ] it's possible to clear cached objects but it's not free
+##### Delivery Methods
 
-- [ ] **CLI**
+* Web Distribution - typically used for websites
+* RTMP - used for media streaming
 
-    - [ ] `aws configure` to set up the CLI
-        - [ ] It's stored in `~/.aws`
-        - [ ] Note: roles are more secure than using access key id's and secret access keys. Roles can be applied to EC2 instances at any time and they are universal (no need to specify region)
-    - [ ] Usage: `aws <service> <args>`
-    - [ ] Examples
-        - [ ] `aws ec2 ls`
-        - [ ] `aws s3 ls`
+##### Cache
 
-- [ ] Load Balancer
+* objects are cached for the life of TTL in seconds
+* it's possible to clear cached objects but it's not free
 
-    - [ ] EC2 -> Load Balancer in the left side panel -> Create load balancer
-    - [ ] Types of load balancers
-        - [ ] Application Load Balancer - for layer 7 (HTTP, HTTPS) traffic
-        - [ ] Network Load Balancer - for ultra-high performances or static IP addresses)
-        - [ ] Classic Load Balancer - when your app is running in the EC2-Classic network. Good for low costs and test environments
+### CLI
 
-- [ ] Databases
+It's possible (and common) to manage AWS resources from the CLI using the `aws` command.
 
-    - [ ] Relational DB - Consists of tables when each table has several rows and each row includes several fields/columns
-        - [ ] Relational DB on AWS are called **RDS**. There are several DBs of this type:
-            - [ ] SQL server, Oracle, MySQL Server, PostgreSQL, Aurora and MariaDB
-        - [ ] RDS has two key features
-            - [ ] Multi availability zone. This is good for Disaster Recovery
-            - [ ] Read Replicas which are copies of your database. This is great for performance as you read from this copies.
-                - [ ] You can 5 copies of your database
+* use `aws configure` to set up the CLI
+  * it stores configuration in `~/.aws`
+
+Note: roles are more secure than using access key id's and secret access keys. Roles can be applied to EC2 instances at any time and they are universal (no need to specify region)
+
+* The general usage of the `aws` cli is: `aws <service> <args>`
+For example:
+  * `aws ec2 ls`
+  * `aws s3 ls`
+
+### Load Balancer
+
+* In order to create a load balancer go to EC2 -> Load Balancer in the left side panel -> Create load balancer
+
+##### Types of load balancers
+
+* Application Load Balancer - for layer 7 (HTTP, HTTPS) traffic
+* Network Load Balancer - for ultra-high performances or static IP addresses)
+* Classic Load Balancer - when your app is running in the EC2-Classic network. Good for low costs and test environments
+
+### Databases
+
+* Relational DB - Consists of tables when each table has several rows and each row includes several fields/columns
+* Relational DB on AWS are called **RDS**. There are several DBs of this type:
+* SQL server, Oracle, MySQL Server, PostgreSQL, Aurora and MariaDB
+* RDS has two key features
+* Multi availability zone. This is good for Disaster Recovery
+* Read Replicas which are copies of your database. This is great for performance as you read from this copies.
+* You can 5 copies of your database
