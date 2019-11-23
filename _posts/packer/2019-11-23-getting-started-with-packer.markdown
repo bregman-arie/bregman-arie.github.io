@@ -82,7 +82,7 @@ There are several steps to follow in order to create your first image
 
 Let's create a new file called `aws_image.json`. This file will serve as template we will pass to Packer so it can build the image based on what is described inside the template
 
-
+{% raw %} 
 ```
 {
   "variables": {
@@ -109,6 +109,8 @@ Let's create a new file called `aws_image.json`. This file will serve as templat
   }]
 }
 ```
+{% endraw %} 
+
 This is an example taken directly from the official Packer docs
 
 ### Validate the image
@@ -151,10 +153,12 @@ packer build \
 ```
 Remember earlier we included in the template file the following lines?
 
+{% raw %}
 ```
 "access_key": "{{user `aws_access_key`}}",
 "secret_key": "{{user `aws_secret_key`}}",
 ```
+{% endraw %}
 
 So now with the build command, we passed values to use for `access_key` and `secret_key`. You do not want to specify such sensitive information inside the template since most of the time you would probably want to have version control for these templates and sharing your credentials might not be the best idea :)
 

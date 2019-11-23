@@ -48,6 +48,7 @@ Let's start :)
 
 Create a file called "aws_image.json" with the following content (this is an official example from Hashicorp docs):
 
+{% raw %}
 ```
 {
   "variables": {
@@ -74,6 +75,7 @@ Create a file called "aws_image.json" with the following content (this is an off
   }]
 }
 ```
+{% endraw %}
 
 Few notes:
 
