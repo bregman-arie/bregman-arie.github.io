@@ -11,9 +11,10 @@ sidebar:
 
 <h5>AWS Beginner</h5>
 
+<br>
 <h5>Global Infrastructure</h5>
 
-<br><h5>Question</h5>
+<h5>Question</h5>
 <div class="bs-example dob-question">Explain the following
 
   * Availability zone
