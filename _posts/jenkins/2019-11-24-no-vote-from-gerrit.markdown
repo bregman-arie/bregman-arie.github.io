@@ -2,6 +2,7 @@
 layout: single
 title:  "Gerrit: No Vote from Jenkins"
 date:   2019-11-12 
+permalink: /gerrit-no-vote-from-jenknis
 categories: jenkins
 description: "no vote from jenknis in gerrit"
 tags:
