@@ -2,6 +2,7 @@
 permalink: /interview_questions/aws
 author_profile: false
 layout: single
+description: "AWS interview questions"
 sidebar:
   nav: "interview_questions"
 ---

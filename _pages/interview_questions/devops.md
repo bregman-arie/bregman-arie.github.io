@@ -1,6 +1,7 @@
 ---
 permalink: /interview_questions/devops
 author_profile: false
+description: "devops interview quetions"
 layout: single
 sidebar:
   nav: "interview_questions"
@@ -30,7 +31,7 @@ You can find more details here: https://aws.amazon.com/devops/what-is-devops
                     </div>
                     
 
-                    <br>
+                    <br><br>
                     <h5>Question</h5>
 
                     <div class="bs-example dob-question">
@@ -55,7 +56,7 @@ Detailed answer can be found here: https://aws.amazon.com/devops/what-is-devops
                     </code>
                     </div>
 
-<br>
+<br><br>
 <h5>Question</h5>
 
 <div class="bs-example dob-question">What are anti-patterns of DevOps?</div>
