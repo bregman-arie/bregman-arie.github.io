@@ -34,12 +34,15 @@ cd packer && make dev
 
 * template - this is the JSON configuration file used to define what image we would like to build and how
 * builder - a component of Packer which responsible for creating a machine based on your template and turn this machine into an image
-* artifact - result of a build. The type is different based on the builder. Usually it's an ID or collection of files.
+* artifact - result of a build. What exactly is the result depends on the builder. Usually it's the ID of the image or collection of files.
 
 ## What are we going to do?
 
 ![]({{ site.url }}/assets/images/blog/packer/build-image-process.png)
 
+First we will create a template which will describe what image we would like to build.<br>
+Next, we will validate the template we wrote. Once the template is validated, we will run the actual build process. This process will produce the image we described in the template.<br>
+Let's start :)
 
 ## Create a template
 
@@ -49,6 +52,10 @@ Create a file called "aws_image.json" with the following content
 {
 }
 ```
+
+Few notes:
+
+  * Getting AMI owner ID isn't as straightforward as you might expect. This [post](https://blog.gruntwork.io/locating-aws-ami-owner-id-and-image-name-for-packer-builds-7616fe46b49a) is great explanation for how to locate such information
 
 ## Validate the image
 
@@ -70,6 +77,7 @@ packer build \
     aws_image.json
 ```
 
+You need to provide your own aws keys so the client can connect to AWS for creating the image.
 You should get output similar to the following
 
 ```
