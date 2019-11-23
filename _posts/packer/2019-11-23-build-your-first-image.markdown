@@ -46,16 +46,40 @@ Let's start :)
 
 ## Create a template
 
-Create a file called "aws_image.json" with the following content
+Create a file called "aws_image.json" with the following content (this is an official example from Hashicorp docs):
 
 ```
 {
+  "variables": {
+    "aws_access_key": "",
+    "aws_secret_key": ""
+  },
+  "builders": [{
+    "type": "amazon-ebs",
+    "access_key": "{{user `aws_access_key`}}",
+    "secret_key": "{{user `aws_secret_key`}}",
+    "region": "us-east-1",
+    "source_ami_filter": {
+      "filters": {
+        "virtualization-type": "hvm",
+        "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
+        "root-device-type": "ebs"
+      },
+      "owners": ["099720109477"],
+      "most_recent": true
+    },
+    "instance_type": "t2.micro",
+    "ssh_username": "ubuntu",
+    "ami_name": "packer-example {{timestamp}}"
+  }]
 }
 ```
 
 Few notes:
 
-  * Getting AMI owner ID isn't as straightforward as you might expect. This [post](https://blog.gruntwork.io/locating-aws-ami-owner-id-and-image-name-for-packer-builds-7616fe46b49a) is great explanation for how to locate such information
+  * Getting AMI owner ID isn't as straightforward as you might expect. This [post](https://blog.gruntwork.io/locating-aws-ami-owner-id-and-image-name-for-packer-builds-7616fe46b49a) is great a explanation for how to locate such information
+  * Be careful with changing instance type to anything other than t2.micro since you might be charged for that. t2.micro qualifies under free-tier so no charge :)
+  * As you can see we are not providing credentials through the template but by using variables. We'll pass the values when we will run the build command
 
 ## Validate the image
 
@@ -65,6 +89,9 @@ Before we actually build the image, let's verify the template we wrote is valid
 $ packer validate aws_image.json
 Template validated successfully.
 ```
+
+Great, we can proceed to actually building the image.<br>
+Note that validating an image doesn't mean you will not run into issues when building the image but it's good to validate a template to make sure you didn't forget to pass must-use options and you don't have syntax issues.
 
 ## Build the image
 
@@ -77,8 +104,13 @@ packer build \
     aws_image.json
 ```
 
-You need to provide your own aws keys so the client can connect to AWS for creating the image.
-You should get output similar to the following
+You need to provide your own aws keys so the client can connect to AWS for creating the image. I'm afraid using blip_blop will not work :)
+
+
+## Output
+
+Depends on the builder/template used, you will get slightly different output.
+This is the output for the AWS template we used
 
 ```
 amazon-ebs: amazon-ebs output will be in this color.
@@ -102,5 +134,16 @@ amazon-ebs: amazon-ebs output will be in this color.
 ==> Builds finished. The artifacts of successful builds are:
 --> amazon-ebs: AMIs were created:
 
-us-east-1: ami-192612
+us-east-1: ami-0c91c71241917ba
 ```
+
+You can verify it was created with the following command
+
+```
+aws ec2 describe-images --owners self --region us-east-1
+```
+
+## Keep Exploring
+
+That's it. You have created your first image. Well Done :)<br>
+Packer has many features and options to keep exploring  and personally, I feel they did good job with their [official documentation](https://www.packer.io/docs/index.html) so I recommend to start there. Enjoy :)
