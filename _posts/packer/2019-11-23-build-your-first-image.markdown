@@ -11,7 +11,7 @@ toc_label: "Topics"
 ---
 
 This is a practical version of how to start with Packer by building your first image.<br>
-If you want to understand better what is Packer and why to use it, I suggest reading this [post](hmm)
+If you want to understand better what is Packer and why to use it, I suggest reading this [post](packer-getting-started)
 
 ## Install Packer
 
@@ -37,6 +37,8 @@ cd packer && make dev
 * artifact - result of a build. The type is different based on the builder. Usually it's an ID or collection of files.
 
 ## What are we going to do?
+
+![]({{ site.url }}/assets/images/blog/packer/build-image-process.png)
 
 
 ## Create a template

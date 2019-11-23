@@ -14,7 +14,7 @@ toc_label: "Topics"
 
 Packer, which is part of the HashiCorp Suite, is a tool for creating images for different platforms from a single source.
 
-If you ever had to prepare identical images for different platforms you know it can be quite challenging and involves a lot of automation and maintainence. Packer, from my experience, is a robust solution for many of the hassle involved in creating and maintaining images.
+If you ever had to prepare identical images for different platforms you know it can be quite challenging and involves a lot of automation and maintenance. Packer, from my experience, is a robust solution for many of the hassle involved in creating and maintaining images.
 
 ## Should I stop using CM tools such as Ansible in favor of Packer?
 
