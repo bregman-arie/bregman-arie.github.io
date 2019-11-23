@@ -11,7 +11,7 @@ toc_label: "Topics"
 ---
 
 This is a practical version of how to start with Packer by building your first image.<br>
-If you want to understand better what is Packer and why to use it, I suggest reading this [post](packer-getting-started)
+If you want to understand better what is Packer and why to use it, I suggest reading this version of the [post](packer-getting-started)
 
 ## Install Packer
 
