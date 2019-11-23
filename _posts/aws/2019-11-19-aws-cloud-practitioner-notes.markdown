@@ -4,6 +4,11 @@ permalink: /aws-cloud-practitioner
 title:  "AWS: Cloud Practitioner Summary"
 date:   2019-11-19
 categories: aws
+tags:
+  - aws
+  - practitioner
+  - certificate
+  - summary
 toc: true
 toc_label: "Topics"
 ---
