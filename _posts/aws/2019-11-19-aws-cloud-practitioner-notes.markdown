@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /aws-cloud-practitioner
+description: "aws cloud pracitioner certificate summary"
 title:  "AWS: Cloud Practitioner Summary"
 date:   2019-11-19
 categories: aws

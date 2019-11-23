@@ -3,6 +3,7 @@ layout: single
 title:  "Python: remove duplicates from a sorted list"
 date:   2019-11-12 
 categories: python
+description: "how to remove duplicates from a sorted list with python"
 tags:
   - python
   - list

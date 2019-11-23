@@ -4,6 +4,7 @@ permalink: /packer-build-your-first-image
 title:  "Packer: Build your First Image"
 date:   2019-11-21
 categories: packer
+description: "how to build a packer image simply explained"
 tags:
   - packer
 toc: true
@@ -11,7 +12,7 @@ toc_label: "Topics"
 ---
 
 This is a practical version of how to start with Packer by building your first image.<br>
-If you want to understand better what is Packer and why to use it, I suggest reading this version of the [post](packer-getting-started)
+If you would like to understand better what is Packer and why to use it, I suggest reading this version of the [post](packer-getting-started)
 
 ## Install Packer
 

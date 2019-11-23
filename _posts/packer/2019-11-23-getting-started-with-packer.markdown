@@ -2,6 +2,7 @@
 layout: single
 permalink: /packer-getting-started
 title:  "Getting Started with Packer"
+description: "how to start with packer by building an image simply explained"
 date:   2019-11-23
 categories: packer
 tags:
