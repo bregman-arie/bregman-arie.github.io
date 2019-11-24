@@ -1,3 +1,12 @@
+---
+permalink: /resources/linux
+author_profile: false
+layout: single
+description: "linux resources"
+sidebar:
+  nav: "resources"
+---
+
 ## Learn Linux - Written Resources
 
 Name | Comments

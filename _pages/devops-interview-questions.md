@@ -2,6 +2,7 @@
 permalink: /devops-interview-questions/
 author_profile: false
 layout: single
+description: "devops interview questions on ansible, go, python, docker, openshift, kubernetes, jenkins, git, linux"
 sidebar:
   nav: "interview_questions"
 ---

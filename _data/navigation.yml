@@ -6,6 +6,14 @@ main:
    - title: "About"
      url: /aboutme/
 
+resources:
+  - title: Resources
+    children:
+      - title: "Linux"
+        url: /resources/linux
+      - title: "Bash"
+        url: /resources/bash
+
 interview_questions:
   - title: Interview Questions
     children:
