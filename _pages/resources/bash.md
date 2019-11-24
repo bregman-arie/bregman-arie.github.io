@@ -7,6 +7,7 @@ title: "Bash Resources"
 sidebar:
   nav: "resources"
 ---
+
 ## Written Resources
 
 Name | Description

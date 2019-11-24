@@ -13,6 +13,10 @@ resources:
         url: /resources/linux
       - title: "Bash"
         url: /resources/bash
+      - title: "Kubernetes"
+        url: /resources/kubernetes
+      - title: "Docker"
+        url: /resources/docker
 
 interview_questions:
   - title: Interview Questions
