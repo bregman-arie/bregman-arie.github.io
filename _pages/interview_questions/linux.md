@@ -2,6 +2,7 @@
 permalink: /interview_questions/linux
 author_profile: false
 layout: single
+description: "linux interview questions"
 sidebar:
   nav: "interview_questions"
 ---
@@ -1011,6 +1012,61 @@ While an A record points a domain name to an IP address, a PTR record does the o
                     </pre>
                     </code>
                     </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">How do you create users? Where user information is stored?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">Do you know how to create a new user without using adduser/useradd command?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">How to add a new user to the system without providing him the ability to log-in into the system?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+  * adduser user_name --shell=/bin/false --no-create-home
+                    </pre>
+                    </code>
+                    </div>
+
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What can you do if you lost/forogt the root password?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+  <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+
+Re-install the OS IS NOT the right answer :)
+                    </pre>
+                    </code>
+  </div>
+
+
+<br><h5>Question</h5>
+<div class="bs-example dob-question">What is sudo? How do you set it up?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
+                    <div class="container bg-light dob-answer">
+                    <code class="language-html" data-lang="html">
+                    <pre>
+                    </pre>
+                    </code>
+                    </div>
+
 
 
 <a name="linux-advanced"></a>

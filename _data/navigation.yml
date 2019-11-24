@@ -47,3 +47,7 @@ interview_questions:
         url: /interview_questions/monitoring
       - title: "Promethues"
         url: /interview_questions/promethues
+      - title: "Kubernetes"
+        url: /interview_questions/kubernetes
+      - title: "Mongo"
+        url: /interview_questions/mongo
