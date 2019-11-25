@@ -7,6 +7,13 @@ sidebar:
   nav: "resources"
 ---
 
-<h2>Linux Resources</h2>
-
-{% include_relative resources/linux.md %}
+[![]({{ site.url }}/assets/images/resources_tiles/linux.png)](/resources/linux)
+<br>
+<br>
+[![]({{ site.url }}/assets/images/resources_tiles/bash.png)](/resources/bash)
+<br>
+<br>
+[![]({{ site.url }}/assets/images/resources_tiles/docker.png)](/resources/docker)
+<br>
+<br>
+[![]({{ site.url }}/assets/images/resources_tiles/kubernetes.png)](/resources/kubernetes)
