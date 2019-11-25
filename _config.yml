@@ -71,7 +71,8 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : abregman2
+  og_image               : /assets/images/site-logo.png
 facebook:
   username               :
   app_id                 :
