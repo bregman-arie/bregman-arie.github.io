@@ -240,3 +240,77 @@ For example:
 * Multi availability zone. This is good for Disaster Recovery
 * Read Replicas which are copies of your database. This is great for performance as you read from this copies.
 * You can 5 copies of your database
+
+## Security
+
+### Shared Responsibility Model
+
+* Customers are responsible for security in the cloud
+    * You are responsible for any data you upload to AWS
+    * You are responsible for configuring the services you are using
+
+* AWS is responsible for security of the cloud
+    * Hardware
+    * Global Infrastructure
+    * Operation of Managed Services
+    * Basically anything you can't touch
+
+### AWS Compliance Programs
+
+Compliance programs is a set of internal policies and procedures of a company to comply with laws, rules, and regulations or to uphold business reputation.
+
+The idea is that you can choose compliance program based on the type of your buissness. Few examples:
+
+* Health: HIPAA
+* Payment Card Industry Data Security Standard: PCI
+
+### AWS Artifact
+
+You can access AWS artifacts to download the files to prove you meet the compliance.
+
+Steps to get the files from an artifact:
+
+* Go to AWS Artifacts
+* Choose an artifact -> click on agree & download
+* Open the downloaded PDF
+* Follow the steps in the document (click on paperclip and choose the file you want)
+
+### AWS Inspector
+
+* Helps you with determining whether an EC2 instance is harden.<br>
+* Hardening is is the act of eliminating as many security risks as possible and an harden instance is a more secured instance.
+* AWS Inspector runs a security benchmark against specific EC2 instances. You can run a variety of security benchmarks.
+* Can perform both network and host assessments
+
+The way it does the assessment:
+
+* Installs the AWS agent on your EC2 instances
+* Run an assessment for your assessment target
+* Review your finding and remediate security issues
+
+### AWS WAF
+
+* AWS Web Application Firewall protects your web applications from the common web exploits.
+* You write your own rules to allow or deny traffic based on the contents of an HTTP requests
+* You can use a ruleset from a trusted AWS Security Partner in the AWS WAF Rules marketplace
+* WAF can be attached to either CloudFront or an Application Load Balancer
+
+### AWS Shield
+
+* AWS Shield is a managed DDoS (Distributed Denial Of Service) protection service that safeguards applications running on AWS
+* A DDoS attack is a malicious attempt to disrupt normal traffic by flooding a website a large amount of fake traffic
+* All AWS customers use it (the standard plan) when they route their traffic through Route53 or ClodFront
+* Protects you against layer 3, 4 and 7 attacks
+* Two Plans
+    * Shield Standard - Free, for protection against most common DDoS attacks
+    * Shield Advanced - 3000 USD / Year for additional protection against larger and more sophisticated attacks
+
+### VPN
+
+AWS VPN allows you to stablish a secure and private tunnel from your network or device to the AWS network.
+
+Two types:
+ * AWS Site-to-Site VPN - Securely connect on-premises network or branch office site to VPC
+     * Use case: connect an entire office or network to AWS
+ * AWS Client VPN - Securely connect to AWS or on-premises networks
+     * Use case: connect employee working on his/her laptop to the AWS network
