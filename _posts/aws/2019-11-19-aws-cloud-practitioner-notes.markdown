@@ -241,7 +241,45 @@ For example:
 * Read Replicas which are copies of your database. This is great for performance as you read from this copies.
 * You can 5 copies of your database
 
-## Security
+## Organizations & Accounts
+
+* Organizations - allow you to centrally manage billing, control access, compliance security, and share resources accross your AWS accounts
+* Root Account User - is a single sign-in identity that has complete access to all AWS services and resources in an account. Each account has a Root Account User
+* Organization Units - are a group of AWS accounts within an organization which can also contain other organizational units - creating a hierarchy
+* Services Control Policies - give central control over the allowed permissions for all accounts in your organization helping to ensure your accounts stay within your organization's guidelines.
+
+## CloudFormation
+
+An infrastructure-as-a-code service which allows you to create resources and set up services by using templating scripts.
+
+## CloudTrail
+
+Logs all api calls between aws services
+
+## CloudWatch
+
+A collection of multiple services:
+
+  * CloudWatch Logs - any custom log data, memory usage, Rails logs, Nginx logs
+  * CloudWatch Metrics - metrics that are based off of logs eg. Memory Usage
+  * CloudWatch Events - trigger an event based on a condition (e.g. take snapshot every hour)
+  * CloudWatch Alarms - triggeres notifications based on metrics
+  * CloudWatch Dashboard - create visualization based on metrics
+
+## CloudSearch
+
+It's a search engine. Use case: you have an ecommerce website and you want to add search bar
+
+## AWS Networking
+
+* VPC - a logically isolated section of the AWS Cloud where you can launch AWS resources
+* Subnets - a logical partition of an IP network into multiple, smaller network segments
+* Internet Gateway - enable access to the internet
+* Route Tables - determine where network traffic from your subnets are directed
+* NACLs - Acts as a firewalls at the subnet level
+* Security Groups - Acts as firewall at the instance level
+
+## AWS Security
 
 ### Shared Responsibility Model
 
@@ -266,7 +304,8 @@ The idea is that you can choose compliance program based on the type of your bui
 
 ### AWS Artifact
 
-You can access AWS artifacts to download the files to prove you meet the compliance.
+* Artifacts is about why an enterprise should trust AWS
+* You can access AWS artifacts to download the files to prove you meet the compliance.
 
 Steps to get the files from an artifact:
 

@@ -16,7 +16,6 @@ Name | Level | Description
 [Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Mostly Beginner | written articles/lessons
 [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Beginner | Interactive guide
 [Linuxcommand](http://linuxcommand.org) | Beginner | Learn the ways of the command line
-[Linux From Scratch](http://www.linuxfromscratch.org) | All |
 [Ryanstutorials](https://ryanstutorials.net/linuxtutorial) | Beginner | written guides for beginners
 [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP) | All |
 
@@ -68,6 +67,7 @@ Name | Comments
 [askubuntu.com](https://askubuntu.com) | 
 [Reddit Linux](https://www.reddit.com/r/linux) |
 [Linux.org](https://www.linux.org/forums) |
+[Reddit Commandline](https://www.reddit.com/r/commandline) | Not exclusive to Linux commandline
 
 ## Online Courses (Not Free)
 
@@ -82,3 +82,4 @@ Name | Comments
 :------|:-------:
 [GamingOnLinux](https://www.gamingonlinux.com) | Name says it all...
 [DistroWatch](https://distrowatch.com) | Discussions and reviews of Linux distributions
+[Linux From Scratch](http://www.linuxfromscratch.org) | For crazy people who would like to build custom Linux
