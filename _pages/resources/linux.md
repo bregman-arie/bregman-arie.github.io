@@ -8,16 +8,18 @@ sidebar:
   nav: "resources"
 ---
 
-## Learn Linux Sites
+## Learn Linux Sites for Beginners
 
-Name | Level | Description
+Name | Description
 :------|:------:|:-------:
-[Linux Journey](https://linuxjourney.com) | Beginner | Guides ordered by topic with exercises
-[Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | Mostly Beginner | written articles/lessons
-[Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Beginner | Interactive guide
-[Linuxcommand](http://linuxcommand.org) | Beginner | Learn the ways of the command line
-[Ryanstutorials](https://ryanstutorials.net/linuxtutorial) | Beginner | written guides for beginners
-[Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP) | All |
+[Linux Journey](https://linuxjourney.com) | Guides ordered by topic with exercises
+[Techmint Linux](https://www.tecmint.com/free-online-linux-learning-guide-for-beginners) | written articles/lessons
+[Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
+[Linuxcommand](http://linuxcommand.org) | Learn the ways of the command line
+[Ryanstutorials](https://ryanstutorials.net/linuxtutorial) | written guides for beginners
+[Vim Adventures](https://vim-adventures.com) | Learn how to use Vim by playing a game
+[LYM](https://lym.readthedocs.io/en/latest) | Focuses on the command line. While it's great, I wouldn't start from it
+[Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP) |
 
 ## Linux Videos
 
@@ -25,16 +27,23 @@ Video | Level
 :------|:--------:
 [The Complete Linux Course: Beginner to Power User!](https://www.youtube.com/watch?v=wBp0Rb-ZJak&t=6578s) | Beginner
 [learnlinux.tv](https://www.learnlinux.tv) | All
-[The Linux Basics Course](https://www.youtube.com/watch?v=bju_FdCo42w&list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK) | Beginner 
+[The Linux Basics Course](https://www.youtube.com/watch?v=bju_FdCo42w&list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK) | Beginner
+[The Complete Linux Course: Beginner to Power User!](https://www.youtube.com/watch?v=wBp0Rb-ZJak) | Beginner
+[Learning the Linux File System](https://www.youtube.com/watch?v=HIXzJ3Rz9po) | Beginner
+[Linux Hands On: The Advanced Terminal Commands](https://www.youtube.com/watch?v=NodKFuUocQY) | Beginner...name is misleading
+[10 Linux Interview Questions](https://www.youtube.com/watch?v=l0QGLMwR-lY&t=812s) | Beginner
+[Unix System Calls](https://www.youtube.com/watch?v=xHu7qI1gDPA&list=PLX1h5Ah4_XcfL2NCX9Tw4Hm9RcHhC14vs) | Advanced
+
 
 ## Blogs & News sites
 
 Name | Comments
 :------|:-------:
 [Phoronix](https://www.phoronix.com) | News
-[nixCraft](https://www.phoronix.com) | Blog on Linux Tips, Hacks, Tutorials
+[nixCraft](http://cyberciti.biz) | Blog, Linux Tips, Hacks, Tutorials
 [thegeekstuff](http://www.thegeekstuff.com) | Blog on Linux, Open Source and other topics
-[Brendangregg](http://www.brendangregg.com/overview.html) | Blog with focus on Linux Performances
+[Brendangregg](http://www.brendangregg.com/overview.html) | Blog which focuses on Linux Performances
+[Enable Sysadmin](https://www.redhat.com/sysadmin) | Red Hat blog which focuses on Linux System Administration
 
 ## Linux Books
 
@@ -49,8 +58,14 @@ Title | Comments
 [Modern Operating Systems](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X/ref=sr_1_1?keywords=Modern+Operating+Systems&qid=1574779749&sr=8-1) | Not Free. Covers advanced topics. Deep dive into Linux Internals
 [Understanding the Linux Kernel](https://www.amazon.com/Understanding-Linux-Kernel-Third-Daniel/dp/0596005652/ref=sr_1_1?keywords=Understanding-Linux-Kernel&qid=1574780622&sr=8-1) | Not Free. Advanced. Deep dive into Linux kernel
 
+## Documentation
 
-## Linux Development Books 
+Title | Comments
+:------:|:--------:
+[Man pages](http://man7.org/linux/man-pages) | The online version of `man` command
+[The Linux Documentation Project](http://tldp.org) | pure greatness
+
+## Linux Development Books
 
 Title | Comments
 :------:|:--------:
@@ -58,16 +73,16 @@ Title | Comments
 [Unix Network Programming](https://www.amazon.com/Unix-Network-Programming-Sockets-Networking/dp/0131411551/ref=sr_1_1?keywords=Unix+Network&qid=1574779572&sr=8-1) | Not Free
 [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468/ref=as_li_ss_tl?keywords=linux+system+programming&qid=1571742142&sr=8-8&linkCode=sl1&tag=coderscat-20&linkId=04de37d03084c2135921c9f15e858ac1&language=en_US) | Not Free
 
-## Forums and Communities 
+## Forums and Communities
 
 Name | Comments
 :------|:-------:
-[linuxquestions.org](https://www.linuxquestions.org) | 
-[unix.stackexchange.com](https://unix.stackexchange.com) | 
-[askubuntu.com](https://askubuntu.com) | 
+[linuxquestions.org](https://www.linuxquestions.org) |
+[unix.stackexchange.com](https://unix.stackexchange.com) |
+[askubuntu.com](https://askubuntu.com) |
 [Reddit Linux](https://www.reddit.com/r/linux) |
 [Linux.org](https://www.linux.org/forums) |
-[Reddit Commandline](https://www.reddit.com/r/commandline) | Not exclusive to Linux commandline
+[Reddit Commandline](https://www.reddit.com/r/commandline) | Not exclusive to Linux command line
 
 ## Online Courses (Not Free)
 
@@ -76,10 +91,15 @@ Name | Description
 [Linux Academy](https://linuxacademy.com) | great courses. pay yearly or monthly
 [Udemy](https://www.udemy.com) | payment per course
 
-## Random 
+## Random
 
 Name | Comments
 :------|:-------:
-[GamingOnLinux](https://www.gamingonlinux.com) | Name says it all...
+[Kernel.org](https://www.kernel.org) | Linux Kernel archives
+[GamingOnLinux](https://www.gamingonlinux.com) | Gaming on Linux
 [DistroWatch](https://distrowatch.com) | Discussions and reviews of Linux distributions
-[Linux From Scratch](http://www.linuxfromscratch.org) | For crazy people who would like to build custom Linux
+[DistroTest](https://distrotest.net) | Test a distro online before actually using it
+[Linux From Scratch](http://www.linuxfromscratch.org) | For crazy people who would like to build a custom Linux :) |
+[KaliTutorials](https://www.kalitutorials.net) | shhh...
+[explainshell](https://explainshell.com) | write down a command-line to see the help text that matches each argument
+[Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) | Name says it all...
