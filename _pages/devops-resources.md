@@ -7,6 +7,7 @@ sidebar:
   nav: "resources"
 ---
 
+<div style="text-align:center" markdown="1">
 [![]({{ site.url }}/assets/images/resources_tiles/linux.png)](/resources/linux)
 <br>
 <br>
@@ -17,3 +18,4 @@ sidebar:
 <br>
 <br>
 [![]({{ site.url }}/assets/images/resources_tiles/kubernetes.png)](/resources/kubernetes)
+</div>
