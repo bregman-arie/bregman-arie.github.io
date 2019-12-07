@@ -9,8 +9,7 @@ sidebar:
 
 {% include bootstrap_header.html title="DevOps Interview Questions" %}
 
-
-                    <br><h5>Question</h5>
+                    <h5>Question</h5>
 
                     <div class="bs-example dob-question">
                         What is DevOps?
@@ -21,11 +20,22 @@ sidebar:
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-There are many good answers to this question. I like Amazon's description of DevOps:
+There are many good answers to this question.
+Let's see a couple of examples:
 
-"DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market."
+According to Amazon:
 
-You can find more details here: https://aws.amazon.com/devops/what-is-devops
+"DevOps is the combination of cultural philosophies,
+practices, and tools that increases an organization’s
+ability to deliver applications and services at high
+velocity: evolving and improving products at a faster
+pace than organizations using traditional software
+development and infrastructure management processes.
+This speed enables organizations to better serve their
+customers and compete more effectively in the market."
+
+You can find more details here:
+https://aws.amazon.com/devops/what-is-devops
                     </pre>
                     </code>
                     </div>
@@ -51,7 +61,8 @@ Security
 Speed
 Scale
 Reliability
-Detailed answer can be found here: https://aws.amazon.com/devops/what-is-devops
+
+But be able to explain each of them.
                     </pre>
                     </code>
                     </div>
@@ -65,11 +76,15 @@ Detailed answer can be found here: https://aws.amazon.com/devops/what-is-devops
   <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
                     <pre>
-No Answer :(
+* Avoding collaboration
+* Creating new manual processes
+* Not examining the quality of existing processes
+  and avoiding creating metrics
                     </pre>
                     </code>
   </div>
 
+<br>
 <br><h5>Question</h5>
 <div class="bs-example dob-question">What is Continuous Integration?
 </div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
@@ -77,18 +92,25 @@ No Answer :(
   <code class="language-html" data-lang="html">
   <pre>
 
-A development practice where developers integrate code into a shared repository frequently.
-It can range from a couple of changes every day or a week to a couple of changes in one hour in larger scales.
+A development practice where developers integrate code
+into a shared repository frequently. It can range from
+a couple of changes every day or a week to a couple of 
+changes in one hour in larger scales.
 
-Each piece of code (change/patch) is verified, to make the change is safe to merge.
-Today, it's a common practice to test the change using an automated build that makes sure the code can integrated.
-It can be one build which runs several tests in different levels (unit, functional, etc.) or several separate builds
-that all or some has to pass in order for the change to be merged into the repository.
+Each piece of code (change/patch) is verified, to make 
+the change is safe to merge. Today, it's a common practice
+to test the change using an automated build that makes sure 
+the code can integrated.
+
+It can be one build which runs several tests in different
+levels (unit, functional, etc.) or several separate builds
+that all or some has to pass in order for the change to
+be merged into the repository.
   </pre>
   </code>
   </div>
 
-<br><h5>Question</h5>
+<br><br><h5>Question</h5>
 <div class="bs-example dob-question">What is Continuous Deployment?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
                     <code class="language-html" data-lang="html">
@@ -382,6 +404,7 @@ Note: cross-dependency is when you have two or more changes to separate projects
                     </div>
 
 
+<br>
 <br><h5>Question</h5>
 <div class="bs-example dob-question">When you publish a project, you usually publish it with a license. What types of licenses are you familiar with and which one do you prefer to use?</div><button type="button" class="btn btn-info dob-answer-btn">Answer</button>
                     <div class="container bg-light dob-answer">
@@ -390,7 +413,6 @@ Note: cross-dependency is when you have two or more changes to separate projects
                     </pre>
                     </code>
                     </div>
-
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
