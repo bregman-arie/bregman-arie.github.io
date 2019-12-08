@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "10 Ansible Interview Questions"
+permalink: /ansible-interview-questions
 date:   2019-11-13 
 categories: ansible
 tags:
