@@ -283,15 +283,19 @@ It's a search engine. Use case: you have an ecommerce website and you want to ad
 
 ### Shared Responsibility Model
 
+Shared Responsibility Model is about who is responsible for what in AWS cloud.
+
 * Customers are responsible for security in the cloud
     * You are responsible for any data you upload to AWS
     * You are responsible for configuring the services you are using
+    * You are responsible for platform, applications identity and access management
 
 * AWS is responsible for security of the cloud
-    * Hardware
-    * Global Infrastructure
-    * Operation of Managed Services
-    * Basically anything you can't touch
+    * Hardware & Global Infrastructure
+    * Operation of Managed services
+        * Compute, Storage, Database, Networking
+
+AWS is basically responsible for anything you can't touch
 
 ### AWS Compliance Programs
 
