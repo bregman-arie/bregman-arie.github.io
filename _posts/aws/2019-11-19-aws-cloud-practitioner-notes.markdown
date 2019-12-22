@@ -248,13 +248,34 @@ For example:
 * Organization Units - are a group of AWS accounts within an organization which can also contain other organizational units - creating a hierarchy
 * Services Control Policies - give central control over the allowed permissions for all accounts in your organization helping to ensure your accounts stay within your organization's guidelines.
 
+## AWS Pricing
+
+AWS philosophy regarding pricing:
+
+* You pay as you go
+* You pay for what you use
+* You pay less as you use more
+* You pay less when you reserve capacity
+
+### Drivers of cost with AWS
+
+* Compute
+* Storage
+* 
+
 ## CloudFormation
 
 An infrastructure-as-a-code service which allows you to create resources and set up services by using templating scripts.
 
+This is great for re-using work (setup of different AWS environments and resources) for different users/customers.
+
 ## CloudTrail
 
-Logs all api calls between aws services
+Monitors and logs all api calls between aws services.<br>
+It basically records AWS management console actions and API calls and by using it you can tell:
+
+* What users, accounts made the calls
+* Where the calls were made from (IP addresses) and when
 
 ## CloudWatch
 
@@ -265,6 +286,8 @@ A collection of multiple services:
   * CloudWatch Events - trigger an event based on a condition (e.g. take snapshot every hour)
   * CloudWatch Alarms - triggeres notifications based on metrics
   * CloudWatch Dashboard - create visualization based on metrics
+
+In one short line,  CloudWatch monitors performances.
 
 ## CloudSearch
 
@@ -320,10 +343,9 @@ Steps to get the files from an artifact:
 
 ### AWS Inspector
 
-* Helps you with determining whether an EC2 instance is harden.<br>
-* Hardening is is the act of eliminating as many security risks as possible and an harden instance is a more secured instance.
-* AWS Inspector runs a security benchmark against specific EC2 instances. You can run a variety of security benchmarks.
-* Can perform both network and host assessments
+* Helps you with determining whether your app is secured by running an automated security assessment
+* Once it's done running assessment, it provides you with detailed report on any vulnerabilities it found and orders them based on severity
+* Inspector runs in your EC2 instance and performs host and network assessments
 
 The way it does the assessment:
 
@@ -333,14 +355,14 @@ The way it does the assessment:
 
 ### AWS WAF
 
-* AWS Web Application Firewall protects your web applications from the common web exploits.
+* AWS Web Application Firewall protects your web applications from the common web exploits
 * You write your own rules to allow or deny traffic based on the contents of an HTTP requests
 * You can use a ruleset from a trusted AWS Security Partner in the AWS WAF Rules marketplace
 * WAF can be attached to either CloudFront or an Application Load Balancer
 
 ### AWS Shield
 
-* AWS Shield is a managed DDoS (Distributed Denial Of Service) protection service that safeguards applications running on AWS
+* AWS Shield is a managed DDoS (Distributed Denial Of Service) mitigation service that safeguards applications running on AWS from DDOS attacks
 * A DDoS attack is a malicious attempt to disrupt normal traffic by flooding a website a large amount of fake traffic
 * All AWS customers use it (the standard plan) when they route their traffic through Route53 or ClodFront
 * Protects you against layer 3, 4 and 7 attacks
@@ -350,10 +372,24 @@ The way it does the assessment:
 
 ### VPN
 
-AWS VPN allows you to stablish a secure and private tunnel from your network or device to the AWS network.
+AWS VPN allows you to establish a secure and private tunnel from your network or device to the AWS network.
 
 Two types:
  * AWS Site-to-Site VPN - Securely connect on-premises network or branch office site to VPC
      * Use case: connect an entire office or network to AWS
  * AWS Client VPN - Securely connect to AWS or on-premises networks
      * Use case: connect employee working on his/her laptop to the AWS network
+
+## AWS Trusted Advisor
+
+* Online resource which helps you to reduce costs, improve security and increase performances
+* It provides you with advises and guidance on how to improve security, optimize costs and improve performances based on AWS best practices
+
+There are two modes for using it:
+
+1. Core Checks and Recommendations - free.
+2. Full Trusted Advisor - for enterprises and business companies
+
+Use cases:
+
+* Let's say you have 500 Elastic IP addresses. You can use the Trusted Advisor to find out how many of them are unused
