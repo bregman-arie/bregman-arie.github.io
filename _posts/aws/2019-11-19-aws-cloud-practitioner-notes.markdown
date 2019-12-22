@@ -68,11 +68,11 @@ On-Premise Solution:
   
 ### Global Infrastructure
   
-* Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities.
+* Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities so each AZ is designed to be an independent failure zone.
 * Region is a geographical/physical area. Region consists of two or more availability zones
 * Edge locations are endpoints for AWS which are use for caching content.
     
-### IAM
+## IAM
   
 * IAM (Identity Access Management) is global. You do not need to specify region when dealing with IAM related resources
   * There are 3 ways to access the AWS platform
@@ -82,7 +82,7 @@ On-Premise Solution:
   * Root account is the email address you to set up the AWS account and it has full permissions
   * Root account should not be given to anyone, instead the root account should create users
   
-### S3
+## S3
 
 * Simple Storage Service
 * S3 is a secure, highly scalable object based storage
