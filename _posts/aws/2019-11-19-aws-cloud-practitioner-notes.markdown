@@ -14,8 +14,6 @@ toc: true
 toc_label: "Topics"
 ---
 
-These are my notes from studying to the AWS cloud practitioner exam.
-
 ## Cloud Computing
 
 ### What is cloud computing?
@@ -68,9 +66,9 @@ On-Premise Solution:
   
 ### Global Infrastructure
   
-* Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities so each AZ is designed to be an independent failure zone.
+* Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities so each AZ is designed to be an independent failure zone
 * Region is a geographical/physical area. Region consists of two or more availability zones
-* Edge locations are endpoints for AWS which are use for caching content.
+* Edge locations are endpoints for AWS which are used for content caching
     
 ## IAM
   
