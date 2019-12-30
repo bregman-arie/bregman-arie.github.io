@@ -82,45 +82,7 @@ On-Premise Solution:
   
 ## S3
 
-* Simple Storage Service
-* S3 is a secure, highly scalable object based storage
-* S3 features:
-  * Tiered Storage Available
-  * Lifecycle Management - manage which storage tier the file you uploaded goes to
-  * Versioning - managing different versions of your file and restore previous versions
-  * Encryption
-  * Security - using ACL (Access Control Lists) and bucket policies
-* S3 is object-based storage. The data itself is spread across multiple locations.
-* Files can be from 0 Bytes to 5 TB. There is unlimited storage.
-* Files are stored in buckets
-  * Bucket name must be globally unique
-    * For example: https://s3-eu-west-1.amazonaws.com/mybucket
-  * HTTP 200 code is returned when a file is uploaded successfully to S3
-  * Objects consist of:
-    * Key - name of the object
-    * Value - the data itself
-    * Version ID - used for versioning
-    * Metadata - data about the data
-  * Data consistency
-    * New objects - writing a new file, you will be able immediately read it
-    * Overwrite and deletes - updating a file or deleting it, you may get the older version when reading it as changes to objects can take some time to be applied
-  * Transfer Acceleration
-    * when used, users will upload a file to the edge location which will then upload the files from edge locations to the bucket in specific location using optimized network path (Amazon internal network)
-  * Cross Region Replication
-    * For example: you have a bucket in Europe and you upload there a file from USA. This file will be replicated to USA region.
-  * Charges
-    * You are charged for the following: storage, requests, storage management, data transfer, transfer acceleration and cross region replication
-  * Storage Classes
-    * S3 standard - 99.99% availability and 11x9 durability
-    * S3 IA - Infrequently access but rapid access when needed
-    * S3 One Zone IA - lower cost option for IA without multiple AZ data resilience
-    * S3 Intelligent Tiering -  ML based, designed to optimized costs by automatically moving to most cost-effective access tier
-    * S3 Glacier - secure, durable and low-cost storage for data archiving
-    * S3 Glacier Deep Archive - most lost cost storage class where a retrieval time of 12 hours is fine
-  * Hosting a website
-    * You can host static websites on s3
-    * You cannot host dynamic websites on s3
-    * s3 scales automatically to meet your website demands
+{% include aws/s3.md %}
 
 ## EC2
 

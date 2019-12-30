@@ -22,14 +22,19 @@ toc_label: "Topics"
 
 ## IAM
 
-IAM is used for managing users and their level of access to AWS Console.
+IAM is used for managing users and their level of access to AWS Console.<br>
+It is universal meaning, it's not applied per region.
 
 ### Terms
 
 * Users - People who are using AWS
 * Groups - A collection of users who inherit their permissions from the group permissions
-* Policies - These are Policy documents. They are in JSON format and their purpose is to give permissions as to what a user, group or role is able to do
-* Roles - a way to allowing some part of AWS to do something with another part of AWS. You assign roles to AWS resources
+* Policies - These are Policy documents. They are in JSON format and their purpose is to give permissions as to what a user, group or role are able to do
+* Roles - A way for allowing a service of AWS to use another service of AWS. You assign roles to AWS resources.
+
+* Root account - This is the account created when you create your AWS account.
+
+Note: when new users created they don't have permissions. They are assigned with Access Key ID and Secret access which used for CLI and API access but can't be used for AWS console.
 
 ### Features
 
@@ -42,3 +47,7 @@ IAM is used for managing users and their level of access to AWS Console.
 * Customized password policy
 * Integration with other AWS services
 * Centralized location for AWS account
+
+## S3
+
+{% include aws/s3.md %}
