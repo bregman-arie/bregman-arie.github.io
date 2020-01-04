@@ -144,16 +144,20 @@ Dedicated Hosts - physical EC2 server dedicated for your use. Good for:
 
 ### EBS
 
-* Allows you to create storage volumes and attach them to Amazon EC2 instances
-* Think of it as virtual disk in the cloud
-* Volumes are placed in a specific AZ where they are automatically replicated for HA
-* SSD
-  * General purpose SSD (GP2) - balanced price and performance
-  * Provisioned IOPS SSD (IO1) - highest-performance SSD volume for mission-critical low-latency or high-throughput workloads
-* Magnetic
-  * Throughput Optimized HDD (ST1) - low cost HDD volume designed for frequently accessed, intensive workloads
-  * Cold HDD (SC1) - Lowest cost HDD volume for less frequent access
-  * Magnetic - deprecated
+Allows you to create storage volumes and attach them to Amazon EC2 instances. Think of it as virtual disk in the cloud.<br>
+Volumes are placed in a specific AZ where they are automatically replicated for HA.
+
+Types:
+
+    * SSD
+      * General purpose SSD (GP2) - balanced price and performance
+      * Provisioned IOPS SSD (IO1) - highest-performance SSD volume for mission-critical low-latency or high-throughput workloads
+    * Magnetic
+      * Throughput Optimized HDD (ST1) - low cost HDD volume designed for frequently accessed, intensive workloads
+      * Cold HDD (SC1) - Lowest cost HDD volume for less frequent access
+      * Magnetic - deprecated
+
+In order to keep the data on EBS volumes safe you should ensure that EBS is encrypted at rest and also create EBS snapshots.
 
 ### Security Group
   * A set of firewall rules that control the traffic to your instance
@@ -189,6 +193,10 @@ CloudFront is a content delivery network (CDN) is a system of distributed server
 * objects are cached for the life of TTL in seconds
 * it's possible to clear cached objects but it's not free
 
+## AWS Snowball
+
+A transport solution which was designed for transferring large amounts of data (petabyte-scale) into and out the AWS cloud.
+
 ## CLI
 
 It's possible (and common) to manage AWS resources from the CLI using the `aws` command.
@@ -222,6 +230,21 @@ For example:
 * Multi availability zone. This is good for Disaster Recovery
 * Read Replicas which are copies of your database. This is great for performance as you read from this copies.
 * You can 5 copies of your database
+
+### ElastiCache
+
+AWS Elasticache is a fully managed Redis or Memcached in-memory data store.
+
+It's great for use cases like two-tier web applications where the most frequently accesses data is stored in ElastiCache so response time is optimal.
+
+### Amazon Aurora
+
+A MySQL & Postgresql based relational database.
+Great for use cases like two-tier web applications that has a MySQL or Postgresql database layer and you need automated backups for your application.
+
+### AWS Database Migration Service
+
+A service used to migrate databases (e.g. Oracle database) to AWS.
 
 ## Organizations & Accounts
 
@@ -258,6 +281,10 @@ It basically records AWS management console actions and API calls and by using i
 
 * What users, accounts made the calls
 * Where the calls were made from (IP addresses) and when
+
+Some examples of when to use it:
+
+* EC2 instances were terminated and you would like to find out who did it
 
 ## CloudWatch
 
@@ -300,7 +327,7 @@ Shared Responsibility Model is about who is responsible for what in AWS cloud.
     * Operation of Managed services
         * Compute, Storage, Database, Networking
 
-AWS is basically responsible for anything you can't touch
+Responsibilities vary depending on the service used. AWS is basically responsible for anything you can't touch.
 
 ### AWS Compliance Programs
 
@@ -382,3 +409,7 @@ The benefits of using the AWS Personal Health Dashboard are:
 
 * It provides detailed guidance to address AWS events impacting your resources
 * Personalized view of service health
+
+## AWS Quick Starts
+
+From AWS Quick Starts web page: "Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability."
