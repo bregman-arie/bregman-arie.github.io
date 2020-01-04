@@ -64,7 +64,29 @@ On-Premise Solution:
 * Hybrid - Mixture of public and private.
 * Private Cloud / On Premise - You own the infrastructure, hire the IT teams and buy/rent the real-estate. OpenStack for example.
   
-### Global Infrastructure
+## The Five Pillars of Framework
+
+### Operational Excellence
+
+To run and monitor systems to deliver business value and to continually improve supporting processes and procedures
+
+### Security
+
+The ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies
+
+### Reliability
+
+The ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues
+
+### Performance Efficiency
+
+The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve
+
+###  Cost Optimization
+
+The ability to run systems to deliver business value at the lowest price point
+
+## Global Infrastructure
   
 * Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities so each AZ is designed to be an independent failure zone
 * Region is a geographical/physical area. Region consists of two or more availability zones
@@ -153,7 +175,7 @@ CloudFront is a content delivery network (CDN) is a system of distributed server
 ### How it works
 
 * Users will try to query a file which happens to be on another geographic location.
-* Since it's not available in the edge location, they will get it from the origin location
+* Since it's not available in the edge location, they will get it from the original location
 * The file which wasn't available in the edge location will now be stored at the edge location
 * Any future users will get it from the edge location in their area instead of going to the origin
 
@@ -353,3 +375,10 @@ There are two modes for using it:
 Use cases:
 
 * Let's say you have 500 Elastic IP addresses. You can use the Trusted Advisor to find out how many of them are unused
+
+## AWS Personal Health Dashboard
+
+The benefits of using the AWS Personal Health Dashboard are:
+
+* It provides detailed guidance to address AWS events impacting your resources
+* Personalized view of service health
