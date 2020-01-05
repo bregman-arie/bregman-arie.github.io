@@ -329,6 +329,8 @@ Shared Responsibility Model is about who is responsible for what in AWS cloud.
 
 Responsibilities vary depending on the service used. AWS is basically responsible for anything you can't touch.
 
+
+
 ### AWS Compliance Programs
 
 Compliance programs is a set of internal policies and procedures of a company to comply with laws, rules, and regulations or to uphold business reputation.
