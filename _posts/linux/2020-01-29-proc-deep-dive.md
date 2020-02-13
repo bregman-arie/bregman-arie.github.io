@@ -50,13 +50,13 @@ So we are now pretty sure it's not a regular filesystem, but we didn't answer th
 ```
 MemTotal:       32247880 kB  # Total physical RAM you have in your system (used + unused)
 MemFree:         3432720 kB  # The amount of unused physical RAM in your system
-MemAvailable:   21118008 kB  # The amount of available memory for new workloads (without pushing system to use swap) based 
+MemAvailable:   21118008 kB  # The amount of available memory for running new apps/workloads (without pushing system to use swap) based 
                                on MemFree, Active(file), Inactive(file), and SReclaimable and the watermarks from /proc/zoneinfo.
-Buffers:         4778704 kB
-Cached:         10015396 kB
-SwapCached:            0 kB
-Active:         17366256 kB
-Inactive:        4904752 kB
+Buffers:         4778704 kB  # Reserved place in RAM which is used to hold data for temporary purpose
+Cached:         10015396 kB  # Cache is usually used when processes reading and writing to the disk to make the process faster by making similar data used by different programs easily accessible.
+SwapCached:            0 kB  # How much of the memory is also in swapfile (for increased performances)
+Active:         17366256 kB  # How much memory was accessed recently (recently is not time based but activity and memory pressure based
+Inactive:        4904752 kB 
 Active(anon):    8189116 kB
 Inactive(anon):   718336 kB
 Active(file):    9177140 kB
