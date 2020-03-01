@@ -4,7 +4,7 @@ permalink: /packer-build-your-first-image
 title:  "Packer: Build your First Image"
 date:   2019-11-21
 categories: packer
-description: "how to build a packer image simply explained"
+description: "how to build a packer image for AWS step by step. Installation. Terminology, Using packager for building image"
 tags:
   - packer
 toc: true
