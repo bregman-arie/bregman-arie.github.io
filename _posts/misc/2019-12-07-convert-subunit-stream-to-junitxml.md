@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /convert-subunit-to-junitxml
-description: "Convert Subunit stream to Junitxml"
+description: "How to onvert a Subunit stream to Junitxml"
 title: "Convert Subunit stream to Junitxml"
 date:   2019-12-07
 categories: tests

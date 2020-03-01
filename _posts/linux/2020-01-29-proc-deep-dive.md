@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /linux-proc-deep-dive
-description: "linux proc deep dive"
+description: "linux proc deep dive. Everything you need to know about what's in /proc and how you can use it"
 title:  "Linux: /proc deep dive"
 date:   2020-01-29
 categories: linux

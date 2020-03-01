@@ -4,7 +4,7 @@ title:  "Python: Run Daemon"
 date:   2016-09-04
 categories: python
 permalink: /python-run-daemon
-description: "python run daemon"
+description: "How to run a daemon using Python. Detailed explanation"
 tags:
   - python
   - daemon

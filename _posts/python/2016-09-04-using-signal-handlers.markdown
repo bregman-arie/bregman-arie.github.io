@@ -4,7 +4,7 @@ title:  "Python: Signal Handlers"
 date:   2016-09-04
 categories: python
 permalink: /python-signal-handlers
-description: "python management of signal handlers"
+description: "The management of signal handlers using Python programming language"
 tags:
   - python
   - signal

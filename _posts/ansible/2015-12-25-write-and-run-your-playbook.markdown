@@ -3,6 +3,7 @@ layout: single
 title:  "Ansible: write and run your first playbook"
 permalink: /ansible-write-and-run-first-playbook
 date:   2015-12-25
+description: "Write and run your first playbook. A step by step guide for beginners"
 categories: ansible
 tags:
   - ansible

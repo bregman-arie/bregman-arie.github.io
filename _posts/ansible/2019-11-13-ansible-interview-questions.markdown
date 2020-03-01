@@ -2,6 +2,7 @@
 layout: single
 title:  "10 Ansible Interview Questions"
 permalink: /ansible-interview-questions
+description: "Practical Ansible Interview Questions for both beginners and advanced users"
 date:   2019-11-13 
 categories: ansible
 tags:

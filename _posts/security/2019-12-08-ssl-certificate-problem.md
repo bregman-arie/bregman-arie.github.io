@@ -2,7 +2,7 @@
 layout: single
 permalink: /ssl-certificate-problem-self-signed
 description: "ssl ceritifcate problem self signed certificate"
-title:  "SSL Certificate Problem: self signed certificate"
+title:  "SSL Certificate Problem: self signed certificate and how to fix"
 date:   2019-12-08
 categories: security
 tags:

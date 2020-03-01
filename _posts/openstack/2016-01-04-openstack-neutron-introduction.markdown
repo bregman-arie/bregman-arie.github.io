@@ -2,6 +2,7 @@
 layout: single
 title:  "OpenStack Neutron Introduction"
 permalink: /openstack-neutron-introduction
+description: "An introduction to OpenStack neutorn including Neutron core concepts, resources and services"
 date:   2016-01-04
 categories: openstack
 tags:

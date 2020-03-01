@@ -2,7 +2,7 @@
 layout: single
 title:  "Flask + MongoDB Tutorial"
 date:   2019-11-17
-description: "flask with mongodb tutorial step by step"
+description: "flask with mongodb tutorial step by step for beginners. How to integrate Flask application with Mongo database"
 tags:
   - flask
   - mongo

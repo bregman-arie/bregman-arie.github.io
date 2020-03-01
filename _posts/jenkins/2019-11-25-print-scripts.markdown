@@ -4,7 +4,7 @@ title:  "Jenkins Scripts: Print Jobs"
 date:   2019-11-24
 permalink: /jenkins-print-scripts
 categories: jenkins
-description: "jenkins script for printing jobs with regular expressions"
+description: "jenkins console script for printing jobs while using regular expressions"
 tags:
   - jenkins
   - jobs

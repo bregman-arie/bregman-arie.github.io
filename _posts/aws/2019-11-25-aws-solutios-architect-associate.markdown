@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /aws-solutions-architect-associate
-description: "AWS Solutions Architect Associate"
+description: "AWS Solutions Architect Associate certificate summary"
 title:  "AWS: Solutions Architect Associate"
 date:   2019-11-25
 categories: aws

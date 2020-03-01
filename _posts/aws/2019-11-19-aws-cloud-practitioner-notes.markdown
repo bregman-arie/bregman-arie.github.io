@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /aws-cloud-practitioner
-description: "aws cloud pracitioner certificate summary"
+description: "aws cloud pracitioner certificate summary. Includes everything you need to know in order to pass the certificate exam."
 title:  "AWS: Cloud Practitioner Summary"
 date:   2019-11-19
 categories: aws

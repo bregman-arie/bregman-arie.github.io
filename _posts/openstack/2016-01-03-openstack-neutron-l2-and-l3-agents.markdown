@@ -2,6 +2,7 @@
 layout: single
 title:  "OpenStack Neutron: L2 and L3 agents"
 permalink: /openstack-neutron-l2-and-l3-agents
+description: "OpenStack Neutron L2 and L3 agents explain from beginning to end"
 date:   2016-01-03
 categories: openstack
 tags:

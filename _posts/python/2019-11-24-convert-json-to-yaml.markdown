@@ -4,7 +4,7 @@ title:  "Python: Convert JSON to YAML"
 permalink: /python-convert-json-to-yaml
 date:   2019-11-24
 categories: python
-description: "convert json to yaml using Python"
+description: "How to convert convert json to yaml using Python"
 tags:
   - python
   - json

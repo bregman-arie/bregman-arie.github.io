@@ -3,7 +3,7 @@ layout: single
 title:  "Bash Best Practices"
 date:   2019-11-25 
 categories: bash
-description: "bash best practices what to do and what dont"
+description: "bash best practices. What you should do and what you should avoid while writing bash scripts"
 tags:
   - bash
   - practices
