@@ -47,7 +47,7 @@ On-Premise Solution:
 * Stop spending money running and maintaining data centers - Focus on what you want (your business goals and customers) instead of focusing on managing infrastructure.
 * Go global in minutes - Easily deploy your application in multiple regions around the world. Have lower latency for the users of your app.
 
-### 3 Types of cloud computing
+### 3 Types of cloud computing services
 
 * Infrastructure as a service (IAAS) - You are managing the server. It can virtual or physical. The provider (e.g. Amazon) will have no access to your server. EC2 is an example of IAAS.
 * Platform As a service (PAAS) - Someone else manages the underlying hardware and OS. You focus on the application side. Heroku and Google app engine are examples of PAAS.
@@ -88,19 +88,23 @@ The ability to run systems to deliver business value at the lowest price point
 
 ## Global Infrastructure
   
-* Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities so each AZ is designed to be an independent failure zone
 * Region is a geographical/physical area. Region consists of two or more availability zones
-* Edge locations are endpoints for AWS which are used for content caching
+* Availability Zone is one or more data centres, each with redundant power, networking and connectivity, housed in separate facilities so each AZ is designed to be an independent failure zone. Basically, if designed properly, applications will make use of multiple availability zones for fault tolerance and high availability benefits. Also worth to mention, there is a very low latency  between AZs.
+* Edge locations are AWS endpoints which are used for content caching so users can access data quickly.
+
+You can use [this cool page](https://www.infrastructure.aws) to use AWS infrastructure worldwide.
     
 ## IAM
   
+* IAM is the service used for managing users, groups, access policies and roles. It's used not only for managing user access but also services.
 * IAM (Identity Access Management) is global. You do not need to specify region when dealing with IAM related resources
   * There are 3 ways to access the AWS platform
     * Console
     * Programmatically(CLI)
     * Software Developers Kit (SDK)
-  * Root account is the email address you to set up the AWS account and it has full permissions
+  * Root account is the user created when you sign up. It's the email address you use to set up the AWS account with and the root account has by default full permissions
   * Root account should not be given to anyone, instead the root account should create users
+  * Any new users created are created without permissions and should be granted with them to access different resources.
   
 ## S3
 

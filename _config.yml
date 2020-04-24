@@ -1,16 +1,16 @@
 remote_theme: "mmistakes/minimal-mistakes@4.17.2"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DevOpsBit"
+title                    : "CodingShell"
 title_separator          : "-"
 subtitle                 : ""
-name                     : "Arie Bregman"
-description              : "Where DevOps Bits are made"
-url                      : "https://devopsbit.com"
+name                     : "Coding Shell"
+description              : "Tech Blog"
+url                      : "https://codingshell.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "bregman-arie/bregman-arie.github.io"
+repository               : "bregman-arie/codingshell.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -71,7 +71,6 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : abregman2
   og_image               : /assets/images/site-logo.png
 facebook:
   username               :
@@ -89,21 +88,15 @@ social:
 analytics:
   provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-101036610-2
+    tracking_id          : UA-101036610-3
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Arie Bregman"
-  avatar           : # "/assets/images/about/arie.jpg"
-  bio              : "An open source enthusiastic"
+  name             : "Coding Shell"
+  bio              : "Coding Shell"
   github           : bregman-arie
-  twitter          : abregman2
-twitter:
-  username: abregman2
-linkedin:
-  username: bregman-arie
 
 # Site Footer
 footer:
