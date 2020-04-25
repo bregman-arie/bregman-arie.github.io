@@ -102,9 +102,20 @@ You can use [this cool page](https://www.infrastructure.aws) to use AWS infrastr
     * Console
     * Programmatically(CLI)
     * Software Developers Kit (SDK)
-  * Root account is the user created when you sign up. It's the email address you use to set up the AWS account with and the root account has by default full permissions
-  * Root account should not be given to anyone, instead the root account should create users
-  * Any new users created are created without permissions and should be granted with them to access different resources.
+* Root account is the user created when you sign up (= create your AWS account). It's the email address you use to set up the AWS account with and the root account has by default full permissions
+* Root account should not be given to anyone nor it's recommended to use it for regular management of your cloud, instead the root account should be used to create users
+* Any new users created are created without permissions and should be granted with them to access different resources.
+* Some of the best practices with setting up IAM for the first time are to use MFA for login and set up password policies (for example min password length)
+* To access AWS from the CLI one would use API access keys.
+
+### Groups
+
+* Groups are useful for granting multiple users with the same permissions instead of managing each user separately.
+
+### Roles and Policies
+
+* IAM Policies are used to grant users and/or groups with access to the different AWS resources (EC2, S3, ...)
+* IAM Roles are used for granting one resource/service with the permissions to access another service/resource (e.g. EC2 -> S3).
   
 ## S3
 
