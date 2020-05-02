@@ -142,7 +142,7 @@ Reserved - you get capacity reservation. Contract terms: 1 year or 3 years. The 
     * Convertible Reserved Instances - These offer up to 54% off on demand capability to change the attributes of the RI 
     * Scheduled Reserved Instances - Available to launch within the time windows you reserve
         
-Spot - Enables you to bid whatever price you want for instances
+Spot - Enables you to bid whatever price you want for instances or pay the spot price for the hours your instance are up and running
   * when spot price hit your bid, you'll get the instance
   * when spot price is below your bid price, you'll lose the instance
   * Spot is Good for:
