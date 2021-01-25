@@ -430,3 +430,20 @@ The benefits of using the AWS Personal Health Dashboard are:
 ## AWS Quick Starts
 
 From AWS Quick Starts web page: "Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability."
+         
+## Serverless Services
+
+* DynamoDB
+* Lambda
+
+## Support Plans
+
+* Basic
+* Developer
+* Business
+     * 24x7 support
+     * Access to IEM (with additional fee)
+* Enterprise
+     * 24x7 support
+     * Access to well-architected review
+     * Response time less than 15 minutes

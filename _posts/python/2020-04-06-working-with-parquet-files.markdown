@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Python: Working with Parquest Files"
+title:  "Python: Working with Parquet Files"
 date:   2020-04-06
 categories: python
 permalink: /python-working-with-parquet-files
