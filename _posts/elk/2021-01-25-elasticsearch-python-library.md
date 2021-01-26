@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Elasticseach: search examples with Python
+title:  "Elasticseach: search examples with Python"
 permalink: /elasticsearch-python-search
 description: "Search in elasticsearch index with Python code"
-date:   2020-25-01
+date:   2021-01-25
 categories: elastic
 tags:
   - elasticsearch
@@ -155,15 +155,19 @@ Aggregations is a powerful tool, allowing you run much more complex queries. Let
 
 ```
 body={
+    "size": 0,
     "aggs": {
         "group_by_job": {
             "terms": {
+                "size": 4000,
                 "field": "job.keyword"
             }
         }
     }
 }
 ```
+
+Note that we set the size in the body to 0 to not show any documents and under the `aggs` we set it to 4000 to get all the aggregation results. This is basically how you control size from the body itself instead of `es.search` method.
 
 The result looks like this:
 

@@ -4,4 +4,4 @@ title: "About CodingShell"
 author_profile: false
 ---
 
-CodingShell is a tech blog...and that's it :D
+Just some notes I write to myself and share with everyone.
